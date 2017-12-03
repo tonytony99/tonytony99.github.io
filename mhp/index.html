@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <script src="js/game.js"> </script>
+</head>
+
+<body onload="game(3);">
+
+<h1> The Monty Hall Problem </h1>
+
+<div class="doors" id="doors">
+</div>
+
+<p id="instructions" class="instructions"> Instructions go here. </p>
+
+
+<div id="choices" class="choicesDiv">
+	<table class="choices">
+		<tr>  
+				<th> <input type="button" class="choice" id="simulateStick" value="Do 100 Sticks" onclick="simulateStick();"/> </th>
+				<th> <input type="button" class="choice" id="begin" value="New Game" onclick="game(3);"/> </th>
+            <th> <input type="button" class="choice" id="simulateSwitch" value="Do 100 Switches" onclick="simulateSwitch();"/> </th>		
+		</tr>
+	</table>
+</div>
+
+<div id="results" class="resultsDiv">
+    <table class="results">
+        <tr> 
+            <th class="result"> </th>
+            <th class="result"> Wins </th>
+            <th class="result"> Losses </th>
+            <th class="result"> Success Rate </th>
+        </tr>
+        <tr> 
+            <th class="result"> Switch </th>
+            <th class="result" id="switchWin"> </th>
+            <th class="result" id="switchLose"> </th>
+            <th class="result" id="switchSuccessRate"> </th>
+        </tr>
+        <tr> 
+            <th class="result"> Stick </th>
+            <th class="result" id="stickWin"> </th>
+            <th class="result" id="stickLose"> </th>
+            <th class="result" id="stickSuccessRate"> </th>
+        </tr>
+    </table>
+</div>
+
+</body>
+
+</html>
