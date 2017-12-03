@@ -1,34 +1,28 @@
 body {
 	font-family: arial,sans-serif;
+	font-size: 30px;
 	text-align: center;
-	background: #FDFDFD;
+	background: #FAFAFA;
 	color: 		#111111;
 }
 
 h1 {
     text-align: center;
     font-weight: bold;
-    width: 100%;
-    height: 10%;
 }
 
 .doors {
 	margin: auto;
     text-align: center;
-    width: 600px;
 }
 
 .unselected {
-    width: 150px;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 20%;
 }
 
 .selected {
-    width: 150px;
-    margin-left: 5px;
-	 margin-right: 5px;
-    border: 4px solid #00FB00;
+    width: 20%;
+    border: 2px solid #F010F0;
 }
 
 .instructions {
@@ -37,15 +31,28 @@ h1 {
 }
 
 .choices {
-    width: 100%;
+	 margin: auto;
+    height: 20%;
+    width: 80%;
+    text-align: center;
 }
 
 .choice {
-	font-weight: bold;
-	width : 150px;
 	background: #353535;
-   color: #FFFFFF;
-   padding: 5px;   
+   font-weight: bold;
+	width: 100%;
+	height: 60px;
+   color: #FFFFFF; 
+   font-size: 30px;
+}
+
+.choice:hover{
+	font-weight: bold;
+	width: 100%;
+	height: 60px;
+	background: #555555;
+   color: #FFFFFF; 
+   font-size: 30px;
 }
 
 .results{
@@ -55,7 +62,7 @@ h1 {
     margin-left: auto;
     margin-right: auto; 
     border-collapse: collapse;
-    width : 470px;
+    width : 80%;
 }
 
 .result{
