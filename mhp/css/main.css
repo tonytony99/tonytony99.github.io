@@ -17,11 +17,11 @@ h1 {
 }
 
 .unselected {
-    width: 20%;
+    width: 150px;
 }
 
 .selected {
-    width: 20%;
+    width: 150px;
     border: 2px solid #F010F0;
 }
 
