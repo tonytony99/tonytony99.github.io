@@ -1,6 +1,6 @@
 body {
 	font-family: arial,sans-serif;
-	font-size: 	15px;
+	font-size: 	16px;
 	text-align: center;
 	background: #FAFAFA;
 	color: 		#111111;
@@ -32,7 +32,7 @@ p {
 	width: 500px;
 	color: #333333;
 	margin-bottom: 10px;
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: normal;
 }
 
@@ -63,7 +63,7 @@ th {
 }
 
 tr {
-	font-size: 15px;
+	font-size: 16px;
 }
 
 .tableHeader {
