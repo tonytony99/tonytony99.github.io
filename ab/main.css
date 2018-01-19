@@ -43,7 +43,7 @@ button {
  .grid-col {
 	background-color: lightgrey;
 	display : inline-block;
-	width: 200px;
+	width: 180px;
 	height: 250px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -52,27 +52,29 @@ button {
  .grid-cell {
 	background-color: green;
 	height : 50px;
-	width: 160px;
-	margin: 5px 20px;
+	width: 140px;
+	margin: 5px 10px;
 }
 
  .empty-grid-cell {
 	opacity: 0.0;
 	height : 50px;
-	width: 160px;
-	margin: 5px 20px;
-}
-
-hr {
-	width: 900px;
+	width: 140px;
+	margin: 5px 10px;
 }
 
  .highlighted-grid-cell {
 	background-color: black;
 	height : 50px;
-	width: 160px;
-	margin: 5px 20px;
+	width: 140px;
+	margin: 5px 10px;
 }
+
+
+hr {
+	width: 900px;
+}
+
 
 
 #gameContainer {
