@@ -64,7 +64,7 @@ button {
 }
 
 hr {
-	width: 1000px;
+	width: 900px;
 }
 
  .highlighted-grid-cell {
@@ -77,7 +77,7 @@ hr {
 
 #gameContainer {
     height: 450px;
-    width: 1000px;
+    width: 900px;
 	background-color: lightgrey;
 	margin: 0px auto;
 }
@@ -95,7 +95,7 @@ hr {
 
 #boardContainer {
     height: 300px;
-    width: 1000px;
+    width: 900px;
 	background-color: lightgrey;
 	margin: 0px auto;
 	border: 5px solid darkgrey;
@@ -104,7 +104,7 @@ hr {
 
 #infoContainer{
 	height: 650px;
-    width: 1000px;
+    width: 900px;
 	background-color: lightgrey; 
 	margin: 10px auto;
 	color: #505050;
@@ -116,13 +116,13 @@ a{
 
 #treeContainer {
     height: 550px;
-    width: 1000px;
+    width: 900px;
 	background-color: lightgrey; 
 	margin: 10px auto;
 }
 #instructions {
     height: 500px;
-    width: 1000px;
+    width: 900px;
 	background-color: lightgrey; 
 	margin: auto auto;
 }
