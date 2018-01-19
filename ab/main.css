@@ -1,0 +1,128 @@
+ 
+ p {
+	font: 20px sans-serif; 
+}
+ 
+ .turn {
+	font: 30px sans-serif; 
+	font-weight: bold;
+}
+
+button {
+	font: 30px sans-serif; 	
+	margin-left: 50px;
+}
+ 
+ h1 {
+	font-size: 50px;
+	font-family: arial,sans-serif; 
+	margin-bottom: 80px;
+ }
+ 
+  h2 {
+	font-family: arial,sans-serif; 
+ }
+ 
+ .node text { font: 12px sans-serif; }
+ 
+ 
+ 
+ .link {
+   fill: none;
+   stroke: #000;
+   stroke-width: 2px;
+ }
+ 
+
+ 
+ body {
+	 text-align:center;
+	 background-color: lightgrey;
+ }
+ 
+ .grid-col {
+	background-color: lightgrey;
+	display : inline-block;
+	width: 200px;
+	height: 250px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+ .grid-cell {
+	background-color: green;
+	height : 50px;
+	width: 160px;
+	margin: 5px 20px;
+}
+
+ .empty-grid-cell {
+	opacity: 0.0;
+	height : 50px;
+	width: 160px;
+	margin: 5px 20px;
+}
+
+hr {
+	width: 1000px;
+}
+
+ .highlighted-grid-cell {
+	background-color: black;
+	height : 50px;
+	width: 160px;
+	margin: 5px 20px;
+}
+
+
+#gameContainer {
+    height: 450px;
+    width: 1000px;
+	background-color: lightgrey;
+	margin: 0px auto;
+}
+
+#newGame {
+    height: 70px;
+    width:  300px;
+	background-color: darkgrey;
+	margin: 0px auto;
+	font: 50px sans-serif; 
+	border-style: solid;
+	border-width: 3px;
+	text-align: center;
+}
+
+#boardContainer {
+    height: 300px;
+    width: 1000px;
+	background-color: lightgrey;
+	margin: 0px auto;
+	border: 5px solid darkgrey;
+	
+}
+
+#infoContainer{
+	height: 650px;
+    width: 1000px;
+	background-color: lightgrey; 
+	margin: 10px auto;
+	color: #505050;
+}
+
+a{
+	color: #282828;
+}
+
+#treeContainer {
+    height: 550px;
+    width: 1000px;
+	background-color: lightgrey; 
+	margin: 10px auto;
+}
+#instructions {
+    height: 500px;
+    width: 1000px;
+	background-color: lightgrey; 
+	margin: auto auto;
+}
