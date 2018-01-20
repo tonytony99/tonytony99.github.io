@@ -34,7 +34,7 @@
             <th class="result"> </th>
             <th class="result"> Wins </th>
             <th class="result"> Losses </th>
-            <th class="result"> Success Rate </th>
+            <th class="result"> Win Rate </th>
         </tr>
         <tr> 
             <th class="result"> Switch </th>
@@ -49,6 +49,32 @@
             <th class="result" id="stickSuccessRate"> </th>
         </tr>
     </table>
+</div>
+
+<hr/>
+
+<div class="info"> 
+<p> <strong> P(C<sub>i</sub>)</strong>  = probability the car is behind door i</p>
+<p> <strong> P(C<sub>i</sub>|D<sub>j</sub>)</strong> = probability the car is behind door i given door j is opened</p>
+<p> <strong> P(A|B) </strong> =  <span class="frac"><sup>P(B|A) P(A)</sup><span>/</span><sub>P(B)</sub></span> (i.e. <a href="https://en.wikipedia.org/wiki/Bayes%27_theorem"> Baye's Theorem</a>)</p>
+<p> Each door's equally likely to have the car, P(C<sub>1</sub>)=P(C<sub>2</sub>)=P(C<sub>3</sub>)=1/3</p>
+<p> Suppose you choose door 1, and then door 2 is opened ... </p>
+<p> P(C<sub>1</sub>|D<sub>2</sub>) = <span class="frac"><sup>P(D<sub>2</sub>|C<sub>1</sub>) P(C<sub>1</sub>)</sup><span>/</span>
+												<sub>P(D<sub>2</sub>)</sub></span> =  
+												<span class="frac"><sup> 1/2 x 1/3 </sup><span>/</span>
+												<sub>1/2</sub></span> = 1/3 </p>												
+												
+<p> P(C<sub>2</sub>|D<sub>2</sub>) = 0 </p>
+<p> P(C<sub>3</sub>|D<sub>2</sub>) = <span class="frac"><sup>P(D<sub>2</sub>|C<sub>3</sub>) P(C<sub>3</sub>)</sup><span>/</span>
+												<sub>P(D<sub>2</sub>)</sub></span> =  
+												<span class="frac"><sup> 1 x 1/3 </sup><span>/</span>
+												<sub>1/2</sub></span> = 2/3 </p>
+
+<p> Since P(C<sub>3</sub>|D<sub>2</sub>) > P(C<sub>1</sub>|D<sub>2</sub>) we should swap from door 1 to door 3. </p>
+
+
+
+
 </div>
 
 </body>

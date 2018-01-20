@@ -9,6 +9,7 @@ body {
 h1 {
     text-align: center;
     font-weight: bold;
+    font-size: 50px;
 }
 
 .doors {
@@ -28,19 +29,23 @@ h1 {
 .instructions {
 	color: #505050;
 	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 30px;
 }
 
 .choices {
 	 margin: auto;
     height: 20%;
-    width: 80%;
+    width: 700px;
     text-align: center;
 }
 
 .choice {
 	background: #353535;
    font-weight: bold;
-	width: 100%;
+	width: 200px;
 	height: 60px;
    color: #FFFFFF; 
    font-size: 30px;
@@ -55,19 +60,61 @@ h1 {
    font-size: 30px;
 }
 
+hr {
+	width: 700px;
+}
+
+.info {
+	width: 700px;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 20px;
+    color: #383838;
+}
+
+a{
+	color: #383838;
+	font-weight: bold;
+}
+
+p{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
 .results{
 	font-weight:lighter;
 	margin-top: 20px;
+	margin-bottom: 20px;
 	background: #ededed;
     margin-left: auto;
     margin-right: auto; 
     border-collapse: collapse;
-    width : 80%;
+    width : 700px;
 }
 
 .result{
 	 font-weight:lighter;
 	 border: solid 1px black;	 
+}
+
+span.frac {
+  display: inline-block;
+  font-size: 50%;
+  text-align: center;
+}
+span.frac > sup {
+  display: block;
+  border-bottom: 1px solid;
+  font: inherit;
+}
+span.frac > span {
+  display: none;
+}
+span.frac > sub {
+  display: block;
+  font: inherit;
 }
 
 
