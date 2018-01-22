@@ -45,10 +45,10 @@ function boardSum(board) {
 }
 
 // Compute a string from a board to be used in a hash table
-function hashValue(board) {
-	var hashString = "S";
+function hashValue(board,maximisingPlayer) {
+	var hashString = "B=";
 	var boardHist = hist(board)
-	hashString = hashString.concat(boardHist.join());
+	hashString = hashString.concat(boardHist.join()," P=",maximisingPlayer);
 	return hashString;
 }
 
@@ -105,26 +105,35 @@ function generateChildren(parent) {
 function getValue(node, player) {
 	if (numOccurrences(node.board,0) == (node.board.length - 1) &&  
 													numOccurrences(node.board,1) == 1) {
-		// if the maximising player looses then value -1
+		// if the maximising player loses then value -1
 		if (player == 1) {
 			node.value = -1
 			return node.value
 		}	
-		// if the minimising player looses then value +1
+		// if the minimising player loses then value +1
 		else {
 			node.value = 1
 			return node.value
 		}	
-	}
+	} else { return 0}
 }
 
 
 // a : minimum score that the maximising player is guaranteed
 // b : maximum score that the minimising player is guaranteed
-function alphabeta(node, depth, a, b, maximisingPlayer, initialNode){	
+function alphabeta(node, depth, a, b, maximisingPlayer, initialNode){
+	// if we already know the value of this board, then return it 
+	if (knownBoardScores[hashValue(node.board,maximisingPlayer)]) {
+		node.value = knownBoardScores[hashValue(node.board,maximisingPlayer)]
+		return knownBoardScores[hashValue(node.board,maximisingPlayer)]
+	}	
+	
 	// If maximum depth or node is terminal	
 	if (depth == 0 || node.moves.length == 0) {
 		var value = getValue(node, maximisingPlayer)
+		if(node.moves.length == 0) {
+			knownBoardScores[hashValue(node.board,maximisingPlayer)] = value
+		}
 		return value
 	}	
 	
@@ -150,6 +159,9 @@ function alphabeta(node, depth, a, b, maximisingPlayer, initialNode){
 				break		
 			}
 		}
+		if (node.value !== 0) {
+			knownBoardScores[hashValue(node.board,maximisingPlayer)] = node.value
+		}
 		return node.value
 	}
 	// If it's opponents turn, then minimise the score
@@ -166,13 +178,16 @@ function alphabeta(node, depth, a, b, maximisingPlayer, initialNode){
 				break		
 			}
 		}
+		if (node.value !== 0) {
+			knownBoardScores[hashValue(node.board,maximisingPlayer)] = node.value
+		}
 		return node.value
 	}
 }
 
-
 function getBestMove(boardNode) {
-	alphabeta(boardNode,6,-1,1,1,boardNode)
+	knownBoardScores = {}
+	alphabeta(boardNode,15,-1,1,1,boardNode)
 	var bestMove = boardNode.moves[0]
 	var bestMoveValue = -1
 	for (var i=0; i<boardNode.children.length; i++) {
@@ -184,6 +199,8 @@ function getBestMove(boardNode) {
 	return bestMove
 }	
 
+
+var knownBoardScores = {}
 var team = 0
 
 var gameState;
@@ -199,13 +216,13 @@ function gameOver() {
 function isGameover() {
 	if (gameOver()) {
 		if (gameState.turn == 1) {
-			$("#turn").html("You Loose")
+			$("#turn").html("You Lose")
 			$("#help").html("Hint : you were left with the final cell")
 		} else {
 			$("#turn").html("You Win")
 			$("#help").html("Hint : the bot was left with the final cell")
 		}
-		$("#turn").append("<button onclick='newGame()'> New Game </button>")
+		$("#turn").append("<button onclick='newGame()'> New Game </button>")	
 		return 1
 	}
 	return 0
@@ -214,10 +231,9 @@ function isGameover() {
 function newGame() {
 	var board = [1,2,3,4,5]
 	var boardNode = newNode(board,1)
-	var tree = alphabeta(boardNode,3,-1,1,0,boardNode)
 	$("#turn").html("Your Turn")
 	$("#help").html("Hint : click a cell to remove all cells below it.")
-	gameState = {turn:1, tree:tree, board: board}
+	gameState = {turn:1, tree:boardNode, board: board}
 	drawBoard(gameState.board)
 }
 
@@ -284,12 +300,13 @@ async function removeBelow(cell) {
 		b: 1
 	}
 	var bestMove = getBestMove(root)
+	
 	$("#help").html("Hint : wait for the bot to make a move")
-	console.log(bestMove)
-	console.log(root.moves)
 	d3.selectAll("svg > *").remove();
 	await sleep(600);
-	if(boardSum(root.board) < 9) {
+	if(boardSum(root.board) < 15) {
+		// rough estimate of how to rescale the tree
+		$("#treeContainer").css("height","".concat(120*boardSum(root.board),"px"))
 		update(root)
 	}
 	await sleep(600);
@@ -349,7 +366,7 @@ function update(source) {
    links = tree.links(nodes);
 
   // Normalize for fixed-depth.
-  nodes.forEach(function(d) { d.y = d.depth * 140; });
+  nodes.forEach(function(d) { d.y = d.depth * 70; });
 
   // Declare the nodes
   var node = svg.selectAll("g.node")
