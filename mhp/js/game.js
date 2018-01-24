@@ -219,3 +219,7 @@ function game(numDoors) {
 	document.getElementById('instructions').innerHTML = 'Choose a door to begin.';
 	updateTable();
 }
+
+$( document ).ready(function() {
+    game(3);
+});

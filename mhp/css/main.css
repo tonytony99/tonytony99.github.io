@@ -53,7 +53,7 @@ h1 {
 
 .choice:hover{
 	font-weight: bold;
-	width: 100%;
+	width: 200px;
 	height: 60px;
 	background: #555555;
    color: #FFFFFF; 
