@@ -1,6 +1,10 @@
  p {
 	font: 20px sans-serif; 
 }
+
+.error {
+	color: #FF0000;
+} 
  
  .turn {
 	font: 30px sans-serif; 
@@ -77,15 +81,15 @@ hr {
 
 
 #gameContainer {
-    height: 420px;
-    width: 900px;
+   height: 420px;
+   width: 900px;
 	background-color: lightgrey;
 	margin: 0px auto;
 }
 
 #newGame {
-    height: 70px;
-    width:  300px;
+   height: 70px;
+   width:  300px;
 	background-color: darkgrey;
 	margin: 0px auto;
 	font: 50px sans-serif; 
