@@ -303,12 +303,14 @@ async function removeBelow(cell) {
 	
 	$("#help").html("Hint : wait for the bot to make a move")
 	d3.selectAll("svg > *").remove();
+	// NOT SUPPORTED	
 	await sleep(600);
 	if(boardSum(root.board) < 15) {
 		// rough estimate of how to rescale the tree
 		$("#treeContainer").css("height","".concat(120*boardSum(root.board),"px"))
 		update(root)
 	}
+	// NOT SUPPORTED
 	await sleep(600);
 	botRemoveBelow(bestMove)
 	gameState.board = bestMove
