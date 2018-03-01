@@ -309,7 +309,7 @@ async function removeBelow(cell) {
 			$("#treeContainer").css("height","".concat(120*boardSum(root.board),"px"))
 			update(root)
 		}
-	},400}
+	},400);
 	// then make a move
 	setTimeout(function(){
 		botRemoveBelow(bestMove)
