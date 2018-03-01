@@ -29,11 +29,6 @@ function indexOfMax(array) {
 	return maxIndex
 }
 
-// wait for ms milliseconds
-function sleep(ms) {
-	return new Promise(resolve => setTimeout(resolve, ms));
-}
-
 // call sum = [1, 2, 3].reduce(add, 0);
 function add(a, b) {
     return a + b;
@@ -302,18 +297,28 @@ async function removeBelow(cell) {
 	var bestMove = getBestMove(root)
 	
 	$("#help").html("Hint : wait for the bot to make a move")
-	d3.selectAll("svg > *").remove();
-	await sleep(600);
-	if(boardSum(root.board) < 15) {
-		// rough estimate of how to rescale the tree
-		$("#treeContainer").css("height","".concat(120*boardSum(root.board),"px"))
-		update(root)
-	}
-	await sleep(600);
-	botRemoveBelow(bestMove)
-	gameState.board = bestMove
-	$("#help").html("Hint : click a cell to remove it and all cells below")
-	isGameover()
+	
+	// if the bot moves immediately after the user then the user can be confused
+	// so wait before deciding and making a move
+	
+	// redraw the game tree
+	setTimeout(function(){
+		d3.selectAll("svg > *").remove();
+		if(boardSum(root.board) < 15) {
+			// rough estimate of how to rescale the tree
+			$("#treeContainer").css("height","".concat(120*boardSum(root.board),"px"))
+			update(root)
+		}
+	},400);
+	// then make a move
+	setTimeout(function(){
+		botRemoveBelow(bestMove)
+		gameState.board = bestMove
+		$("#help").html("Hint : click a cell to remove it and all cells below")
+		isGameover()
+		 }, 800);	
+	
+	
 }
 
 function drawBoard(board) {
