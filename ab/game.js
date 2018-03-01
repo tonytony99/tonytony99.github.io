@@ -299,7 +299,9 @@ async function removeBelow(cell) {
 	$("#help").html("Hint : wait for the bot to make a move")
 	
 	// if the bot moves immediately after the user then the user can be confused
-	// so wait 600ms before deciding and making a move
+	// so wait before deciding and making a move
+	
+	// redraw the game tree
 	setTimeout(function(){
 		d3.selectAll("svg > *").remove();
 		if(boardSum(root.board) < 15) {
@@ -307,6 +309,9 @@ async function removeBelow(cell) {
 			$("#treeContainer").css("height","".concat(120*boardSum(root.board),"px"))
 			update(root)
 		}
+	},400}
+	// then make a move
+	setTimeout(function(){
 		botRemoveBelow(bestMove)
 		gameState.board = bestMove
 		$("#help").html("Hint : click a cell to remove it and all cells below")
