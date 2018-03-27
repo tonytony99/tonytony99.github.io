@@ -255,7 +255,7 @@ function unHighlightBelow(cell) {
 	}	
 }
 
-async function botRemoveBelow(newBoard) {
+function botRemoveBelow(newBoard) {
 	if (newBoard == null) {
 		isGameover()
 		return
@@ -273,7 +273,7 @@ async function botRemoveBelow(newBoard) {
 	isGameover()
 }
 
-async function removeBelow(cell) {
+function removeBelow(cell) {
 	if (gameState.turn == 0) return;
 	cellId = cell.id.split("-")
 	cellX = + cellId[0]
