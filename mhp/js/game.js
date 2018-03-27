@@ -33,7 +33,7 @@ function enableChoices() {
 }
 	
 // perform 10 new games and stick in all of them
-async function simulateStick() {
+function simulateStick() {
 	document.getElementById('instructions').innerHTML = 'Simulating 10 games, sticking each time';
 	disableChoices();
 	for (z = 0; z < 10; z++) {
@@ -54,7 +54,7 @@ async function simulateStick() {
 }
 
 // perform 10 new games and switch in all of them
-async function simulateSwitch() {
+function simulateSwitch() {
 	document.getElementById('instructions').innerHTML = 'Simulating 10 games, switching each time';
 	disableChoices();
 	for (z = 0; z < 10; z++) {
