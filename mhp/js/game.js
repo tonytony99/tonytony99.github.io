@@ -37,33 +37,51 @@ function enableChoices() {
 	document.getElementById("begin").disabled = false;
 }
 	
-// perform 100 new games and stick in all of them
+// perform 10 new games and stick in all of them
 async function simulateStick() {
+	document.getElementById('instructions').innerHTML = 'Simulating 10 games, sticking each time';
 	disableChoices();
-	for (z = 0; z < 100; z++) {
-		game(3);
-		doorClicked(Math.floor(Math.random() * doorsArray.length));
-		stick();
-		await sleep(20);
+	for (z = 0; z < 10; z++) {
+		setTimeout(function(){
+			game(3,true);
+			doorClicked(Math.floor(Math.random() * doorsArray.length),true);
+			setTimeout(function(){
+				stick(true);
+			}, 500);
+		},z*1200);
 	}
-	enableChoices();
+	// put things back to normal once the simulation is complete
+	setTimeout(function(){
+		enableChoices();
+		document.getElementById('instructions').innerHTML = 'Choose a door to begin.';
+		game(3,false);
+	}, 10*1200);
 }
 
-// perform 100 new games and switch in all of them
+// perform 10 new games and switch in all of them
 async function simulateSwitch() {
+	document.getElementById('instructions').innerHTML = 'Simulating 10 games, switching each time';
 	disableChoices();
-	for (z = 0; z < 100; z++) {
-		game(3);
-		doorClicked(Math.floor(Math.random() * doorsArray.length));
-		for (s = 0; s < 3; s++) {
-			if (doorsArray[s] < 2 && s != selected) {
-				doorClicked(s);
-				break;
+	for (z = 0; z < 10; z++) {
+		setTimeout(function(){
+			game(3,true);
+			doorClicked(Math.floor(Math.random() * doorsArray.length),true);
+			for (s = 0; s < 3; s++) {
+				if (doorsArray[s] < 2 && s != selected) {
+					setTimeout(function(){
+						doorClicked(s,true);
+					}, 500);
+					break;
+				}
 			}
-		}
-		await sleep(20);
+		},z*1200);
 	}
-	enableChoices();
+	// put things back to normal once the simulation is complete
+	setTimeout(function(){
+		enableChoices();
+		document.getElementById('instructions').innerHTML = 'Choose a door to begin.';
+		game(3,false);
+	}, 10*1200);
 }
 
 // update the table of results with statistics about game results
@@ -83,21 +101,25 @@ function getWin() {
 }
 
 // do all of the actions required at the end of the game
-function handleWin() {
+function handleWin(isSimulation) {
 	if (getWin()) {
 		if (hasStuck == 1) {
 			stickWins += 1;
 		} else {
 			switchWins += 1;
 		}
-		document.getElementById('instructions').innerHTML = 'You win!';
+		if(! isSimulation){
+			document.getElementById('instructions').innerHTML = 'You win!';
+		}		
 	} else {
 		if (hasStuck == 1) {
 			stickLosses += 1;
 		} else {
 			switchLosses += 1;
 		}
-		document.getElementById('instructions').innerHTML = 'Bad luck!';
+		if(! isSimulation){
+			document.getElementById('instructions').innerHTML = 'Bad luck!';
+		}	
 	}
 	switchSuccessRate = switchWins / (switchWins + switchLosses);
 	stickSuccessRate = stickWins / (stickWins + stickLosses);
@@ -135,17 +157,24 @@ function openAllDoors() {
 }
 
 // open every closed door and see if the player won
-function stick() {
+function stick(isSimulated) {
 	hasStuck = 1;
 	openAllDoors();
-	handleWin();
+	handleWin(isSimulated);
 }
 
 // if the door is closed, then open it
 function open(doorNumber) {
 	if (doorsArray[doorNumber] < 2) {
 		doorsArray[doorNumber] = doorsArray[doorNumber] + 2;
-		drawDoors();
+		doorId = "#door"+doorNumber;
+		// animate the door opening
+		$(doorId).fadeOut("quick");
+		console.log(doorId);
+		setTimeout(function(){
+			drawDoors();
+		},200);
+		//drawDoors();
 	}
 }
 
@@ -160,18 +189,20 @@ function openOtherDoor(doorNumber) {
 }
 
 // handle the door being clicked
-function doorClicked(doorNumber) {
+function doorClicked(doorNumber,isSimulation) {
 	if (doorsArray[doorNumber] < 2) {
 		if (doorNumber == selected) {
 			hasStuck = 1;
 		}
 		selected = doorNumber;
-		document.getElementById('instructions').innerHTML = 'Click a different door to switch, or the same door to stick.';
+		if (! isSimulation) {
+			document.getElementById('instructions').innerHTML = 'Click a different door to switch, or the same door to stick.';
+		}
 		if (numDoorsUnopened() >= 3) {
 			openOtherDoor(doorNumber);
 		} else {
 			openAllDoors();
-			handleWin();
+			handleWin(isSimulation);
 		}
 	}
 }
@@ -185,6 +216,7 @@ function drawDoors() {
 		var doors = document.getElementById('doors');
 		var buttonString = "";
 		buttonString += "<input type='image' ";
+		buttonString += "id='door" + i + "'";
 		if (doorsArray[i] < 2) {
 			buttonString += "src='img/closedDoor.png' ";
 		}
@@ -199,14 +231,14 @@ function drawDoors() {
 		} else {
 			buttonString += "class='unselected' ";
 		}
-		buttonString += "onclick = 'doorClicked(" + i + ")'; ";
+		buttonString += "onclick = 'doorClicked(" + i + ",false)'; ";
 		buttonString += "value = '" + (i + 1) + "' /> ";
 		doors.innerHTML += buttonString;
 	}
 }
 
 // begin a new game
-function game(numDoors) {
+function game(numDoors, isSimulated) {
 	hasStuck = 0;
 	selected = -1;
 	doorsArray = [];
@@ -216,10 +248,12 @@ function game(numDoors) {
 	carIndex = Math.floor(Math.random() * numDoors);
 	doorsArray[carIndex] = 1;
 	drawDoors();
-	document.getElementById('instructions').innerHTML = 'Choose a door to begin.';
+	if (! isSimulated){
+		document.getElementById('instructions').innerHTML = 'Choose a door to begin.';
+	}
 	updateTable();
 }
 
 $( document ).ready(function() {
-    game(3);
+    game(3, false);
 });
