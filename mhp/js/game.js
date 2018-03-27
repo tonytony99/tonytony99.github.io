@@ -18,11 +18,6 @@ var stickWins = 0;
 var stickLosses = 0;
 var stickSuccessRate = 0;
 
-// wait for ms milliseconds
-function sleep(ms) {
-	return new Promise(resolve => setTimeout(resolve, ms));
-}
-
 // disable simulation and new game buttons
 function disableChoices() {
 	document.getElementById("simulateSwitch").disabled = true;
