@@ -28,6 +28,7 @@ p {
 
 .slider{
 	width: 500px;
+	height: 80px;
 	vertical-align: middle;
 }
 
@@ -44,7 +45,7 @@ p {
 	margin: 0 auto;
 	font-family: Arial;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 15px;
 	color: red;
 	text-align: center;
 	width: 820px;
