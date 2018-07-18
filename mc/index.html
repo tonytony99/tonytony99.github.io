@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css">
+<title> Poker Hans </title>
+</head>
+<body>
+
+<h1> MC Simulation </h1>
+
+<p class="warning"> 
+WARNING: This should not be used to aid the playing of any game, especially for money. <br/>
+By their nature, predictions from this website can and will be inaccurate. <br/> 
+</p>
+
+
+
+<div id="distribution" class="distributionContainer">
+	<div class="barContainer">	
+		<div class="invisiBar" id="bar"> </div>	
+		<div class="bar" id="bar0"> </div>
+		<div class="bar" id="bar1"> </div>
+		<div class="bar" id="bar2"> </div>
+		<div class="bar" id="bar3"> </div>
+		<div class="bar" id="bar4"> </div>
+		<div class="bar" id="bar5"> </div>
+		<div class="bar" id="bar6"> </div>
+		<div class="bar" id="bar7"> </div>
+		<div class="bar" id="bar8"> </div>
+		<div class="bar" id="bar9"> </div>
+	</div>	
+	
+	<div class="labelContainer">	
+		<div class="label"> Nothing </div>
+		<div class="label"> Pair </div>
+		<div class="label"> 2 Pair </div>
+		<div class="label"> 3 of a Kind </div>
+		<div class="label"> Straight </div>
+		<div class="label"> Flush </div>
+		<div class="label"> Full House </div>
+		<div class="label"> 4 of a Kind </div>
+		<div class="label"> Straight Flush </div>
+		<div class="label"> Royal Flush </div>
+	</div>	
+	
+</div>
+
+<div class="sliderContainer">
+		<p class="slideText"> Number of games to simulate : </p>
+  		<input type="range" min="200" step="200"; max="2000" value="200" class="slider" id="simNumberInput">
+		<p id="simCount" class="slideText"> 200 </p>
+</div>
+
+<p class="info">
+This project illustrates Monte Carlo methods for solving probability problems.
+Enumerating all possible events is difficult, so instead of calculating real probabilities of events, they're estimated by simulation. 
+</p>
+
+<div id="cards" class="cardArea">
+
+	<div class="left">
+		<div id="mineText" class="cardLabel">
+			<p class="cardLabel"> Your Hand : </p>
+		</div>
+	
+		<div id="mine" class="leftCards">
+			<button class="card empty" id="mine0" onclick="mine(0)"> _ </button>
+			<button class="card empty" id="mine1" onclick="mine(1)"> _ </button>
+		</div>
+	</div>
+
+	
+	<div class="right">
+		<div id="tableText" class="cardLabel">
+			<p class="cardLabel"> The Table : </p>
+		</div>
+	
+		<div id="table" class="rightCards">
+			<button class="card empty" id="table0" onclick="table(0)"> </button>
+			<button class="card empty" id="table1" onclick="table(1)"> </button>
+			<button class="card empty" id="table2" onclick="table(2)"> </button>
+			<button class="card empty" id="table3" onclick="table(3)"> </button>
+			<button class="card empty" id="table4" onclick="table(4)"> </button>
+		</div>
+	</div>
+</div>
+	
+<div id="cardInputArea" class="cardInputAreaHidden">
+		<div id="inputRow0" class="inputRow"> </div>
+		<div id="inputRow1" class="inputRow"> </div>
+		<div id="inputRow2" class="inputRow"> </div>
+		<div id="inputRow3" class="inputRow"> </div>
+</div>
+
+<div id="choice" class="center">
+
+</div>
+
+
+<p id="result"></p>
+
+
+<script type="text/javascript" src="calculator.js"> </script>
+
+
+
+
+</body>
+</html>

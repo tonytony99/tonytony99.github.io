@@ -1,0 +1,226 @@
+body {
+	background-color: lightgrey;
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 35px;
+	color: black;
+}
+
+p {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 22px;
+	color: black;
+	text-align: center;
+}
+
+.sliderContainer{
+	background-color: grey;
+	margin: 0 auto;
+	width: 810px;
+	padding-left: 10px;
+	vertical-align: middle;
+}
+
+.slider{
+	width: 500px;
+	vertical-align: middle;
+}
+
+.slideText{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	text-align: left;
+	display: inline-block;
+}
+
+.warning {
+	margin: 0 auto;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	color: red;
+	text-align: center;
+	width: 820px;
+}
+
+.info {
+	margin: 0 auto;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;
+	color: grey;
+	text-align: center;
+	width: 820px;
+	margin-top: 10px;
+}
+
+.distributionContainer {
+	margin: 0 auto;
+	height: 260px;
+	width: 800px;
+	text-align: center; 
+	background-color: white;
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.barContainer{
+	margin: 0 auto;
+	text-align: center;
+	background-color: white;
+	height: 230px;
+	width: 800px;	
+	position: relative;
+	border: 5px;
+}
+
+.invisiBar {
+	height: 220px;
+	width: 2px;
+	background-color: black;
+	display: inline-block;
+	text-align: center;
+	margin: 2px;	
+}
+
+.bar {
+	height: 0px;
+	width: 62px;
+	background-color: blue;
+	display: inline-block;
+	text-align: center;
+	margin: 2px;	
+}
+
+.labelContainer{
+	margin: 0 auto;
+	text-align: center;
+	background-color: white;
+	height: 34px;
+	width: 800px;
+}
+
+.cardLabel {
+	height: 28px;
+}
+
+.label {
+	font-family: Arial;
+	font-weight: bold;
+	width: 62px;
+	background-color: white;
+	display: inline-block;
+	text-align: center;
+	font-size: 12px;
+	margin: 2px;
+	vertical-align: top;
+}
+
+
+.cardInputAreaHidden {
+	height: 400px;
+	text-align: center; 
+	background-color: lightgrey;
+	margin-top: 10px;
+	visibility: hidden;
+}
+
+.cardInputAreaVisible {
+	margin: 0 auto;
+	height: 190px;
+	width: 820px;
+	text-align: center; 
+	background-color: lightgrey;
+	margin-top: 2px;
+	visibility: visible;
+	padding: 5px;
+}
+
+.inputRow {
+	margin: 0 auto;
+	text-align: center; 
+	background-color: lightgrey;
+	margin-top: 1px;
+	width: 800px;
+}
+
+.cardArea {
+	width: 800px;
+	padding: 2px;
+	margin: 0 auto;
+	height: 160px;
+	text-align: left; 
+	background-color: lightgrey;
+}
+
+.left{
+	background-color: lightgrey;
+	display: inline-block;
+	margin-right: 75px;
+}
+
+.right{
+	background-color: lightgrey;
+	display: inline-block;
+}
+
+
+.card {
+	height: 100px;
+	width: 90px;
+	margin-left: 4px;
+	margin-right: 4px;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+.redCard {
+	height: 100px;
+	width: 90px;
+	margin-left: 4px;
+	margin-right: 4px;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	color: red;
+}
+
+.waitingCard {
+	height: 100px;
+	width: 90px;
+	margin-left: 4px;
+	margin-right: 4px;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	background-color: yellow;
+}
+
+
+.smallCard {
+	height: 40px;
+	width: 58px;
+	margin: 1px;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+}
+
+.smallRedCard {
+	height: 40px;
+	width: 58px;
+	margin: 1px;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	color: red;
+}
