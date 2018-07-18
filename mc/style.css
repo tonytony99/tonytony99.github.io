@@ -6,7 +6,7 @@ h1 {
 	text-align: center;
 	font-family: Arial;
 	font-weight: bold;
-	font-size: 35px;
+	font-size: 22px;
 	color: black;
 }
 
@@ -34,7 +34,7 @@ p {
 .slideText{
 	font-family: Arial;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 14px;
 	color: white;
 	text-align: left;
 	display: inline-block;
@@ -44,7 +44,7 @@ p {
 	margin: 0 auto;
 	font-family: Arial;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 14px;
 	color: red;
 	text-align: center;
 	width: 820px;
@@ -54,7 +54,7 @@ p {
 	margin: 0 auto;
 	font-family: Arial;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 12px;
 	color: grey;
 	text-align: center;
 	width: 820px;
@@ -174,29 +174,31 @@ p {
 
 
 .card {
-	height: 100px;
-	width: 90px;
+	height: 90px;
+	width: 80px;
 	margin-left: 4px;
 	margin-right: 4px;
 	font-weight: bold;
 	font-size: 30px;
 	text-align: center;
+	background-color: white;
 }
 
 .redCard {
-	height: 100px;
-	width: 90px;
+	height: 90px;
+	width: 80px;
 	margin-left: 4px;
 	margin-right: 4px;
 	font-weight: bold;
 	font-size: 30px;
 	text-align: center;
 	color: red;
+	background-color: white;
 }
 
 .waitingCard {
-	height: 100px;
-	width: 90px;
+	height: 90px;
+	width: 80px;
 	margin-left: 4px;
 	margin-right: 4px;
 	font-weight: bold;
@@ -207,7 +209,7 @@ p {
 
 
 .smallCard {
-	height: 40px;
+	height: 50px;
 	width: 58px;
 	margin: 1px;
 	font-weight: bold;
@@ -216,7 +218,7 @@ p {
 }
 
 .smallRedCard {
-	height: 40px;
+	height: 50px;
 	width: 58px;
 	margin: 1px;
 	font-weight: bold;
