@@ -14,7 +14,7 @@ const rankStrings = ["High Card",
 							
 var nextCard = -1;
 
-var numSims = 500;
+var numSims = 200;
 
 // control the number of simulations
 var slider = document.getElementById("simNumberInput");
@@ -48,14 +48,15 @@ function indexToSuit(index){
 }
 
 // From an array of indices, return the values of those cards
-function indicesToValues(indices){
-	var values = indices.slice();
+function indicesToValues5(indices){
+	var values = [-1,-1,-1,-1,-1];
 	var i;
-	for(i=0; i<indices.length; i++){
+	for(i=0; i<5; i++){
 		values[i] = indexToValue(indices[i]);
 	}
 	return values;
 }
+
 
 // From an array of indices, return the suits those cards
 function indicesToSuits(indices){
@@ -272,225 +273,158 @@ function bestOf2Hands(first, second){
 
 
 
-// return the values but 1 is swapped for 14
-// the list is re-sorted
-function acesHigh(values) {
-	var result = values.slice();
-	var i;
-	for(i=0; i<result.length; i++){
-		if (result[i] == 1) { result[i] = 14;}
-	}
-	result.sort(function (a, b) {  return a - b;});
-	return result;	
-}
 
-// e.g. [1,10,11,12,13], [0,9,10,11,12] returns true
-function royalFlush5(values, indices){
-	if (straightFlush5(values, indices)==14){
-		return true;
-	}	
-	return false;
-}
+function rank5(values, indices) {
 
-// e.g. [2,3,4,5,6], [1,2,3,4,5] returns 6
-function straightFlush5(values, indices){
-	var straightTo = straight5(values);
-	if (straightTo && flush5(values, indices)){
-		return straightTo;	
-	}
-	return false;
-}
-
-// e.g. [2,7,7,7,7] returns [7,2]
-function fourOfAKind5(values){
-
-	if (values[4] == values[3]
-	 && values[4] == values[2]
-	 && values[4] == values[1]){
-		return [values[4], values[0]];	 
-	}
-	if (values[0] == values[1]
-	 && values[0] == values[2]
-	 && values[0] == values[3]){
-		return [values[0], values[4]];	 
-	}
-	return false;
-}
-
-// e.g. [6,6,7,7,7] returns [7,6]
-// e.g. [1,1,1,7,7] returns [14,7]
-function fullHouse5(values){
-	values = acesHigh(values);
-
-	if (values[0] == values[1]
-	 && values[2] == values[3]
-	 && values[2] == values[4]){
-		return [values[2],values[0]];
-	}
-	if (values[0] == values[1]
-	 && values[0] == values[2]
-	 && values[3] == values[4]){
-		return [values[0],values[3]];	 
-	 }
-	 return false;
-}
-
-// e.g. [1,3,4,5,6,9], [0,2,3,4,5,8] returns [14,9,6,5,4,3]
-function flush5(values, indices){
-	var suit = Math.floor(indices[0] / 13.0);
-
-	var i;
-	for(i=1; i<indices.length; i++){
-		if (Math.floor(indices[i] / 13.0) != suit) {
-			return false;		
-		}
-	}
-	var result = acesHigh(values);
-	// sort descending
-	result.sort(function (a, b) {  return b - a;  });	
-	return result;
-}
-
-// e.g. [2,3,4,5,6,7] returns 7
-// e.g. [1,10,11,12,13] returns 14
-function straight5(values){
-	maxValue = values[4];
+	// -1 : don't know
+	// 0 :  no
+	// >0 : yes
+	var straightTo = -1;	
+	// look for a straight
+	var maxValue = values[4];
 	if (values[3] == maxValue - 1
 	 && values[2] == maxValue - 2
 	 && values[1] == maxValue - 3
 	 && values[0] == maxValue - 4){
-		return maxValue;	 
+		straightTo = maxValue;	 
 	}
-	
 	// Straight to ace
 	if (values[4] == 13
 	 && values[3] == 12
 	 && values[2] == 11
 	 && values[1] == 10
 	 && values[0] == 1) {
-		return 14; 
+		straightTo = 14;
+	}
+	// No straight
+	if (straightTo < 0) {
+		straightTo = 0;	
+	}
+
+	// -1 : don't know
+	// 0 : no
+	// 1 : yes
+	var flush = -1;
+	var suit = Math.floor(indices[0] / 13.0);
+	var i;
+	for(i=1; i<indices.length; i++){
+		if (Math.floor(indices[i] / 13.0) != suit) {
+			flush = 0;
+			break;		
+		}
+	}
+	// if we haven't disproved a flush, then we have a flush
+	if (flush < 0) {
+		flush = 1;	
 	}
 	
-	return false;
-}
-
-// e.g. [1,1,1,5,7] returns [14,7,5]
-function threeOfAKind5(values){
-	values = acesHigh(values);
+	if (flush==1) {
+		// royal flush	
+		if (straightTo == 14){
+			return [9]; 
+		}
+		// straight flush
+		if (straightTo > 0) {
+			return [8,straightTo]; 	
+		}
+	}
 	
+	// four of a kind
+	if (values[4] == values[3]
+	 && values[4] == values[2]
+	 && values[4] == values[1]){
+		return [7,values[4], values[0]];	 
+	}
+	if (values[0] == values[1]
+	 && values[0] == values[2]
+	 && values[0] == values[3]){
+		return [7,values[0], values[4]];	 
+	}
+	
+	// full house
+	if (values[0] == values[1]
+	 && values[2] == values[3]
+	 && values[2] == values[4]){
+		return [6,values[2],values[0]];
+	}
+	if (values[0] == values[1]
+	 && values[0] == values[2]
+	 && values[3] == values[4]){
+		return [6,values[0],values[3]];	 
+	 }
+
+	// flush
+	if (flush == 1) {
+		return [5];	
+	}
+
+	// straight
+	if (straightTo > 0){
+		return [4,straightTo];	
+	}
+
+	// aces high
+	var changedAny = false;
+	for(i=0; i<values.length; i++){
+		if (values[i] == 1) { 
+			values[i] = 14;
+			changedAny = true;
+		} else {
+			// cannot be more aces
+			break;		
+		}
+	}
+	// if some 1s have become 14s the values must be re-sorted
+	if (changedAny) {
+		values.sort(function (a, b) {  return a - b;});
+	}
+	
+	// three of a kind
 	if (values[4] == values[3]
 	 && values[4] == values[2]){
-		return [values[4],values[1],values[0]];	 
+		return [3,values[4],values[1],values[0]];	 
 	}
 	if (values[3] == values[2]
 	 && values[3] == values[1]){
-		return [values[3],values[4],values[0]];	 
+		return [3,values[3],values[4],values[0]];	 
 	}
 	if (values[2] == values[1]
 	 && values[2] == values[0]){
-		return [values[2],values[4],values[3]];	 
+		return [3,values[2],values[4],values[3]];	 
 	}
-	return false;
-}
-
-// e.g. [1,1,3,3,7] returns [14,3,7]
-// e.g. [4,5,5,8,8] returns [8,5,4]
-function twoPair5(values){
-	values = acesHigh(values);
-
+	
+	// two pair
 	if (values[4] == values[3]
 	 && values[2] == values[1]){
-		return [values[4],values[2],values[0]];	
+		return [2,values[4],values[2],values[0]];	
 	}
 	if (values[4] == values[3]
 	 && values[1] == values[0]){
-		return [values[4],values[1], values[2]];	
+		return [2,values[4],values[1], values[2]];	
 	}
 	if (values[3] == values[2]
 	 && values[1] == values[0]){
-		return [values[3],values[1], values[4]];	
-	}
-	return false;
-}
-
-// e.g. [1,1,3,5,7] returns [14,7,3,5]
-// e.g. [4,5,9,9,13] returns [9,13,5,4]
-function pair5(values){
-    values = acesHigh(values);
-    if (values[4]==values[3]) {return [values[4],values[2],values[1],values[0]];}
-	if (values[3]==values[2]) {return [values[3],values[4],values[1],values[0]];}
-	if (values[2]==values[1]) {return [values[2],values[4],values[3],values[0]];} 
-	if (values[1]==values[0]) {return [values[1],values[4],values[3],values[2]];}
-	return false;
-}
-
-// Given 5 cards, what is their highest achievement?
-// [0] royal flush
-// [1,8] straight flush to 8
-// ... 
-// [7,9,2] two pair of 9s and 2s
-function rank5(values, indices) {
-	
-	if (royalFlush5(values, indices)){ 
-		return [9]; 
+		return [2,values[3],values[1], values[4]];	
 	}
 	
-	sF = 	straightFlush5(values, indices);
-	if (sF){ 
-		return [8,sF]; 
-	}
+	// pair
+	if (values[4]==values[3]) {return [1,values[4],values[2],values[1],values[0]];}
+	if (values[3]==values[2]) {return [1,values[3],values[4],values[1],values[0]];}
+	if (values[2]==values[1]) {return [1,values[2],values[4],values[3],values[0]];} 
+	if (values[1]==values[0]) {return [1,values[1],values[4],values[3],values[2]];}
 	
-	fOK = fourOfAKind5(values);
-	if (fOK){ 
-		fOK.unshift(7);
-		return fOK; 
-	}
-	
-	fH = fullHouse5(values);
-	if (fH){ 
-		fH.unshift(6);
-		return fH; 
-	}
-	
-	f = flush5(values, indices);
-	if (f){ 
-		f.unshift(5);
-		return f; 
-	}
-	
-	s = straight5(values);
-	if (s){ 
-		return [4,s]; 
-	}
-	
-	tOK = threeOfAKind5(values);
-	if (tOK){ 
-		tOK.unshift(3);
-		return tOK; 
-	}
-	
-	tP = twoPair5(values);
-	if (tP){ 
-		tP.unshift(2);
-		return tP; 
-	}
-	
-	p = pair5(values);
-	if (p){ 
-		p.unshift(1);
-		return p; 
-	}
-	
-	var highCards = acesHigh(values);
+	// high card(s)
 	// sort descending
-	highCards.sort(function (a, b) {  return b - a;});
-	highCards.unshift(0);
-	return highCards;
-	
+	values.reverse();
+	values.unshift(0);
+	return values;	
 }
+
 
 // Return the best 5 card hand that can be made with these 7 cards
-function best5From7(values, indices) {
+function best5From7(indices) {
+	// sort cards by value order
+	indices.sort(function (a, b) {  return a % 13 - b % 13;  });
 	var i;
 	var j;
 	var theseIndices;
@@ -526,10 +460,8 @@ function best5From7(values, indices) {
 		theseIndices = possibleIndices[i];
 		for (j=0;j<theseIndices.length;j++){
 			hand[j] = indices[theseIndices[j]];
-		}
-		
-		hand.sort(function (a, b) {  return a % 13 - b % 13;  });
-		values = indicesToValues(hand);
+		}		
+		values = indicesToValues5(hand);
 		result = rank5(values, hand);
 		
 		if (bestOf2Hands(result, bestScore) == 0){
@@ -609,11 +541,8 @@ function getProbabilityRanks(){
 	// all cards dealt, what's the result
 	if (nm == 0){
 		var hand7 = myHand.concat(tableCards);
-		var values7 = indicesToValues(hand7);
-		var suits7 = indicesToSuits(hand7);
-		var best5 = best5From7(values7, hand7);
-		var values5 = indicesToValues(best5);
-		var suits5 = indicesToSuits(best5);	
+		var best5 = best5From7(hand7);
+		var values5 = indicesToValues5(best5);	
 		var bestScore = rank5(values5, best5);
 		rankProbabilities = [0,0,0,0,0,0,0,0,0,0];
 		rankProbabilities[bestScore[0]] = 1.0;
@@ -630,12 +559,8 @@ function getProbabilityRanks(){
 					hand7[j] = 	drawCard(hand7);				
 				}
 			}
-			// console.log(hand7);
-			var values7 = indicesToValues(hand7);
-			var suits7 = indicesToSuits(hand7);
-			var best5 = best5From7(values7, hand7);
-			var values5 = indicesToValues(best5);
-			var suits5 = indicesToSuits(best5);	
+			var best5 = best5From7(hand7);
+			var values5 = indicesToValues5(best5);
 			var bestScore = rank5(values5, best5);
 			rankProbabilities[bestScore[0]] ++;
 		}
