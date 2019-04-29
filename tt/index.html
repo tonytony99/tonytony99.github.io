@@ -52,7 +52,54 @@
       </div>
 
       <div class="col-xs-12 grey">
-            <h3 align='center'> Trams Not Currently Updated </h3>
+            <table class="table table-condensed small">
+<thead>
+<tr>
+    <th scope='col'><p align='center'>MAN</p></th>
+    <th scope='col'><p align='center'>DGT</p></th>
+    <th scope='col'><p align='center'>HBC</p></th>
+    <th scope='col'><p align='center'>MCUK</p></th>
+</tr>
+</thead><tbody>
+<tr>
+    <td><p align='center'>0:48 ECL</p></td>
+    <td><p align='center'>0:51 MCUK</p></td>
+    <td><p align='center'>0:48 ASH</p></td>
+    <td><p align='center'>0:46 ASH</p></td>
+</tr>
+<tr>
+    <td><p align='center'></p></td>
+    <td><p align='center'></p></td>
+    <td><p align='center'>0:54 ASH</p></td>
+    <td><p align='center'>0:58 ASH</p></td>
+</tr>
+<tr class='extra_info_tram'>
+    <td><p align='center'></p></td>
+    <td><p align='center'></p></td>
+    <td><p align='center'>0:00 ASH</p></td>
+    <td><p align='center'>0:10 ASH</p></td>
+</tr>
+</tbody></table>
+
+        <script>
+        $(document).ready(function(){
+          $(".extra_info_tram").hide();
+          $(".btn_more_tram").click(function(){
+            $(".extra_info_tram").show(speed="slow");
+          });
+          
+          $(".btn_less_tram").click(function(){
+            $(".extra_info_tram").hide(speed="slow");
+          });
+        });
+        </script>
+        
+        <div align="center">
+            <button class="btn btn-primary btn-sm btn_more_tram">More (1)</button>
+            <button class="btn btn-primary btn-sm btn_less_tram">Less</button>
+        </div>
+
+        
         </div>
 
         <div class="col-xs-12">
@@ -232,7 +279,7 @@
             This site is still being tested. 
             Do not assume any of the data on this site to be reliable.
             Last updated
-            7:33 
+            7:45 
             29/4/2019        
             </p>
         </div>
