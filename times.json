@@ -9,93 +9,55 @@
             "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
         ],
         "Departures": {
-            "Id": {
-                "0": 695,
-                "1": 696,
-                "2": 695,
-                "3": 696,
-                "4": 695,
-                "5": 696
-            },
             "Line": {
                 "0": "Airport",
                 "1": "Airport",
-                "2": "Airport",
-                "3": "Airport",
-                "4": "Airport",
-                "5": "Airport"
+                "2": "Airport"
             },
             "TLAREF": {
                 "0": "AIR",
                 "1": "AIR",
-                "2": "AIR",
-                "3": "AIR",
-                "4": "AIR",
-                "5": "AIR"
+                "2": "AIR"
             },
             "Direction": {
                 "0": "Incoming",
                 "1": "Incoming",
-                "2": "Incoming",
-                "3": "Incoming",
-                "4": "Incoming",
-                "5": "Incoming"
+                "2": "Incoming"
             },
             "MessageBoard": {
                 "0": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
                 "1": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
-                "2": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
-                "3": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
-                "4": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
-                "5": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
+                "2": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
             },
             "Dest": {
                 "0": "See Tram Front",
                 "1": "See Tram Front",
-                "2": "See Tram Front",
-                "3": "See Tram Front",
-                "4": "Victoria",
-                "5": "Victoria"
+                "2": "Victoria"
             },
             "Carriages": {
                 "0": "Single",
                 "1": "Single",
-                "2": "Single",
-                "3": "Single",
-                "4": "Single",
-                "5": "Single"
+                "2": "Single"
             },
             "Status": {
                 "0": "Due",
                 "1": "Due",
-                "2": "Due",
-                "3": "Due",
-                "4": "Due",
-                "5": "Due"
+                "2": "Due"
             },
             "Wait": {
                 "0": 3,
-                "1": 3,
-                "2": 13,
-                "3": 13,
-                "4": 2,
-                "5": 2
+                "1": 13,
+                "2": 2
             },
             "Updated": {
                 "0": "2019-08-17 16:48:52",
                 "1": "2019-08-17 16:48:52",
-                "2": "2019-08-17 16:48:52",
-                "3": "2019-08-17 16:48:52",
-                "4": "2019-08-17 16:48:52",
-                "5": "2019-08-17 16:48:52"
+                "2": "2019-08-17 16:48:52"
             },
             "Due": {
                 "0": "2019-08-17 16:51:52",
-                "1": "2019-08-17 16:51:52",
-                "2": "2019-08-17 17:01:52",
-                "3": "2019-08-17 17:01:52",
-                "4": "2019-08-17 16:50:52",
-                "5": "2019-08-17 16:50:52"
+                "1": "2019-08-17 17:01:52",
+                "2": "2019-08-17 16:50:52"
             }
         }
     },
@@ -109,14 +71,6 @@
             "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
         ],
         "Departures": {
-            "Id": {
-                "0": 697,
-                "1": 697,
-                "2": 697,
-                "3": 698,
-                "4": 698,
-                "5": 698
-            },
             "Line": {
                 "0": "Airport",
                 "1": "Airport",
@@ -209,13 +163,6 @@
             "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
         ],
         "Departures": {
-            "Id": {
-                "0": 699,
-                "1": 699,
-                "2": 699,
-                "3": 700,
-                "4": 700
-            },
             "Line": {
                 "0": "Airport",
                 "1": "Airport",
@@ -298,12 +245,6 @@
             "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
         ],
         "Departures": {
-            "Id": {
-                "0": 701,
-                "1": 701,
-                "2": 702,
-                "3": 702
-            },
             "Line": {
                 "0": "Airport",
                 "1": "Airport",
@@ -376,13 +317,6 @@
             "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
         ],
         "Departures": {
-            "Id": {
-                "0": 703,
-                "1": 703,
-                "2": 703,
-                "3": 704,
-                "4": 704
-            },
             "Line": {
                 "0": "Airport",
                 "1": "Airport",
@@ -465,13 +399,6 @@
             "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
         ],
         "Departures": {
-            "Id": {
-                "0": 706,
-                "1": 706,
-                "2": 705,
-                "3": 705,
-                "4": 705
-            },
             "Line": {
                 "0": "Airport",
                 "1": "Airport",
@@ -554,14 +481,6 @@
             "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
         ],
         "Departures": {
-            "Id": {
-                "0": 707,
-                "1": 707,
-                "2": 707,
-                "3": 708,
-                "4": 708,
-                "5": 708
-            },
             "Line": {
                 "0": "Airport",
                 "1": "Airport",
@@ -654,14 +573,6 @@
             "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
         ],
         "Departures": {
-            "Id": {
-                "0": 709,
-                "1": 709,
-                "2": 709,
-                "3": 710,
-                "4": 710,
-                "5": 710
-            },
             "Line": {
                 "0": "Airport",
                 "1": "Airport",
@@ -754,12 +665,6 @@
             "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
         ],
         "Departures": {
-            "Id": {
-                "0": 711,
-                "1": 711,
-                "2": 712,
-                "3": 712
-            },
             "Line": {
                 "0": "Airport",
                 "1": "Airport",
@@ -832,14 +737,6 @@
             "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
         ],
         "Departures": {
-            "Id": {
-                "0": 713,
-                "1": 713,
-                "2": 713,
-                "3": 714,
-                "4": 714,
-                "5": 714
-            },
             "Line": {
                 "0": "Airport",
                 "1": "Airport",
@@ -932,33 +829,13 @@
             "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
         ],
         "Departures": {
-            "Id": {
-                "0": 715,
-                "1": 718,
-                "2": 715,
-                "3": 718,
-                "4": 715,
-                "5": 718,
-                "6": 716,
-                "7": 717,
-                "8": 716,
-                "9": 717,
-                "10": 716,
-                "11": 717
-            },
             "Line": {
                 "0": "Airport",
                 "1": "Airport",
                 "2": "Airport",
                 "3": "Airport",
                 "4": "Airport",
-                "5": "Airport",
-                "6": "Airport",
-                "7": "Airport",
-                "8": "Airport",
-                "9": "Airport",
-                "10": "Airport",
-                "11": "Airport"
+                "5": "Airport"
             },
             "TLAREF": {
                 "0": "RTH",
@@ -966,27 +843,15 @@
                 "2": "RTH",
                 "3": "RTH",
                 "4": "RTH",
-                "5": "RTH",
-                "6": "RTH",
-                "7": "RTH",
-                "8": "RTH",
-                "9": "RTH",
-                "10": "RTH",
-                "11": "RTH"
+                "5": "RTH"
             },
             "Direction": {
                 "0": "Outgoing",
                 "1": "Outgoing",
                 "2": "Outgoing",
-                "3": "Outgoing",
-                "4": "Outgoing",
-                "5": "Outgoing",
-                "6": "Incoming",
-                "7": "Incoming",
-                "8": "Incoming",
-                "9": "Incoming",
-                "10": "Incoming",
-                "11": "Incoming"
+                "3": "Incoming",
+                "4": "Incoming",
+                "5": "Incoming"
             },
             "MessageBoard": {
                 "0": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
@@ -994,27 +859,15 @@
                 "2": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
                 "3": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
                 "4": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
-                "5": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
-                "6": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
-                "7": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
-                "8": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
-                "9": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
-                "10": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
-                "11": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
+                "5": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
             },
             "Dest": {
                 "0": "Manchester Airport",
                 "1": "Manchester Airport",
                 "2": "Manchester Airport",
-                "3": "Manchester Airport",
-                "4": "Manchester Airport",
-                "5": "Manchester Airport",
-                "6": "Victoria",
-                "7": "Victoria",
-                "8": "Victoria",
-                "9": "Victoria",
-                "10": "Victoria",
-                "11": "Victoria"
+                "3": "Victoria",
+                "4": "Victoria",
+                "5": "Victoria"
             },
             "Carriages": {
                 "0": "Single",
@@ -1022,13 +875,7 @@
                 "2": "Single",
                 "3": "Single",
                 "4": "Single",
-                "5": "Single",
-                "6": "Single",
-                "7": "Single",
-                "8": "Single",
-                "9": "Single",
-                "10": "Single",
-                "11": "Single"
+                "5": "Single"
             },
             "Status": {
                 "0": "Due",
@@ -1036,27 +883,15 @@
                 "2": "Due",
                 "3": "Due",
                 "4": "Due",
-                "5": "Due",
-                "6": "Due",
-                "7": "Due",
-                "8": "Due",
-                "9": "Due",
-                "10": "Due",
-                "11": "Due"
+                "5": "Due"
             },
             "Wait": {
                 "0": 8,
-                "1": 8,
-                "2": 18,
-                "3": 18,
-                "4": 30,
-                "5": 30,
-                "6": 6,
-                "7": 6,
-                "8": 19,
-                "9": 19,
-                "10": 20,
-                "11": 20
+                "1": 18,
+                "2": 30,
+                "3": 6,
+                "4": 19,
+                "5": 20
             },
             "Updated": {
                 "0": "2019-08-17 16:48:52",
@@ -1064,27 +899,15 @@
                 "2": "2019-08-17 16:48:52",
                 "3": "2019-08-17 16:48:52",
                 "4": "2019-08-17 16:48:52",
-                "5": "2019-08-17 16:48:52",
-                "6": "2019-08-17 16:48:52",
-                "7": "2019-08-17 16:48:52",
-                "8": "2019-08-17 16:48:52",
-                "9": "2019-08-17 16:48:52",
-                "10": "2019-08-17 16:48:52",
-                "11": "2019-08-17 16:48:52"
+                "5": "2019-08-17 16:48:52"
             },
             "Due": {
                 "0": "2019-08-17 16:56:52",
-                "1": "2019-08-17 16:56:52",
-                "2": "2019-08-17 17:06:52",
-                "3": "2019-08-17 17:06:52",
-                "4": "2019-08-17 17:18:52",
-                "5": "2019-08-17 17:18:52",
-                "6": "2019-08-17 16:54:52",
-                "7": "2019-08-17 16:54:52",
-                "8": "2019-08-17 17:07:52",
-                "9": "2019-08-17 17:07:52",
-                "10": "2019-08-17 17:08:52",
-                "11": "2019-08-17 17:08:52"
+                "1": "2019-08-17 17:06:52",
+                "2": "2019-08-17 17:18:52",
+                "3": "2019-08-17 16:54:52",
+                "4": "2019-08-17 17:07:52",
+                "5": "2019-08-17 17:08:52"
             }
         }
     },
@@ -1098,13 +921,6 @@
             "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
         ],
         "Departures": {
-            "Id": {
-                "0": 719,
-                "1": 719,
-                "2": 719,
-                "3": 720,
-                "4": 720
-            },
             "Line": {
                 "0": "Airport",
                 "1": "Airport",
@@ -1187,13 +1003,6 @@
             "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
         ],
         "Departures": {
-            "Id": {
-                "0": 722,
-                "1": 722,
-                "2": 721,
-                "3": 721,
-                "4": 721
-            },
             "Line": {
                 "0": "Airport",
                 "1": "Airport",
@@ -1276,14 +1085,6 @@
             "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
         ],
         "Departures": {
-            "Id": {
-                "0": 723,
-                "1": 723,
-                "2": 723,
-                "3": 724,
-                "4": 724,
-                "5": 724
-            },
             "Line": {
                 "0": "Airport",
                 "1": "Airport",
@@ -1376,104 +1177,75 @@
             "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
         ],
         "Departures": {
-            "Id": {
-                "0": 727,
-                "1": 727,
-                "2": 727,
-                "3": 725,
-                "4": 726,
-                "5": 725,
-                "6": 726
-            },
             "Line": {
                 "0": "Airport",
                 "1": "Airport",
                 "2": "Airport",
                 "3": "Airport",
-                "4": "Airport",
-                "5": "Airport",
-                "6": "Airport"
+                "4": "Airport"
             },
             "TLAREF": {
                 "0": "WYC",
                 "1": "WYC",
                 "2": "WYC",
                 "3": "WYC",
-                "4": "WYC",
-                "5": "WYC",
-                "6": "WYC"
+                "4": "WYC"
             },
             "Direction": {
                 "0": "Outgoing",
                 "1": "Outgoing",
                 "2": "Outgoing",
                 "3": "Incoming",
-                "4": "Incoming",
-                "5": "Incoming",
-                "6": "Incoming"
+                "4": "Incoming"
             },
             "MessageBoard": {
                 "0": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
                 "1": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
                 "2": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
                 "3": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
-                "4": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
-                "5": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused.",
-                "6": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
+                "4": "Due to a medical emergency at Victoria we are currently experiencing minor delays to Airport Services. Metrolink apologises for any inconvenience caused."
             },
             "Dest": {
                 "0": "Manchester Airport",
                 "1": "Manchester Airport",
                 "2": "Manchester Airport",
                 "3": "Victoria",
-                "4": "Victoria",
-                "5": "Victoria",
-                "6": "Victoria"
+                "4": "Victoria"
             },
             "Carriages": {
                 "0": "Single",
                 "1": "Single",
                 "2": "Single",
                 "3": "Single",
-                "4": "Single",
-                "5": "Single",
-                "6": "Single"
+                "4": "Single"
             },
             "Status": {
                 "0": "Due",
                 "1": "Due",
                 "2": "Due",
                 "3": "Due",
-                "4": "Due",
-                "5": "Due",
-                "6": "Due"
+                "4": "Due"
             },
             "Wait": {
                 "0": 5,
                 "1": 16,
                 "2": 26,
                 "3": 11,
-                "4": 11,
-                "5": 21,
-                "6": 21
+                "4": 21
             },
             "Updated": {
                 "0": "2019-08-17 16:48:52",
                 "1": "2019-08-17 16:48:52",
                 "2": "2019-08-17 16:48:52",
                 "3": "2019-08-17 16:48:52",
-                "4": "2019-08-17 16:48:52",
-                "5": "2019-08-17 16:48:52",
-                "6": "2019-08-17 16:48:52"
+                "4": "2019-08-17 16:48:52"
             },
             "Due": {
                 "0": "2019-08-17 16:53:52",
                 "1": "2019-08-17 17:04:52",
                 "2": "2019-08-17 17:14:52",
                 "3": "2019-08-17 16:59:52",
-                "4": "2019-08-17 16:59:52",
-                "5": "2019-08-17 17:09:52",
-                "6": "2019-08-17 17:09:52"
+                "4": "2019-08-17 17:09:52"
             }
         }
     },
@@ -1487,93 +1259,55 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 728,
-                "1": 729,
-                "2": 728,
-                "3": 729,
-                "4": 728,
-                "5": 729
-            },
             "Line": {
                 "0": "Altrincham",
                 "1": "Altrincham",
-                "2": "Altrincham",
-                "3": "Altrincham",
-                "4": "Altrincham",
-                "5": "Altrincham"
+                "2": "Altrincham"
             },
             "TLAREF": {
                 "0": "ALT",
                 "1": "ALT",
-                "2": "ALT",
-                "3": "ALT",
-                "4": "ALT",
-                "5": "ALT"
+                "2": "ALT"
             },
             "Direction": {
                 "0": "Incoming",
                 "1": "Incoming",
-                "2": "Incoming",
-                "3": "Incoming",
-                "4": "Incoming",
-                "5": "Incoming"
+                "2": "Incoming"
             },
             "MessageBoard": {
                 "0": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "1": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "2": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "3": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "4": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "5": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
+                "2": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
             },
             "Dest": {
                 "0": "Bury",
                 "1": "Bury",
-                "2": "Bury",
-                "3": "Bury",
-                "4": "Piccadilly",
-                "5": "Piccadilly"
+                "2": "Piccadilly"
             },
             "Carriages": {
                 "0": "Double",
                 "1": "Double",
-                "2": "Double",
-                "3": "Double",
-                "4": "Double",
-                "5": "Double"
+                "2": "Double"
             },
             "Status": {
                 "0": "Due",
                 "1": "Due",
-                "2": "Due",
-                "3": "Due",
-                "4": "Due",
-                "5": "Due"
+                "2": "Due"
             },
             "Wait": {
                 "0": 6,
-                "1": 6,
-                "2": 18,
-                "3": 18,
-                "4": 12,
-                "5": 12
+                "1": 18,
+                "2": 12
             },
             "Updated": {
                 "0": "2019-08-17 16:48:52",
                 "1": "2019-08-17 16:48:52",
-                "2": "2019-08-17 16:48:52",
-                "3": "2019-08-17 16:48:52",
-                "4": "2019-08-17 16:48:52",
-                "5": "2019-08-17 16:48:52"
+                "2": "2019-08-17 16:48:52"
             },
             "Due": {
                 "0": "2019-08-17 16:54:52",
-                "1": "2019-08-17 16:54:52",
-                "2": "2019-08-17 17:06:52",
-                "3": "2019-08-17 17:06:52",
-                "4": "2019-08-17 17:00:52",
-                "5": "2019-08-17 17:00:52"
+                "1": "2019-08-17 17:06:52",
+                "2": "2019-08-17 17:00:52"
             }
         }
     },
@@ -1587,14 +1321,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 731,
-                "1": 731,
-                "2": 731,
-                "3": 730,
-                "4": 730,
-                "5": 730
-            },
             "Line": {
                 "0": "Altrincham",
                 "1": "Altrincham",
@@ -1687,14 +1413,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 733,
-                "1": 733,
-                "2": 733,
-                "3": 732,
-                "4": 732,
-                "5": 732
-            },
             "Line": {
                 "0": "Altrincham",
                 "1": "Altrincham",
@@ -1787,16 +1505,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 734,
-                "1": 736,
-                "2": 736,
-                "3": 734,
-                "4": 734,
-                "5": 735,
-                "6": 735,
-                "7": 735
-            },
             "Line": {
                 "0": "Altrincham",
                 "1": "Altrincham",
@@ -1910,14 +1618,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 738,
-                "1": 738,
-                "2": 738,
-                "3": 737,
-                "4": 737,
-                "5": 737
-            },
             "Line": {
                 "0": "Altrincham",
                 "1": "Altrincham",
@@ -2010,14 +1710,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 739,
-                "1": 739,
-                "2": 739,
-                "3": 740,
-                "4": 740,
-                "5": 740
-            },
             "Line": {
                 "0": "Altrincham",
                 "1": "Altrincham",
@@ -2110,14 +1802,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 742,
-                "1": 742,
-                "2": 742,
-                "3": 741,
-                "4": 741,
-                "5": 741
-            },
             "Line": {
                 "0": "Altrincham",
                 "1": "Altrincham",
@@ -2210,14 +1894,6 @@
             "Due to a track fault at Victoria there are no services to Manchester Airport from this stop. Customers waiting to board an Airport service should change at St Peters Square."
         ],
         "Departures": {
-            "Id": {
-                "0": 743,
-                "1": 744,
-                "2": 743,
-                "3": 743,
-                "4": 744,
-                "5": 744
-            },
             "Line": {
                 "0": "Altrincham",
                 "1": "Altrincham",
@@ -2310,14 +1986,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 746,
-                "1": 746,
-                "2": 746,
-                "3": 745,
-                "4": 745,
-                "5": 745
-            },
             "Line": {
                 "0": "Altrincham",
                 "1": "Altrincham",
@@ -2410,14 +2078,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 748,
-                "1": 747,
-                "2": 748,
-                "3": 748,
-                "4": 747,
-                "5": 747
-            },
             "Line": {
                 "0": "Altrincham",
                 "1": "Altrincham",
@@ -2510,14 +2170,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 750,
-                "1": 750,
-                "2": 750,
-                "3": 749,
-                "4": 749,
-                "5": 749
-            },
             "Line": {
                 "0": "Altrincham",
                 "1": "Altrincham",
@@ -2610,17 +2262,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 751,
-                "1": 751,
-                "2": 754,
-                "3": 751,
-                "4": 752,
-                "5": 754,
-                "6": 752,
-                "7": 752,
-                "8": 754
-            },
             "Line": {
                 "0": "Altrincham",
                 "1": "Altrincham",
@@ -2743,14 +2384,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 755,
-                "1": 755,
-                "2": 755,
-                "3": 756,
-                "4": 756,
-                "5": 756
-            },
             "Line": {
                 "0": "Bury",
                 "1": "Bury",
@@ -2843,14 +2476,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 757,
-                "1": 757,
-                "2": 757,
-                "3": 758,
-                "4": 758,
-                "5": 758
-            },
             "Line": {
                 "0": "Bury",
                 "1": "Bury",
@@ -2943,14 +2568,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 759,
-                "1": 759,
-                "2": 759,
-                "3": 760,
-                "4": 760,
-                "5": 760
-            },
             "Line": {
                 "0": "Bury",
                 "1": "Bury",
@@ -3043,11 +2660,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 761,
-                "1": 761,
-                "2": 761
-            },
             "Line": {
                 "0": "Bury",
                 "1": "Bury",
@@ -3110,14 +2722,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 763,
-                "1": 763,
-                "2": 763,
-                "3": 764,
-                "4": 764,
-                "5": 764
-            },
             "Line": {
                 "0": "Bury",
                 "1": "Bury",
@@ -3210,14 +2814,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 766,
-                "1": 766,
-                "2": 766,
-                "3": 765,
-                "4": 765,
-                "5": 765
-            },
             "Line": {
                 "0": "Bury",
                 "1": "Bury",
@@ -3311,14 +2907,6 @@
             "Due to a track fault at Victoria there are no services to Manchester Airport from this stop. Customers waiting to board an Airport service should change at St Peters Square."
         ],
         "Departures": {
-            "Id": {
-                "0": 768,
-                "1": 767,
-                "2": 767,
-                "3": 768,
-                "4": 768,
-                "5": 767
-            },
             "Line": {
                 "0": "Bury",
                 "1": "Bury",
@@ -3412,33 +3000,13 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 769,
-                "1": 772,
-                "2": 770,
-                "3": 771,
-                "4": 769,
-                "5": 772,
-                "6": 769,
-                "7": 772,
-                "8": 770,
-                "9": 771,
-                "10": 770,
-                "11": 771
-            },
             "Line": {
                 "0": "Bury",
                 "1": "Bury",
                 "2": "Bury",
                 "3": "Bury",
                 "4": "Bury",
-                "5": "Bury",
-                "6": "Bury",
-                "7": "Bury",
-                "8": "Bury",
-                "9": "Bury",
-                "10": "Bury",
-                "11": "Bury"
+                "5": "Bury"
             },
             "TLAREF": {
                 "0": "PCG",
@@ -3446,97 +3014,55 @@
                 "2": "PCG",
                 "3": "PCG",
                 "4": "PCG",
-                "5": "PCG",
-                "6": "PCG",
-                "7": "PCG",
-                "8": "PCG",
-                "9": "PCG",
-                "10": "PCG",
-                "11": "PCG"
+                "5": "PCG"
             },
             "Direction": {
                 "0": "Incoming",
-                "1": "Incoming",
-                "2": "Outgoing",
-                "3": "Outgoing",
-                "4": "Incoming",
-                "5": "Incoming",
-                "6": "Incoming",
-                "7": "Incoming",
-                "8": "Outgoing",
-                "9": "Outgoing",
-                "10": "Outgoing",
-                "11": "Outgoing"
+                "1": "Outgoing",
+                "2": "Incoming",
+                "3": "Incoming",
+                "4": "Outgoing",
+                "5": "Outgoing"
             },
             "MessageBoard": {
                 "0": "^F0Next Altrincham Departures:^F0Altrincham (Market St)^J^F0dbl 5 min^F0Altrincham (Picc Gdns)^J^F011 min",
-                "1": "^F0Next Altrincham Departures:^F0Altrincham (Market St)^J^F0dbl 5 min^F0Altrincham (Picc Gdns)^J^F011 min",
-                "2": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "3": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "4": "^F0Next Altrincham Departures:^F0Altrincham (Market St)^J^F0dbl 5 min^F0Altrincham (Picc Gdns)^J^F011 min",
-                "5": "^F0Next Altrincham Departures:^F0Altrincham (Market St)^J^F0dbl 5 min^F0Altrincham (Picc Gdns)^J^F011 min",
-                "6": "^F0Next Altrincham Departures:^F0Altrincham (Market St)^J^F0dbl 5 min^F0Altrincham (Picc Gdns)^J^F011 min",
-                "7": "^F0Next Altrincham Departures:^F0Altrincham (Market St)^J^F0dbl 5 min^F0Altrincham (Picc Gdns)^J^F011 min",
-                "8": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "9": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "10": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "11": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
+                "1": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
+                "2": "^F0Next Altrincham Departures:^F0Altrincham (Market St)^J^F0dbl 5 min^F0Altrincham (Picc Gdns)^J^F011 min",
+                "3": "^F0Next Altrincham Departures:^F0Altrincham (Market St)^J^F0dbl 5 min^F0Altrincham (Picc Gdns)^J^F011 min",
+                "4": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
+                "5": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
             },
             "Dest": {
                 "0": "Altrincham",
-                "1": "Altrincham",
-                "2": "Ashton-under-Lyne",
-                "3": "Ashton-under-Lyne",
-                "4": "Bury",
-                "5": "Bury",
-                "6": "Deansgate Castlefield",
-                "7": "Deansgate Castlefield",
-                "8": "Piccadilly",
-                "9": "Piccadilly",
-                "10": "Piccadilly",
-                "11": "Piccadilly"
+                "1": "Ashton-under-Lyne",
+                "2": "Bury",
+                "3": "Deansgate Castlefield",
+                "4": "Piccadilly",
+                "5": "Piccadilly"
             },
             "Carriages": {
                 "0": "Single",
-                "1": "Single",
-                "2": "Double",
-                "3": "Double",
-                "4": "Single",
-                "5": "Single",
-                "6": "Single",
-                "7": "Single",
-                "8": "Double",
-                "9": "Double",
-                "10": "Single",
-                "11": "Single"
+                "1": "Double",
+                "2": "Single",
+                "3": "Single",
+                "4": "Double",
+                "5": "Single"
             },
             "Status": {
                 "0": "Due",
                 "1": "Due",
                 "2": "Due",
-                "3": "Due",
-                "4": "Due",
-                "5": "Due",
-                "6": "Departing",
-                "7": "Departing",
-                "8": "Arrived",
-                "9": "Arrived",
-                "10": "Due",
-                "11": "Due"
+                "3": "Departing",
+                "4": "Arrived",
+                "5": "Due"
             },
             "Wait": {
                 "0": 11,
-                "1": 11,
-                "2": 5,
-                "3": 5,
-                "4": 6,
-                "5": 6,
-                "6": 0,
-                "7": 0,
-                "8": 0,
-                "9": 0,
-                "10": 6,
-                "11": 6
+                "1": 5,
+                "2": 6,
+                "3": 0,
+                "4": 0,
+                "5": 6
             },
             "Updated": {
                 "0": "2019-08-17 16:48:52",
@@ -3544,27 +3070,15 @@
                 "2": "2019-08-17 16:48:52",
                 "3": "2019-08-17 16:48:52",
                 "4": "2019-08-17 16:48:52",
-                "5": "2019-08-17 16:48:52",
-                "6": "2019-08-17 16:48:52",
-                "7": "2019-08-17 16:48:52",
-                "8": "2019-08-17 16:48:52",
-                "9": "2019-08-17 16:48:52",
-                "10": "2019-08-17 16:48:52",
-                "11": "2019-08-17 16:48:52"
+                "5": "2019-08-17 16:48:52"
             },
             "Due": {
                 "0": "2019-08-17 16:59:52",
-                "1": "2019-08-17 16:59:52",
-                "2": "2019-08-17 16:53:52",
-                "3": "2019-08-17 16:53:52",
-                "4": "2019-08-17 16:54:52",
-                "5": "2019-08-17 16:54:52",
-                "6": "2019-08-17 16:48:52",
-                "7": "2019-08-17 16:48:52",
-                "8": "2019-08-17 16:48:52",
-                "9": "2019-08-17 16:48:52",
-                "10": "2019-08-17 16:54:52",
-                "11": "2019-08-17 16:54:52"
+                "1": "2019-08-17 16:53:52",
+                "2": "2019-08-17 16:54:52",
+                "3": "2019-08-17 16:48:52",
+                "4": "2019-08-17 16:48:52",
+                "5": "2019-08-17 16:54:52"
             }
         }
     },
@@ -3578,14 +3092,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 774,
-                "1": 773,
-                "2": 773,
-                "3": 773,
-                "4": 774,
-                "5": 774
-            },
             "Line": {
                 "0": "Bury",
                 "1": "Bury",
@@ -3678,14 +3184,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 775,
-                "1": 775,
-                "2": 775,
-                "3": 776,
-                "4": 776,
-                "5": 776
-            },
             "Line": {
                 "0": "Bury",
                 "1": "Bury",
@@ -3778,14 +3276,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 777,
-                "1": 777,
-                "2": 777,
-                "3": 778,
-                "4": 778,
-                "5": 778
-            },
             "Line": {
                 "0": "Bury",
                 "1": "Bury",
@@ -3878,14 +3368,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 780,
-                "1": 780,
-                "2": 780,
-                "3": 779,
-                "4": 779,
-                "5": 779
-            },
             "Line": {
                 "0": "Bury",
                 "1": "Bury",
@@ -3978,14 +3460,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 781,
-                "1": 781,
-                "2": 781,
-                "3": 782,
-                "4": 782,
-                "5": 782
-            },
             "Line": {
                 "0": "Bury",
                 "1": "Bury",
@@ -4078,115 +3552,75 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 783,
-                "1": 784,
-                "2": 785,
-                "3": 786,
-                "4": 785,
-                "5": 786,
-                "6": 785,
-                "7": 786
-            },
             "Line": {
                 "0": "East Manchester",
                 "1": "East Manchester",
                 "2": "East Manchester",
                 "3": "East Manchester",
-                "4": "East Manchester",
-                "5": "East Manchester",
-                "6": "East Manchester",
-                "7": "East Manchester"
+                "4": "East Manchester"
             },
             "TLAREF": {
                 "0": "ASH",
                 "1": "ASH",
                 "2": "ASH",
                 "3": "ASH",
-                "4": "ASH",
-                "5": "ASH",
-                "6": "ASH",
-                "7": "ASH"
+                "4": "ASH"
             },
             "Direction": {
                 "0": "Outgoing",
                 "1": "Incoming",
                 "2": "Incoming",
                 "3": "Incoming",
-                "4": "Incoming",
-                "5": "Incoming",
-                "6": "Incoming",
-                "7": "Incoming"
+                "4": "Incoming"
             },
             "MessageBoard": {
                 "0": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "1": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "2": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "3": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "4": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "5": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "6": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "7": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
+                "4": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
             },
             "Dest": {
                 "0": "Bury",
                 "1": "Bury",
                 "2": "Bury",
-                "3": "Bury",
-                "4": "Deansgate Castlefield",
-                "5": "Deansgate Castlefield",
-                "6": "Deansgate Castlefield",
-                "7": "Deansgate Castlefield"
+                "3": "Deansgate Castlefield",
+                "4": "Deansgate Castlefield"
             },
             "Carriages": {
                 "0": "Double",
                 "1": "Double",
                 "2": "Single",
-                "3": "Single",
-                "4": "Double",
-                "5": "Double",
-                "6": "Double",
-                "7": "Double"
+                "3": "Double",
+                "4": "Double"
             },
             "Status": {
                 "0": "Due",
                 "1": "Due",
                 "2": "Due",
                 "3": "Due",
-                "4": "Due",
-                "5": "Due",
-                "6": "Due",
-                "7": "Due"
+                "4": "Due"
             },
             "Wait": {
                 "0": 7,
                 "1": 7,
                 "2": 19,
-                "3": 19,
-                "4": 1,
-                "5": 1,
-                "6": 13,
-                "7": 13
+                "3": 1,
+                "4": 13
             },
             "Updated": {
                 "0": "2019-08-17 16:48:52",
                 "1": "2019-08-17 16:48:52",
                 "2": "2019-08-17 16:48:52",
                 "3": "2019-08-17 16:48:52",
-                "4": "2019-08-17 16:48:52",
-                "5": "2019-08-17 16:48:52",
-                "6": "2019-08-17 16:48:52",
-                "7": "2019-08-17 16:48:52"
+                "4": "2019-08-17 16:48:52"
             },
             "Due": {
                 "0": "2019-08-17 16:55:52",
                 "1": "2019-08-17 16:55:52",
                 "2": "2019-08-17 17:07:52",
-                "3": "2019-08-17 17:07:52",
-                "4": "2019-08-17 16:49:52",
-                "5": "2019-08-17 16:49:52",
-                "6": "2019-08-17 17:01:52",
-                "7": "2019-08-17 17:01:52"
+                "3": "2019-08-17 16:49:52",
+                "4": "2019-08-17 17:01:52"
             }
         }
     },
@@ -4200,14 +3634,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 787,
-                "1": 787,
-                "2": 787,
-                "3": 788,
-                "4": 788,
-                "5": 788
-            },
             "Line": {
                 "0": "East Manchester",
                 "1": "East Manchester",
@@ -4300,14 +3726,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 789,
-                "1": 789,
-                "2": 789,
-                "3": 790,
-                "4": 790,
-                "5": 790
-            },
             "Line": {
                 "0": "East Manchester",
                 "1": "East Manchester",
@@ -4400,14 +3818,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 791,
-                "1": 791,
-                "2": 791,
-                "3": 792,
-                "4": 792,
-                "5": 792
-            },
             "Line": {
                 "0": "East Manchester",
                 "1": "East Manchester",
@@ -4500,14 +3910,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 793,
-                "1": 793,
-                "2": 793,
-                "3": 794,
-                "4": 794,
-                "5": 794
-            },
             "Line": {
                 "0": "East Manchester",
                 "1": "East Manchester",
@@ -4600,27 +4002,13 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 795,
-                "1": 795,
-                "2": 795,
-                "3": 796,
-                "4": 797,
-                "5": 796,
-                "6": 797,
-                "7": 796,
-                "8": 797
-            },
             "Line": {
                 "0": "East Manchester",
                 "1": "East Manchester",
                 "2": "East Manchester",
                 "3": "East Manchester",
                 "4": "East Manchester",
-                "5": "East Manchester",
-                "6": "East Manchester",
-                "7": "East Manchester",
-                "8": "East Manchester"
+                "5": "East Manchester"
             },
             "TLAREF": {
                 "0": "CLA",
@@ -4628,10 +4016,7 @@
                 "2": "CLA",
                 "3": "CLA",
                 "4": "CLA",
-                "5": "CLA",
-                "6": "CLA",
-                "7": "CLA",
-                "8": "CLA"
+                "5": "CLA"
             },
             "Direction": {
                 "0": "Outgoing",
@@ -4639,10 +4024,7 @@
                 "2": "Outgoing",
                 "3": "Incoming",
                 "4": "Incoming",
-                "5": "Incoming",
-                "6": "Incoming",
-                "7": "Incoming",
-                "8": "Incoming"
+                "5": "Incoming"
             },
             "MessageBoard": {
                 "0": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
@@ -4650,10 +4032,7 @@
                 "2": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "3": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "4": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "5": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "6": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "7": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "8": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
+                "5": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
             },
             "Dest": {
                 "0": "Ashton-under-Lyne",
@@ -4661,10 +4040,7 @@
                 "2": "Ashton-under-Lyne",
                 "3": "Bury",
                 "4": "Bury",
-                "5": "Bury",
-                "6": "Bury",
-                "7": "Deansgate Castlefield",
-                "8": "Deansgate Castlefield"
+                "5": "Deansgate Castlefield"
             },
             "Carriages": {
                 "0": "Double",
@@ -4672,10 +4048,7 @@
                 "2": "Double",
                 "3": "Double",
                 "4": "Double",
-                "5": "Double",
-                "6": "Double",
-                "7": "Double",
-                "8": "Double"
+                "5": "Double"
             },
             "Status": {
                 "0": "Due",
@@ -4683,21 +4056,15 @@
                 "2": "Due",
                 "3": "Due",
                 "4": "Due",
-                "5": "Due",
-                "6": "Due",
-                "7": "Due",
-                "8": "Due"
+                "5": "Due"
             },
             "Wait": {
                 "0": 4,
                 "1": 8,
                 "2": 14,
                 "3": 1,
-                "4": 1,
-                "5": 14,
-                "6": 14,
-                "7": 4,
-                "8": 4
+                "4": 14,
+                "5": 4
             },
             "Updated": {
                 "0": "2019-08-17 16:48:52",
@@ -4705,21 +4072,15 @@
                 "2": "2019-08-17 16:48:52",
                 "3": "2019-08-17 16:48:52",
                 "4": "2019-08-17 16:48:52",
-                "5": "2019-08-17 16:48:52",
-                "6": "2019-08-17 16:48:52",
-                "7": "2019-08-17 16:48:52",
-                "8": "2019-08-17 16:48:52"
+                "5": "2019-08-17 16:48:52"
             },
             "Due": {
                 "0": "2019-08-17 16:52:52",
                 "1": "2019-08-17 16:56:52",
                 "2": "2019-08-17 17:02:52",
                 "3": "2019-08-17 16:49:52",
-                "4": "2019-08-17 16:49:52",
-                "5": "2019-08-17 17:02:52",
-                "6": "2019-08-17 17:02:52",
-                "7": "2019-08-17 16:52:52",
-                "8": "2019-08-17 16:52:52"
+                "4": "2019-08-17 17:02:52",
+                "5": "2019-08-17 16:52:52"
             }
         }
     },
@@ -4733,14 +4094,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 798,
-                "1": 798,
-                "2": 798,
-                "3": 799,
-                "4": 799,
-                "5": 799
-            },
             "Line": {
                 "0": "East Manchester",
                 "1": "East Manchester",
@@ -4833,20 +4186,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 800,
-                "1": 803,
-                "2": 800,
-                "3": 803,
-                "4": 800,
-                "5": 803,
-                "6": 801,
-                "7": 802,
-                "8": 801,
-                "9": 802,
-                "10": 801,
-                "11": 802
-            },
             "Line": {
                 "0": "East Manchester",
                 "1": "East Manchester",
@@ -4855,11 +4194,7 @@
                 "4": "East Manchester",
                 "5": "East Manchester",
                 "6": "East Manchester",
-                "7": "East Manchester",
-                "8": "East Manchester",
-                "9": "East Manchester",
-                "10": "East Manchester",
-                "11": "East Manchester"
+                "7": "East Manchester"
             },
             "TLAREF": {
                 "0": "EDL",
@@ -4869,25 +4204,17 @@
                 "4": "EDL",
                 "5": "EDL",
                 "6": "EDL",
-                "7": "EDL",
-                "8": "EDL",
-                "9": "EDL",
-                "10": "EDL",
-                "11": "EDL"
+                "7": "EDL"
             },
             "Direction": {
                 "0": "Outgoing",
                 "1": "Outgoing",
                 "2": "Outgoing",
-                "3": "Outgoing",
-                "4": "Outgoing",
-                "5": "Outgoing",
+                "3": "Incoming",
+                "4": "Incoming",
+                "5": "Incoming",
                 "6": "Incoming",
-                "7": "Incoming",
-                "8": "Incoming",
-                "9": "Incoming",
-                "10": "Incoming",
-                "11": "Incoming"
+                "7": "Incoming"
             },
             "MessageBoard": {
                 "0": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
@@ -4897,25 +4224,17 @@
                 "4": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "5": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "6": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "7": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "8": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "9": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "10": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "11": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
+                "7": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
             },
             "Dest": {
                 "0": "Ashton-under-Lyne",
                 "1": "Ashton-under-Lyne",
                 "2": "Ashton-under-Lyne",
-                "3": "Ashton-under-Lyne",
-                "4": "Ashton-under-Lyne",
-                "5": "Ashton-under-Lyne",
-                "6": "Bury",
-                "7": "Bury",
-                "8": "Deansgate Castlefield",
-                "9": "Deansgate Castlefield",
-                "10": "Deansgate Castlefield",
-                "11": "Deansgate Castlefield"
+                "3": "Bury",
+                "4": "Deansgate Castlefield",
+                "5": "Deansgate Castlefield",
+                "6": "Deansgate Castlefield",
+                "7": "Deansgate Castlefield"
             },
             "Carriages": {
                 "0": "Double",
@@ -4925,39 +4244,27 @@
                 "4": "Double",
                 "5": "Double",
                 "6": "Double",
-                "7": "Double",
-                "8": "Double",
-                "9": "Double",
-                "10": "Double",
-                "11": "Double"
+                "7": "Double"
             },
             "Status": {
                 "0": "Arrived",
-                "1": "Arrived",
+                "1": "Due",
                 "2": "Due",
                 "3": "Due",
                 "4": "Due",
                 "5": "Due",
                 "6": "Due",
-                "7": "Due",
-                "8": "Due",
-                "9": "Due",
-                "10": "Due",
-                "11": "Due"
+                "7": "Due"
             },
             "Wait": {
                 "0": 0,
-                "1": 0,
-                "2": 6,
-                "3": 6,
-                "4": 11,
-                "5": 11,
-                "6": 12,
-                "7": 12,
-                "8": 2,
-                "9": 3,
-                "10": 14,
-                "11": 15
+                "1": 6,
+                "2": 11,
+                "3": 12,
+                "4": 2,
+                "5": 3,
+                "6": 14,
+                "7": 15
             },
             "Updated": {
                 "0": "2019-08-17 16:48:52",
@@ -4967,25 +4274,17 @@
                 "4": "2019-08-17 16:48:52",
                 "5": "2019-08-17 16:48:52",
                 "6": "2019-08-17 16:48:52",
-                "7": "2019-08-17 16:48:52",
-                "8": "2019-08-17 16:48:52",
-                "9": "2019-08-17 16:48:52",
-                "10": "2019-08-17 16:48:52",
-                "11": "2019-08-17 16:48:52"
+                "7": "2019-08-17 16:48:52"
             },
             "Due": {
                 "0": "2019-08-17 16:48:52",
-                "1": "2019-08-17 16:48:52",
-                "2": "2019-08-17 16:54:52",
-                "3": "2019-08-17 16:54:52",
-                "4": "2019-08-17 16:59:52",
-                "5": "2019-08-17 16:59:52",
-                "6": "2019-08-17 17:00:52",
-                "7": "2019-08-17 17:00:52",
-                "8": "2019-08-17 16:50:52",
-                "9": "2019-08-17 16:51:52",
-                "10": "2019-08-17 17:02:52",
-                "11": "2019-08-17 17:03:52"
+                "1": "2019-08-17 16:54:52",
+                "2": "2019-08-17 16:59:52",
+                "3": "2019-08-17 17:00:52",
+                "4": "2019-08-17 16:50:52",
+                "5": "2019-08-17 16:51:52",
+                "6": "2019-08-17 17:02:52",
+                "7": "2019-08-17 17:03:52"
             }
         }
     },
@@ -4999,14 +4298,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 804,
-                "1": 804,
-                "2": 804,
-                "3": 805,
-                "4": 805,
-                "5": 805
-            },
             "Line": {
                 "0": "East Manchester",
                 "1": "East Manchester",
@@ -5099,14 +4390,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 806,
-                "1": 806,
-                "2": 806,
-                "3": 807,
-                "4": 807,
-                "5": 807
-            },
             "Line": {
                 "0": "East Manchester",
                 "1": "East Manchester",
@@ -5199,33 +4482,13 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 810,
-                "1": 811,
-                "2": 810,
-                "3": 811,
-                "4": 810,
-                "5": 811,
-                "6": 808,
-                "7": 809,
-                "8": 808,
-                "9": 809,
-                "10": 808,
-                "11": 809
-            },
             "Line": {
                 "0": "East Manchester",
                 "1": "East Manchester",
                 "2": "East Manchester",
                 "3": "East Manchester",
                 "4": "East Manchester",
-                "5": "East Manchester",
-                "6": "East Manchester",
-                "7": "East Manchester",
-                "8": "East Manchester",
-                "9": "East Manchester",
-                "10": "East Manchester",
-                "11": "East Manchester"
+                "5": "East Manchester"
             },
             "TLAREF": {
                 "0": "SPC",
@@ -5233,27 +4496,15 @@
                 "2": "SPC",
                 "3": "SPC",
                 "4": "SPC",
-                "5": "SPC",
-                "6": "SPC",
-                "7": "SPC",
-                "8": "SPC",
-                "9": "SPC",
-                "10": "SPC",
-                "11": "SPC"
+                "5": "SPC"
             },
             "Direction": {
                 "0": "Outgoing",
                 "1": "Outgoing",
                 "2": "Outgoing",
-                "3": "Outgoing",
-                "4": "Outgoing",
-                "5": "Outgoing",
-                "6": "Incoming",
-                "7": "Incoming",
-                "8": "Incoming",
-                "9": "Incoming",
-                "10": "Incoming",
-                "11": "Incoming"
+                "3": "Incoming",
+                "4": "Incoming",
+                "5": "Incoming"
             },
             "MessageBoard": {
                 "0": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
@@ -5261,27 +4512,15 @@
                 "2": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "3": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "4": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "5": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "6": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "7": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "8": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "9": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "10": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "11": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
+                "5": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
             },
             "Dest": {
                 "0": "Ashton-under-Lyne",
                 "1": "Ashton-under-Lyne",
                 "2": "Ashton-under-Lyne",
-                "3": "Ashton-under-Lyne",
-                "4": "Ashton-under-Lyne",
-                "5": "Ashton-under-Lyne",
-                "6": "Bury",
-                "7": "Bury",
-                "8": "Deansgate Castlefield",
-                "9": "Deansgate Castlefield",
-                "10": "Deansgate Castlefield",
-                "11": "Deansgate Castlefield"
+                "3": "Bury",
+                "4": "Deansgate Castlefield",
+                "5": "Deansgate Castlefield"
             },
             "Carriages": {
                 "0": "Double",
@@ -5289,13 +4528,7 @@
                 "2": "Double",
                 "3": "Double",
                 "4": "Double",
-                "5": "Double",
-                "6": "Double",
-                "7": "Double",
-                "8": "Double",
-                "9": "Double",
-                "10": "Double",
-                "11": "Double"
+                "5": "Double"
             },
             "Status": {
                 "0": "Due",
@@ -5303,27 +4536,15 @@
                 "2": "Due",
                 "3": "Due",
                 "4": "Due",
-                "5": "Due",
-                "6": "Due",
-                "7": "Due",
-                "8": "Due",
-                "9": "Due",
-                "10": "Due",
-                "11": "Due"
+                "5": "Due"
             },
             "Wait": {
                 "0": 3,
-                "1": 3,
-                "2": 9,
-                "3": 9,
-                "4": 14,
-                "5": 14,
-                "6": 6,
-                "7": 6,
-                "8": 3,
-                "9": 3,
-                "10": 9,
-                "11": 9
+                "1": 9,
+                "2": 14,
+                "3": 6,
+                "4": 3,
+                "5": 9
             },
             "Updated": {
                 "0": "2019-08-17 16:48:52",
@@ -5331,27 +4552,15 @@
                 "2": "2019-08-17 16:48:52",
                 "3": "2019-08-17 16:48:52",
                 "4": "2019-08-17 16:48:52",
-                "5": "2019-08-17 16:48:52",
-                "6": "2019-08-17 16:48:52",
-                "7": "2019-08-17 16:48:52",
-                "8": "2019-08-17 16:48:52",
-                "9": "2019-08-17 16:48:52",
-                "10": "2019-08-17 16:48:52",
-                "11": "2019-08-17 16:48:52"
+                "5": "2019-08-17 16:48:52"
             },
             "Due": {
                 "0": "2019-08-17 16:51:52",
-                "1": "2019-08-17 16:51:52",
-                "2": "2019-08-17 16:57:52",
-                "3": "2019-08-17 16:57:52",
-                "4": "2019-08-17 17:02:52",
-                "5": "2019-08-17 17:02:52",
-                "6": "2019-08-17 16:54:52",
-                "7": "2019-08-17 16:54:52",
-                "8": "2019-08-17 16:51:52",
-                "9": "2019-08-17 16:51:52",
-                "10": "2019-08-17 16:57:52",
-                "11": "2019-08-17 16:57:52"
+                "1": "2019-08-17 16:57:52",
+                "2": "2019-08-17 17:02:52",
+                "3": "2019-08-17 16:54:52",
+                "4": "2019-08-17 16:51:52",
+                "5": "2019-08-17 16:57:52"
             }
         }
     },
@@ -5365,27 +4574,13 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 812,
-                "1": 812,
-                "2": 812,
-                "3": 813,
-                "4": 814,
-                "5": 813,
-                "6": 814,
-                "7": 813,
-                "8": 814
-            },
             "Line": {
                 "0": "East Manchester",
                 "1": "East Manchester",
                 "2": "East Manchester",
                 "3": "East Manchester",
                 "4": "East Manchester",
-                "5": "East Manchester",
-                "6": "East Manchester",
-                "7": "East Manchester",
-                "8": "East Manchester"
+                "5": "East Manchester"
             },
             "TLAREF": {
                 "0": "VEL",
@@ -5393,10 +4588,7 @@
                 "2": "VEL",
                 "3": "VEL",
                 "4": "VEL",
-                "5": "VEL",
-                "6": "VEL",
-                "7": "VEL",
-                "8": "VEL"
+                "5": "VEL"
             },
             "Direction": {
                 "0": "Outgoing",
@@ -5404,10 +4596,7 @@
                 "2": "Outgoing",
                 "3": "Incoming",
                 "4": "Incoming",
-                "5": "Incoming",
-                "6": "Incoming",
-                "7": "Incoming",
-                "8": "Incoming"
+                "5": "Incoming"
             },
             "MessageBoard": {
                 "0": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
@@ -5415,21 +4604,15 @@
                 "2": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "3": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "4": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "5": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "6": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "7": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "8": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
+                "5": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
             },
             "Dest": {
                 "0": "Ashton-under-Lyne",
                 "1": "Ashton-under-Lyne",
                 "2": "Ashton-under-Lyne",
                 "3": "Bury",
-                "4": "Bury",
-                "5": "Deansgate Castlefield",
-                "6": "Deansgate Castlefield",
-                "7": "Deansgate Castlefield",
-                "8": "Deansgate Castlefield"
+                "4": "Deansgate Castlefield",
+                "5": "Deansgate Castlefield"
             },
             "Carriages": {
                 "0": "Double",
@@ -5437,10 +4620,7 @@
                 "2": "Double",
                 "3": "Double",
                 "4": "Double",
-                "5": "Double",
-                "6": "Double",
-                "7": "Double",
-                "8": "Double"
+                "5": "Double"
             },
             "Status": {
                 "0": "Due",
@@ -5448,21 +4628,15 @@
                 "2": "Due",
                 "3": "Due",
                 "4": "Due",
-                "5": "Due",
-                "6": "Due",
-                "7": "Due",
-                "8": "Due"
+                "5": "Due"
             },
             "Wait": {
                 "0": 1,
                 "1": 5,
                 "2": 11,
                 "3": 4,
-                "4": 4,
-                "5": 1,
-                "6": 1,
-                "7": 7,
-                "8": 7
+                "4": 1,
+                "5": 7
             },
             "Updated": {
                 "0": "2019-08-17 16:48:52",
@@ -5470,21 +4644,15 @@
                 "2": "2019-08-17 16:48:52",
                 "3": "2019-08-17 16:48:52",
                 "4": "2019-08-17 16:48:52",
-                "5": "2019-08-17 16:48:52",
-                "6": "2019-08-17 16:48:52",
-                "7": "2019-08-17 16:48:52",
-                "8": "2019-08-17 16:48:52"
+                "5": "2019-08-17 16:48:52"
             },
             "Due": {
                 "0": "2019-08-17 16:49:52",
                 "1": "2019-08-17 16:53:52",
                 "2": "2019-08-17 16:59:52",
                 "3": "2019-08-17 16:52:52",
-                "4": "2019-08-17 16:52:52",
-                "5": "2019-08-17 16:49:52",
-                "6": "2019-08-17 16:49:52",
-                "7": "2019-08-17 16:55:52",
-                "8": "2019-08-17 16:55:52"
+                "4": "2019-08-17 16:49:52",
+                "5": "2019-08-17 16:55:52"
             }
         }
     },
@@ -5498,9 +4666,6 @@
             "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com"
         ],
         "Departures": {
-            "Id": {
-                "0": 816
-            },
             "Line": {
                 "0": "Eccles"
             },
@@ -5543,9 +4708,6 @@
             "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com"
         ],
         "Departures": {
-            "Id": {
-                "0": 818
-            },
             "Line": {
                 "0": "Eccles"
             },
@@ -5589,20 +4751,6 @@
             "<no message>"
         ],
         "Departures": {
-            "Id": {
-                "0": 821,
-                "1": 822,
-                "2": 821,
-                "3": 822,
-                "4": 819,
-                "5": 820,
-                "6": 821,
-                "7": 822,
-                "8": 819,
-                "9": 820,
-                "10": 819,
-                "11": 820
-            },
             "Line": {
                 "0": "Eccles",
                 "1": "Eccles",
@@ -5612,10 +4760,7 @@
                 "5": "Eccles",
                 "6": "Eccles",
                 "7": "Eccles",
-                "8": "Eccles",
-                "9": "Eccles",
-                "10": "Eccles",
-                "11": "Eccles"
+                "8": "Eccles"
             },
             "TLAREF": {
                 "0": "CNK",
@@ -5626,66 +4771,51 @@
                 "5": "CNK",
                 "6": "CNK",
                 "7": "CNK",
-                "8": "CNK",
-                "9": "CNK",
-                "10": "CNK",
-                "11": "CNK"
+                "8": "CNK"
             },
             "Direction": {
                 "0": "Outgoing",
                 "1": "Outgoing",
-                "2": "Outgoing",
-                "3": "Outgoing",
-                "4": "Incoming",
+                "2": "Incoming",
+                "3": "Incoming",
+                "4": "Outgoing",
                 "5": "Incoming",
-                "6": "Outgoing",
-                "7": "Outgoing",
-                "8": "Incoming",
-                "9": "Incoming",
-                "10": "Incoming",
-                "11": "Incoming"
+                "6": "Incoming",
+                "7": "Incoming",
+                "8": "Incoming"
             },
             "MessageBoard": {
                 "0": "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com",
                 "1": "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com",
-                "2": "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com",
+                "2": "<no message>",
                 "3": "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com",
-                "4": "<no message>",
-                "5": "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com",
+                "4": "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com",
+                "5": "<no message>",
                 "6": "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com",
-                "7": "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com",
-                "8": "<no message>",
-                "9": "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com",
-                "10": "<no message>",
-                "11": "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com"
+                "7": "<no message>",
+                "8": "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com"
             },
             "Dest": {
                 "0": "Altrincham",
                 "1": "Altrincham",
-                "2": "Altrincham",
-                "3": "Altrincham",
-                "4": "Bury",
-                "5": "Bury",
-                "6": "East Didsbury",
-                "7": "East Didsbury",
-                "8": "Piccadilly",
-                "9": "Piccadilly",
-                "10": "Rochdale Town Centre",
-                "11": "Rochdale Town Centre"
+                "2": "Bury",
+                "3": "Bury",
+                "4": "East Didsbury",
+                "5": "Piccadilly",
+                "6": "Piccadilly",
+                "7": "Rochdale Town Centre",
+                "8": "Rochdale Town Centre"
             },
             "Carriages": {
                 "0": "Double",
-                "1": "Double",
-                "2": "Single",
-                "3": "Single",
-                "4": "Double",
+                "1": "Single",
+                "2": "Double",
+                "3": "Double",
+                "4": "Single",
                 "5": "Double",
-                "6": "Single",
+                "6": "Double",
                 "7": "Single",
-                "8": "Double",
-                "9": "Double",
-                "10": "Single",
-                "11": "Single"
+                "8": "Single"
             },
             "Status": {
                 "0": "Due",
@@ -5696,24 +4826,18 @@
                 "5": "Due",
                 "6": "Due",
                 "7": "Due",
-                "8": "Due",
-                "9": "Due",
-                "10": "Due",
-                "11": "Due"
+                "8": "Due"
             },
             "Wait": {
                 "0": 2,
-                "1": 2,
-                "2": 8,
-                "3": 8,
-                "4": 3,
-                "5": 3,
-                "6": 5,
-                "7": 5,
-                "8": 8,
-                "9": 8,
-                "10": 6,
-                "11": 6
+                "1": 8,
+                "2": 3,
+                "3": 3,
+                "4": 5,
+                "5": 8,
+                "6": 8,
+                "7": 6,
+                "8": 6
             },
             "Updated": {
                 "0": "2019-08-17 16:48:52",
@@ -5724,24 +4848,18 @@
                 "5": "2019-08-17 16:48:52",
                 "6": "2019-08-17 16:48:52",
                 "7": "2019-08-17 16:48:52",
-                "8": "2019-08-17 16:48:52",
-                "9": "2019-08-17 16:48:52",
-                "10": "2019-08-17 16:48:52",
-                "11": "2019-08-17 16:48:52"
+                "8": "2019-08-17 16:48:52"
             },
             "Due": {
                 "0": "2019-08-17 16:50:52",
-                "1": "2019-08-17 16:50:52",
-                "2": "2019-08-17 16:56:52",
-                "3": "2019-08-17 16:56:52",
-                "4": "2019-08-17 16:51:52",
-                "5": "2019-08-17 16:51:52",
-                "6": "2019-08-17 16:53:52",
-                "7": "2019-08-17 16:53:52",
-                "8": "2019-08-17 16:56:52",
-                "9": "2019-08-17 16:56:52",
-                "10": "2019-08-17 16:54:52",
-                "11": "2019-08-17 16:54:52"
+                "1": "2019-08-17 16:56:52",
+                "2": "2019-08-17 16:51:52",
+                "3": "2019-08-17 16:51:52",
+                "4": "2019-08-17 16:53:52",
+                "5": "2019-08-17 16:56:52",
+                "6": "2019-08-17 16:56:52",
+                "7": "2019-08-17 16:54:52",
+                "8": "2019-08-17 16:54:52"
             }
         }
     },
@@ -5755,9 +4873,6 @@
             "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com"
         ],
         "Departures": {
-            "Id": {
-                "0": 823
-            },
             "Line": {
                 "0": "Eccles"
             },
@@ -5800,9 +4915,6 @@
             "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com"
         ],
         "Departures": {
-            "Id": {
-                "0": 825
-            },
             "Line": {
                 "0": "Eccles"
             },
@@ -5845,13 +4957,6 @@
             "Due to a track fault at Victoria there are no services to East Didsbury & Rochdale from this stop. Please visit www.tfgm.com or tweet us @MCRMetrolink for further travel information."
         ],
         "Departures": {
-            "Id": {
-                "0": 827,
-                "1": 827,
-                "2": 826,
-                "3": 826,
-                "4": 826
-            },
             "Line": {
                 "0": "Eccles",
                 "1": "Eccles",
@@ -5934,9 +5039,6 @@
             "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com"
         ],
         "Departures": {
-            "Id": {
-                "0": 829
-            },
             "Line": {
                 "0": "Eccles"
             },
@@ -5979,9 +5081,6 @@
             "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com"
         ],
         "Departures": {
-            "Id": {
-                "0": 831
-            },
             "Line": {
                 "0": "Eccles"
             },
@@ -6024,9 +5123,6 @@
             "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com"
         ],
         "Departures": {
-            "Id": {
-                "0": 833
-            },
             "Line": {
                 "0": "Eccles"
             },
@@ -6069,9 +5165,6 @@
             "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com"
         ],
         "Departures": {
-            "Id": {
-                "0": 837
-            },
             "Line": {
                 "0": "Eccles"
             },
@@ -6114,9 +5207,6 @@
             "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com"
         ],
         "Departures": {
-            "Id": {
-                "0": 839
-            },
             "Line": {
                 "0": "Eccles"
             },
@@ -6159,9 +5249,6 @@
             "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com"
         ],
         "Departures": {
-            "Id": {
-                "0": 841
-            },
             "Line": {
                 "0": "Eccles"
             },
@@ -6204,26 +5291,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 842,
-                "1": 844,
-                "2": 846,
-                "3": 842,
-                "4": 844,
-                "5": 842,
-                "6": 844,
-                "7": 843,
-                "8": 845,
-                "9": 843,
-                "10": 845,
-                "11": 843,
-                "12": 845,
-                "13": 846,
-                "14": 847,
-                "15": 846,
-                "16": 847,
-                "17": 847
-            },
             "Line": {
                 "0": "Eccles",
                 "1": "Eccles",
@@ -6236,13 +5303,7 @@
                 "8": "Eccles",
                 "9": "Eccles",
                 "10": "Eccles",
-                "11": "Eccles",
-                "12": "Eccles",
-                "13": "Eccles",
-                "14": "Eccles",
-                "15": "Eccles",
-                "16": "Eccles",
-                "17": "Eccles"
+                "11": "Eccles"
             },
             "TLAREF": {
                 "0": "SPS",
@@ -6256,33 +5317,21 @@
                 "8": "SPS",
                 "9": "SPS",
                 "10": "SPS",
-                "11": "SPS",
-                "12": "SPS",
-                "13": "SPS",
-                "14": "SPS",
-                "15": "SPS",
-                "16": "SPS",
-                "17": "SPS"
+                "11": "SPS"
             },
             "Direction": {
                 "0": "Outgoing",
-                "1": "Outgoing",
-                "2": "Incoming",
+                "1": "Incoming",
+                "2": "Outgoing",
                 "3": "Outgoing",
                 "4": "Outgoing",
                 "5": "Outgoing",
                 "6": "Outgoing",
-                "7": "Outgoing",
-                "8": "Outgoing",
-                "9": "Outgoing",
-                "10": "Outgoing",
-                "11": "Outgoing",
-                "12": "Outgoing",
-                "13": "Incoming",
-                "14": "Incoming",
-                "15": "Incoming",
-                "16": "Incoming",
-                "17": "Incoming"
+                "7": "Incoming",
+                "8": "Incoming",
+                "9": "Incoming",
+                "10": "Incoming",
+                "11": "Incoming"
             },
             "MessageBoard": {
                 "0": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
@@ -6296,38 +5345,26 @@
                 "8": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "9": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "10": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "11": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "12": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "13": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "14": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "15": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "16": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "17": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
+                "11": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
             },
             "Dest": {
                 "0": "Altrincham",
-                "1": "Altrincham",
-                "2": "Ashton-under-Lyne",
-                "3": "Deansgate Castlefield",
-                "4": "Deansgate Castlefield",
-                "5": "East Didsbury",
-                "6": "East Didsbury",
-                "7": "Manchester Airport",
-                "8": "Manchester Airport",
-                "9": "Manchester Airport",
-                "10": "Manchester Airport",
-                "11": "Manchester Airport",
-                "12": "Manchester Airport",
-                "13": "Piccadilly",
-                "14": "Rochdale Town Centre",
-                "15": "Shaw and Crompton",
-                "16": "Victoria",
-                "17": "Victoria"
+                "1": "Ashton-under-Lyne",
+                "2": "Deansgate Castlefield",
+                "3": "East Didsbury",
+                "4": "Manchester Airport",
+                "5": "Manchester Airport",
+                "6": "Manchester Airport",
+                "7": "Piccadilly",
+                "8": "Rochdale Town Centre",
+                "9": "Shaw and Crompton",
+                "10": "Victoria",
+                "11": "Victoria"
             },
             "Carriages": {
                 "0": "Single",
-                "1": "Single",
-                "2": "Double",
+                "1": "Double",
+                "2": "Single",
                 "3": "Single",
                 "4": "Single",
                 "5": "Single",
@@ -6336,13 +5373,7 @@
                 "8": "Single",
                 "9": "Single",
                 "10": "Single",
-                "11": "Single",
-                "12": "Single",
-                "13": "Single",
-                "14": "Single",
-                "15": "Single",
-                "16": "Single",
-                "17": "Single"
+                "11": "Single"
             },
             "Status": {
                 "0": "Due",
@@ -6356,33 +5387,21 @@
                 "8": "Due",
                 "9": "Due",
                 "10": "Due",
-                "11": "Due",
-                "12": "Due",
-                "13": "Due",
-                "14": "Due",
-                "15": "Due",
-                "16": "Due",
-                "17": "Due"
+                "11": "Due"
             },
             "Wait": {
                 "0": 2,
                 "1": 2,
-                "2": 2,
-                "3": 3,
-                "4": 3,
-                "5": 7,
-                "6": 7,
-                "7": 1,
-                "8": 1,
-                "9": 18,
-                "10": 18,
-                "11": 28,
-                "12": 28,
-                "13": 3,
-                "14": 24,
-                "15": 6,
-                "16": 6,
-                "17": 16
+                "2": 3,
+                "3": 7,
+                "4": 1,
+                "5": 18,
+                "6": 28,
+                "7": 3,
+                "8": 24,
+                "9": 6,
+                "10": 6,
+                "11": 16
             },
             "Updated": {
                 "0": "2019-08-17 16:48:52",
@@ -6396,33 +5415,21 @@
                 "8": "2019-08-17 16:48:52",
                 "9": "2019-08-17 16:48:52",
                 "10": "2019-08-17 16:48:52",
-                "11": "2019-08-17 16:48:52",
-                "12": "2019-08-17 16:48:52",
-                "13": "2019-08-17 16:48:52",
-                "14": "2019-08-17 16:48:52",
-                "15": "2019-08-17 16:48:52",
-                "16": "2019-08-17 16:48:52",
-                "17": "2019-08-17 16:48:52"
+                "11": "2019-08-17 16:48:52"
             },
             "Due": {
                 "0": "2019-08-17 16:50:52",
                 "1": "2019-08-17 16:50:52",
-                "2": "2019-08-17 16:50:52",
-                "3": "2019-08-17 16:51:52",
-                "4": "2019-08-17 16:51:52",
-                "5": "2019-08-17 16:55:52",
-                "6": "2019-08-17 16:55:52",
-                "7": "2019-08-17 16:49:52",
-                "8": "2019-08-17 16:49:52",
-                "9": "2019-08-17 17:06:52",
-                "10": "2019-08-17 17:06:52",
-                "11": "2019-08-17 17:16:52",
-                "12": "2019-08-17 17:16:52",
-                "13": "2019-08-17 16:51:52",
-                "14": "2019-08-17 17:12:52",
-                "15": "2019-08-17 16:54:52",
-                "16": "2019-08-17 16:54:52",
-                "17": "2019-08-17 17:04:52"
+                "2": "2019-08-17 16:51:52",
+                "3": "2019-08-17 16:55:52",
+                "4": "2019-08-17 16:49:52",
+                "5": "2019-08-17 17:06:52",
+                "6": "2019-08-17 17:16:52",
+                "7": "2019-08-17 16:51:52",
+                "8": "2019-08-17 17:12:52",
+                "9": "2019-08-17 16:54:52",
+                "10": "2019-08-17 16:54:52",
+                "11": "2019-08-17 17:04:52"
             }
         }
     },
@@ -6436,9 +5443,6 @@
             "PLANNED IMPROVEMENT WORKS (No service CORNBROOK to ECCLES) A bus replacement service is in operation. For more information please www.tfgm.com"
         ],
         "Departures": {
-            "Id": {
-                "0": 849
-            },
             "Line": {
                 "0": "Eccles"
             },
@@ -6481,14 +5485,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 851,
-                "1": 851,
-                "2": 851,
-                "3": 850,
-                "4": 850,
-                "5": 850
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -6581,14 +5577,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 853,
-                "1": 853,
-                "2": 853,
-                "3": 852,
-                "4": 852,
-                "5": 852
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -6681,14 +5669,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 855,
-                "1": 855,
-                "2": 855,
-                "3": 854,
-                "4": 854,
-                "5": 854
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -6781,14 +5761,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 857,
-                "1": 857,
-                "2": 857,
-                "3": 856,
-                "4": 856,
-                "5": 856
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -6881,14 +5853,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 859,
-                "1": 859,
-                "2": 859,
-                "3": 858,
-                "4": 858,
-                "5": 858
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -6981,14 +5945,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 861,
-                "1": 861,
-                "2": 861,
-                "3": 860,
-                "4": 860,
-                "5": 860
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -7081,14 +6037,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 863,
-                "1": 863,
-                "2": 863,
-                "3": 862,
-                "4": 862,
-                "5": 862
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -7181,14 +6129,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 865,
-                "1": 865,
-                "2": 865,
-                "3": 864,
-                "4": 864,
-                "5": 864
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -7281,14 +6221,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 867,
-                "1": 867,
-                "2": 867,
-                "3": 866,
-                "4": 866,
-                "5": 866
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -7381,14 +6313,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 869,
-                "1": 869,
-                "2": 869,
-                "3": 868,
-                "4": 868,
-                "5": 868
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -7481,14 +6405,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 870,
-                "1": 870,
-                "2": 870,
-                "3": 871,
-                "4": 871,
-                "5": 871
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -7582,20 +6498,6 @@
             "<no message>"
         ],
         "Departures": {
-            "Id": {
-                "0": 873,
-                "1": 874,
-                "2": 873,
-                "3": 874,
-                "4": 873,
-                "5": 874,
-                "6": 872,
-                "7": 875,
-                "8": 872,
-                "9": 875,
-                "10": 872,
-                "11": 875
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -7748,14 +6650,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 877,
-                "1": 877,
-                "2": 877,
-                "3": 876,
-                "4": 876,
-                "5": 876
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -7848,14 +6742,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 879,
-                "1": 879,
-                "2": 879,
-                "3": 878,
-                "4": 878,
-                "5": 878
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -7948,137 +6834,75 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 882,
-                "1": 883,
-                "2": 882,
-                "3": 883,
-                "4": 882,
-                "5": 883,
-                "6": 880,
-                "7": 881,
-                "8": 880,
-                "9": 881
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
                 "2": "Oldham & Rochdale",
                 "3": "Oldham & Rochdale",
-                "4": "Oldham & Rochdale",
-                "5": "Oldham & Rochdale",
-                "6": "Oldham & Rochdale",
-                "7": "Oldham & Rochdale",
-                "8": "Oldham & Rochdale",
-                "9": "Oldham & Rochdale"
+                "4": "Oldham & Rochdale"
             },
             "TLAREF": {
                 "0": "ROC",
                 "1": "ROC",
                 "2": "ROC",
                 "3": "ROC",
-                "4": "ROC",
-                "5": "ROC",
-                "6": "ROC",
-                "7": "ROC",
-                "8": "ROC",
-                "9": "ROC"
+                "4": "ROC"
             },
             "Direction": {
                 "0": "Incoming",
                 "1": "Incoming",
                 "2": "Incoming",
-                "3": "Incoming",
-                "4": "Incoming",
-                "5": "Incoming",
-                "6": "Outgoing",
-                "7": "Outgoing",
-                "8": "Outgoing",
-                "9": "Outgoing"
+                "3": "Outgoing",
+                "4": "Outgoing"
             },
             "MessageBoard": {
                 "0": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "1": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "2": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "3": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "4": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "5": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "6": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "7": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "8": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "9": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
+                "4": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
             },
             "Dest": {
                 "0": "East Didsbury",
                 "1": "East Didsbury",
                 "2": "East Didsbury",
-                "3": "East Didsbury",
-                "4": "East Didsbury",
-                "5": "East Didsbury",
-                "6": "Rochdale Town Centre",
-                "7": "Rochdale Town Centre",
-                "8": "Rochdale Town Centre",
-                "9": "Rochdale Town Centre"
+                "3": "Rochdale Town Centre",
+                "4": "Rochdale Town Centre"
             },
             "Carriages": {
                 "0": "Single",
-                "1": "Single",
-                "2": "Double",
+                "1": "Double",
+                "2": "Single",
                 "3": "Double",
-                "4": "Single",
-                "5": "Single",
-                "6": "Double",
-                "7": "Double",
-                "8": "Single",
-                "9": "Single"
+                "4": "Single"
             },
             "Status": {
                 "0": "Due",
                 "1": "Due",
                 "2": "Due",
                 "3": "Due",
-                "4": "Due",
-                "5": "Due",
-                "6": "Due",
-                "7": "Due",
-                "8": "Due",
-                "9": "Due"
+                "4": "Due"
             },
             "Wait": {
                 "0": 8,
-                "1": 8,
-                "2": 19,
-                "3": 19,
-                "4": 27,
-                "5": 27,
-                "6": 11,
-                "7": 11,
-                "8": 19,
-                "9": 19
+                "1": 19,
+                "2": 27,
+                "3": 11,
+                "4": 19
             },
             "Updated": {
                 "0": "2019-08-17 16:48:52",
                 "1": "2019-08-17 16:48:52",
                 "2": "2019-08-17 16:48:52",
                 "3": "2019-08-17 16:48:52",
-                "4": "2019-08-17 16:48:52",
-                "5": "2019-08-17 16:48:52",
-                "6": "2019-08-17 16:48:52",
-                "7": "2019-08-17 16:48:52",
-                "8": "2019-08-17 16:48:52",
-                "9": "2019-08-17 16:48:52"
+                "4": "2019-08-17 16:48:52"
             },
             "Due": {
                 "0": "2019-08-17 16:56:52",
-                "1": "2019-08-17 16:56:52",
-                "2": "2019-08-17 17:07:52",
-                "3": "2019-08-17 17:07:52",
-                "4": "2019-08-17 17:15:52",
-                "5": "2019-08-17 17:15:52",
-                "6": "2019-08-17 16:59:52",
-                "7": "2019-08-17 16:59:52",
-                "8": "2019-08-17 17:07:52",
-                "9": "2019-08-17 17:07:52"
+                "1": "2019-08-17 17:07:52",
+                "2": "2019-08-17 17:15:52",
+                "3": "2019-08-17 16:59:52",
+                "4": "2019-08-17 17:07:52"
             }
         }
     },
@@ -8092,93 +6916,55 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 884,
-                "1": 887,
-                "2": 884,
-                "3": 887,
-                "4": 884,
-                "5": 887
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
-                "2": "Oldham & Rochdale",
-                "3": "Oldham & Rochdale",
-                "4": "Oldham & Rochdale",
-                "5": "Oldham & Rochdale"
+                "2": "Oldham & Rochdale"
             },
             "TLAREF": {
                 "0": "RTC",
                 "1": "RTC",
-                "2": "RTC",
-                "3": "RTC",
-                "4": "RTC",
-                "5": "RTC"
+                "2": "RTC"
             },
             "Direction": {
                 "0": "Incoming",
                 "1": "Incoming",
-                "2": "Incoming",
-                "3": "Incoming",
-                "4": "Incoming",
-                "5": "Incoming"
+                "2": "Incoming"
             },
             "MessageBoard": {
                 "0": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "1": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "2": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "3": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "4": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "5": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
+                "2": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
             },
             "Dest": {
                 "0": "East Didsbury",
-                "1": "East Didsbury",
-                "2": "See Tram Front",
-                "3": "See Tram Front",
-                "4": "See Tram Front",
-                "5": "See Tram Front"
+                "1": "See Tram Front",
+                "2": "See Tram Front"
             },
             "Carriages": {
                 "0": "Single",
-                "1": "Single",
-                "2": "Double",
-                "3": "Double",
-                "4": "Single",
-                "5": "Single"
+                "1": "Double",
+                "2": "Single"
             },
             "Status": {
                 "0": "Due",
                 "1": "Due",
-                "2": "Due",
-                "3": "Due",
-                "4": "Due",
-                "5": "Due"
+                "2": "Due"
             },
             "Wait": {
                 "0": 5,
-                "1": 5,
-                "2": 15,
-                "3": 15,
-                "4": 23,
-                "5": 23
+                "1": 15,
+                "2": 23
             },
             "Updated": {
                 "0": "2019-08-17 16:48:52",
                 "1": "2019-08-17 16:48:52",
-                "2": "2019-08-17 16:48:52",
-                "3": "2019-08-17 16:48:52",
-                "4": "2019-08-17 16:48:52",
-                "5": "2019-08-17 16:48:52"
+                "2": "2019-08-17 16:48:52"
             },
             "Due": {
                 "0": "2019-08-17 16:53:52",
-                "1": "2019-08-17 16:53:52",
-                "2": "2019-08-17 17:03:52",
-                "3": "2019-08-17 17:03:52",
-                "4": "2019-08-17 17:11:52",
-                "5": "2019-08-17 17:11:52"
+                "1": "2019-08-17 17:03:52",
+                "2": "2019-08-17 17:11:52"
             }
         }
     },
@@ -8192,16 +6978,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 889,
-                "1": 889,
-                "2": 888,
-                "3": 888,
-                "4": 888,
-                "5": 890,
-                "6": 890,
-                "7": 890
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -8314,14 +7090,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 892,
-                "1": 892,
-                "2": 892,
-                "3": 891,
-                "4": 891,
-                "5": 891
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -8414,14 +7182,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 894,
-                "1": 894,
-                "2": 894,
-                "3": 893,
-                "4": 893,
-                "5": 893
-            },
             "Line": {
                 "0": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
@@ -8514,14 +7274,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 895,
-                "1": 895,
-                "2": 895,
-                "3": 896,
-                "4": 896,
-                "5": 896
-            },
             "Line": {
                 "0": "South Manchester",
                 "1": "South Manchester",
@@ -8614,14 +7366,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 897,
-                "1": 897,
-                "2": 897,
-                "3": 898,
-                "4": 898,
-                "5": 898
-            },
             "Line": {
                 "0": "South Manchester",
                 "1": "South Manchester",
@@ -8714,14 +7458,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 899,
-                "1": 899,
-                "2": 899,
-                "3": 900,
-                "4": 900,
-                "5": 900
-            },
             "Line": {
                 "0": "South Manchester",
                 "1": "South Manchester",
@@ -8814,93 +7550,55 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 903,
-                "1": 904,
-                "2": 903,
-                "3": 904,
-                "4": 903,
-                "5": 904
-            },
             "Line": {
                 "0": "South Manchester",
                 "1": "South Manchester",
-                "2": "South Manchester",
-                "3": "South Manchester",
-                "4": "South Manchester",
-                "5": "South Manchester"
+                "2": "South Manchester"
             },
             "TLAREF": {
                 "0": "EDD",
                 "1": "EDD",
-                "2": "EDD",
-                "3": "EDD",
-                "4": "EDD",
-                "5": "EDD"
+                "2": "EDD"
             },
             "Direction": {
                 "0": "Incoming",
                 "1": "Incoming",
-                "2": "Incoming",
-                "3": "Incoming",
-                "4": "Incoming",
-                "5": "Incoming"
+                "2": "Incoming"
             },
             "MessageBoard": {
                 "0": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
                 "1": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "2": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "3": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "4": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink",
-                "5": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
+                "2": "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
             },
             "Dest": {
                 "0": "Rochdale Town Centre",
-                "1": "Rochdale Town Centre",
-                "2": "See Tram Front",
-                "3": "See Tram Front",
-                "4": "See Tram Front",
-                "5": "See Tram Front"
+                "1": "See Tram Front",
+                "2": "See Tram Front"
             },
             "Carriages": {
                 "0": "Single",
                 "1": "Single",
-                "2": "Single",
-                "3": "Single",
-                "4": "Single",
-                "5": "Single"
+                "2": "Single"
             },
             "Status": {
                 "0": "Due",
                 "1": "Due",
-                "2": "Due",
-                "3": "Due",
-                "4": "Due",
-                "5": "Due"
+                "2": "Due"
             },
             "Wait": {
                 "0": 1,
                 "1": 1,
-                "2": 1,
-                "3": 1,
-                "4": 3,
-                "5": 3
+                "2": 3
             },
             "Updated": {
                 "0": "2019-08-17 16:48:52",
                 "1": "2019-08-17 16:48:52",
-                "2": "2019-08-17 16:48:52",
-                "3": "2019-08-17 16:48:52",
-                "4": "2019-08-17 16:48:52",
-                "5": "2019-08-17 16:48:52"
+                "2": "2019-08-17 16:48:52"
             },
             "Due": {
                 "0": "2019-08-17 16:49:52",
                 "1": "2019-08-17 16:49:52",
-                "2": "2019-08-17 16:49:52",
-                "3": "2019-08-17 16:49:52",
-                "4": "2019-08-17 16:51:52",
-                "5": "2019-08-17 16:51:52"
+                "2": "2019-08-17 16:51:52"
             }
         }
     },
@@ -8914,14 +7612,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 905,
-                "1": 905,
-                "2": 905,
-                "3": 906,
-                "4": 906,
-                "5": 906
-            },
             "Line": {
                 "0": "South Manchester",
                 "1": "South Manchester",
@@ -9014,14 +7704,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 907,
-                "1": 907,
-                "2": 907,
-                "3": 908,
-                "4": 908,
-                "5": 908
-            },
             "Line": {
                 "0": "South Manchester",
                 "1": "South Manchester",
@@ -9114,13 +7796,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 909,
-                "1": 909,
-                "2": 909,
-                "3": 910,
-                "4": 910
-            },
             "Line": {
                 "0": "South Manchester",
                 "1": "South Manchester",
@@ -9203,14 +7878,6 @@
             "On 17th & 18th August planned improvement works are taking place on the Eccles line as part of the Trafford Park line project. For more information please visit www.tfgm.com or Tweet us @MCRMetrolink"
         ],
         "Departures": {
-            "Id": {
-                "0": 911,
-                "1": 911,
-                "2": 911,
-                "3": 912,
-                "4": 912,
-                "5": 912
-            },
             "Line": {
                 "0": "South Manchester",
                 "1": "South Manchester",
