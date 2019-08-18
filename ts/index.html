@@ -191,7 +191,7 @@
         $("#last_updated_time").html("")
         $.ajaxSetup({ cache: false });
         page_state["station_list"] = [];
-        $.getJSON("https://tonytony99.github.io/times.json", function(json) {
+        $.getJSON("https://tonytony99.github.io/ts/station_departures.json", function(json) {
             page_state['departures_json'] = json;
          	page_state["station_list"] = [];
          	for (station_name in page_state['departures_json']) {
