@@ -220,7 +220,7 @@
     function add_departure_card_header_info(stop_name, stop_index, departure_card_id, departure_card_header_id, departure_card_header_icons_id) {
         departure_card_header_info_id = departure_card_header_id + '_info'
         $("#" + departure_card_header_icons_id).append('<button class="header_button" id="' + departure_card_header_info_id + '">i</button>');
-        $("#" + departure_card_header_info_id).tooltip({title: 'From Metrolink: "' + page_state.departures_json[stop_name].MessageBoards.join('" <hr/>' + '" jam'),
+        $("#" + departure_card_header_info_id).tooltip({title: 'From Metrolink: "' + page_state.departures_json[stop_name].MessageBoards.join('" <hr/>' + '"') + '"',
                                                         html: true,
                                                         placement: "bottom"});
     }
