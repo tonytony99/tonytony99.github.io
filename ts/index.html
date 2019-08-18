@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.5/fuse.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+
+
+    <style type="text/css">
+
+        body { background: gray !important; }
+
+         .header {
+            display: inline;
+            font-weight: bold;
+            height: 40px;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        .header_icons {
+            right: 0px;
+            top: 4px;
+            height: 32px;
+            position: absolute;
+            vertical-align: middle;
+            display: inline;
+        }
+        .header_button {
+            width:30px;
+            height: 100%;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+
+         .departure_card {
+            border: 0px;
+            margin-bottom: 10px;
+        }
+
+        .departures_table_container {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .departures_table{
+            margin: 0px;
+            width: 100%;
+        }
+
+        .stop_dest_name {
+            height: 30px !important;
+            padding-top: 2px !important;
+            padding-bottom: 2px !important;
+        }
+
+        .departures_by_stop_times_cell {
+            padding-top: 2px !important;
+            padding-bottom: 2px !important;
+            padding-right: 2px !important;
+            text-align: right;
+        }
+
+        .time_button {
+            padding: 1px;
+            margin: 1px;
+        }
+
+        .departures_by_stop_row{
+            text-align: left;
+        }
+
+
+
+        .station_search {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .tooltip {
+            pointer-events: none;
+
+        }
+
+        .last_updated_time {
+            text-align: center;
+            font-size: small;
+            margin-top: -20px;
+            margin-bottom: 10px;
+        }
+
+			.suggestions_container {
+				width: 100%;
+				margin-top: -10px;
+				text-align: left;
+        }
+
+        .suggestion_button {
+				width: 100%;
+				text-align: left;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<div class="container" id="title_container" align="center">
+    <div class="bg-dark text-white ">
+        <h1> Trams </h1>
+    </div>
+</div>
+
+<div class="container" id="important_info">
+    <div class="bg-dark text-white" align="center">
+        <strong> Warning: </strong> This does not reliably report tram times, it's still in development.
+        This site uses cookies to remember your preferences.
+        <button class="btn btn-success" onclick="$('#important_info').html('')"> I understand. </button>
+        <hr>
+    </div>
+</div>
+
+<div class="container" id="search_container">
+    <input id="station_search" type="text" class="form-control station_search" name="station_search" placeholder="Station Name ...">
+</div>
+<div class="container" id="search_container">
+    <div id="suggestions_container" class="suggestions_container btn-group-vertical"> </div>
+</div>
+
+<div class="container last_updated_time small" id="last_updated_time">
+</div>
+
+<div class="container" id="departure_cards_container">
+</div>
+
+<script>
+
+
+
+    var page_state = {
+        active_departure_cards: []
+    }
+
+    function hide_suggestions() {
+    	$("#suggestions_container").html("");
+    }
+
+    function update_search_options(station_list) {
+    	var options = {
+  			shouldSort: true,
+  			threshold: 0.6,
+  			location: 0,
+  			distance: 100,
+  			maxPatternLength: 32,
+  			minMatchCharLength: 1,
+  			keys: [
+ 			   "TLAREF",
+ 			   "station_name",
+ 		 ]
+		};
+		var fuse = new Fuse(station_list, options); // "list" is the item array
+		var result = fuse.search($('#station_search').val());
+		result = result.slice(0,5);
+      page_state['suggestions'] = result
+      hide_suggestions();
+
+		for (result_index = 0; result_index < result.length; result_index ++) {
+			suggestion_button_id = 'suggestion_button_' + result[result_index].TLAREF
+			$("#suggestions_container").append('<button type="button" class="btn suggestion_button btn-dark" id="' + suggestion_button_id + '"></button>');
+			$("#" + suggestion_button_id).append(result[result_index].station_name + ' (' + result[result_index].TLAREF + ')')
+			station_name = result[result_index].station_name
+			click_function = function(){
+            add_departures_card(this.innerHTML.split(" (")[0], 1, false);
+            hide_suggestions();
+        }
+			$("#" + suggestion_button_id).click(click_function);
+		}
+
+    }
+
+    $(document).ready(function(){
+        $("#last_updated_time").html("")
+        $.ajaxSetup({ cache: false });
+        page_state["station_list"] = [];
+        $.getJSON("https://tonytony99.github.io/times.json", function(json) {
+            page_state['departures_json'] = json;
+         	page_state["station_list"] = [];
+         	for (station_name in page_state['departures_json']) {
+         		page_state['departures_json'][station_name]['station_name'] = station_name;
+   				page_state["station_list"].push(page_state['departures_json'][station_name]);
+         	}
+        		$('#station_search').on('input',function(e){
+			    update_search_options(page_state["station_list"]);
+			  });
+
+        page_state.active_departure_cards = [];
+
+        if (Cookies.get("departure_cards") != null) {
+
+        		page_state.active_departure_cards = JSON.parse(Cookies.get("departure_cards"));
+        		departure_cards_cookie = JSON.parse(Cookies.get("departure_cards"))
+        		for (i=0; i<departure_cards_cookie.length; i++) {
+					add_departures_card(departure_cards_cookie[i], 1, true)
+        		}
+        }
+
+        });
+     });
+
+
+    function add_departure_card_header_info(stop_name, stop_index, departure_card_id, departure_card_header_id, departure_card_header_icons_id) {
+        departure_card_header_info_id = departure_card_header_id + '_info'
+        $("#" + departure_card_header_icons_id).append('<button class="header_button" id="' + departure_card_header_info_id + '">i</button>');
+        $("#" + departure_card_header_info_id).tooltip({title: 'From Metrolink: "' + page_state.departures_json[stop_name].MessageBoards.join('" <hr/>' + '" jam'),
+                                                        html: true,
+                                                        placement: "bottom"});
+    }
+
+    function add_departure_card_header_close(stop_name, stop_index, departure_card_id, departure_card_header_id, departure_card_header_icons_id) {
+        departure_card_header_close_id = departure_card_header_id + '_close'
+        $("#" + departure_card_header_icons_id).append('<button class="header_button" id="' + departure_card_header_close_id + '">x</button>');
+        $("#" + departure_card_header_close_id).click(function(){
+            $("#" + departure_card_id).fadeOut();
+            var index = page_state.active_departure_cards.indexOf(stop_name);
+				if (index > -1) {
+	  					page_state.active_departure_cards.splice(index, 1);
+	  					Cookies.set("departure_cards", page_state.active_departure_cards, { expires : 10 });
+				}
+        });
+    }
+
+    function add_departure_card_header_icons(stop_name, stop_index, departure_card_id, departure_card_header_id) {
+        departure_card_header_icons_id = departure_card_header_id + '_icons'
+        $("#" + departure_card_header_id).append('<span class="header_icons" id="' + departure_card_header_icons_id + '">');
+        departure_card_header_close_id = departure_card_header_id + '_close'
+        if (page_state.departures_json[stop_name].MessageBoards.length > 0) {
+            add_departure_card_header_info(stop_name, stop_index, departure_card_id, departure_card_header_id, departure_card_header_icons_id)
+        }
+
+        // if (page_state.pinned_departure_cards.includes(departure_card_id)) {
+            add_departure_card_header_close(stop_name, stop_index, departure_card_id, departure_card_header_id, departure_card_header_icons_id)
+        // }
+        $("#" + departure_card_header_id).append('</span>');
+    }
+
+    function add_departure_card_header(stop_name, stop_index, departure_card_id) {
+        departure_card_header_id = departure_card_id + '_header'
+        $("#" + departure_card_id).append('<div class="card-header bg-dark text-white text-lg header" id="' + departure_card_header_id + '"> </div>');
+        $("#" + departure_card_header_id).append(stop_name);
+        add_departure_card_header_icons(stop_name, stop_index, departure_card_id, departure_card_header_id)
+    }
+
+    function datetime_to_button_time(datetime_str) {
+        return datetime_str.slice(10,16);
+    }
+
+    function carriages_text_to_number(carriages_text) {
+        if (carriages_text == "Single") {
+            return 1;
+        }
+        if (carriages_text == "Double") {
+            return 2;
+        }
+        return carriages_text;
+    }
+
+    function add_departure_card_table_row_time_button_tooltip(stop_name, stop_index, departure_card_id, departure_card_body_id, departure_card_table_id, current_dest, current_departure_times, current_departure_carriages, departure_card_table_row_id, departure_card_table_row_times_cell_id, departure_time_index, departure_card_table_row_times_cell_button_id) {
+        carriages_number = carriages_text_to_number(current_departure_carriages[departure_time_index])
+        $("#" + departure_card_table_row_times_cell_button_id).tooltip({title: datetime_to_button_time(current_departure_times[departure_time_index]) + " Carriages: " + carriages_number,
+                                                                        html: false,
+                                                                        placement: "left"});
+    }
+
+    function add_departure_card_table_row_time_button(stop_name, stop_index, departure_card_id, departure_card_body_id, departure_card_table_id, current_dest, current_departure_times, current_departure_carriages, departure_card_table_row_id, departure_card_table_row_times_cell_id, departure_time_index) {
+        departure_card_table_row_times_cell_button_id = departure_card_table_row_times_cell_id + '_button_' + departure_time_index.toString()
+        $("#" + departure_card_table_row_times_cell_id).append('<button class="btn btn-dark btn-sm time_button" id="' + departure_card_table_row_times_cell_button_id + '"></button>')
+        button_time = datetime_to_button_time(current_departure_times[departure_time_index])
+        $("#" + departure_card_table_row_times_cell_button_id).append(button_time)
+        add_departure_card_table_row_time_button_tooltip(stop_name, stop_index, departure_card_id, departure_card_body_id, departure_card_table_id, current_dest, current_departure_times, current_departure_carriages, departure_card_table_row_id, departure_card_table_row_times_cell_id, departure_time_index, departure_card_table_row_times_cell_button_id)
+    }
+
+    function add_departure_card_table_row_times(stop_name, stop_index, departure_card_id, departure_card_body_id, departure_card_table_id, current_dest, current_departure_times, current_departure_carriages, departure_card_table_row_id) {
+        departure_card_table_row_times_cell_id = departure_card_table_row_id + '_times_cell'
+        $("#" + departure_card_table_row_id).append('<td class="departures_by_stop_times_cell" id="' + departure_card_table_row_times_cell_id + '"> </td>')
+
+        for (departure_time_index = 0; departure_time_index < current_departure_times.length; departure_time_index ++) {
+            add_departure_card_table_row_time_button(stop_name, stop_index, departure_card_id, departure_card_body_id, departure_card_table_id, current_dest, current_departure_times, current_departure_carriages, departure_card_table_row_id, departure_card_table_row_times_cell_id, departure_time_index)
+        }
+    }
+
+    function add_departure_card_table_row(stop_name, stop_index, departure_card_id, departure_card_body_id, departure_card_table_id, current_dest, current_departure_times, current_departure_carriages) {
+        safe_current_dest = make_stop_name_safe(current_dest)
+
+        departure_card_table_row_id = departure_card_table_id + '_' + safe_current_dest + '_row'
+        $("#" + departure_card_table_id).append('<tr class="departures_by_stop_row" id="' + departure_card_table_row_id + '"> </tr>');
+        $("#" + departure_card_table_row_id).append('<td class="stop_dest_name">' + current_dest + '</tr>');
+        add_departure_card_table_row_times(stop_name, stop_index, departure_card_id, departure_card_body_id, departure_card_table_id, current_dest, current_departure_times, current_departure_carriages, departure_card_table_row_id)
+    }
+
+    function add_departure_card_table(stop_name, stop_index, departure_card_id, departure_card_body_id) {
+        departure_card_table_id = departure_card_body_id + '_table'
+        $("#" + departure_card_body_id).append('<table class="table table-secondary table-condensed departures_table" id="' + departure_card_table_id + '"> </table>');
+
+        n_departures = Object.keys(page_state.departures_json[stop_name].Departures.Dest).length
+
+        if (page_state.departures_json[stop_name].Departures.Dest[0] == null) {
+             add_departure_card_table_row(stop_name, stop_index, departure_card_id, departure_card_body_id, departure_card_table_id, "None", []);
+        }
+        else {
+            current_dest = page_state.departures_json[stop_name].Departures.Dest[0]
+            current_departure_times = [page_state.departures_json[stop_name].Departures.Due[0]];
+            current_departure_carriages = [page_state.departures_json[stop_name].Departures.Carriages[0]];
+            printed_departures = []
+
+            for (departure_index = 1; departure_index < n_departures; departure_index ++) {
+                new_dest = page_state.departures_json[stop_name].Departures.Dest[departure_index]
+                if (new_dest != current_dest) {
+                    add_departure_card_table_row(stop_name, stop_index, departure_card_id, departure_card_body_id, departure_card_table_id, current_dest, current_departure_times, current_departure_carriages);
+                    current_departure_times = [page_state.departures_json[stop_name].Departures.Due[departure_index]];
+                    current_departure_carriages = [page_state.departures_json[stop_name].Departures.Carriages[departure_index]];
+                    printed_departures.push(current_dest);
+                    current_dest = new_dest;
+                }
+                else {
+                    current_departure_times.push(page_state.departures_json[stop_name].Departures.Due[departure_index])
+                    current_departure_carriages.push(page_state.departures_json[stop_name].Departures.Carriages[departure_index])
+                }
+            }
+            if (! printed_departures.includes(current_dest)) {
+                add_departure_card_table_row(stop_name, stop_index, departure_card_id, departure_card_body_id, departure_card_table_id, current_dest, current_departure_times, current_departure_carriages);
+            }
+        }
+    }
+
+    function add_departure_card_body(stop_name, stop_index, departure_card_id) {
+        departure_card_body_id = departure_card_id + '_body'
+        $("#" + departure_card_id).append('<div class="card-body small departures_table_container table-responsive" id="' + departure_card_body_id + '"> </div>');
+        add_departure_card_table(stop_name, stop_index, departure_card_id, departure_card_body_id);
+    }
+
+    function make_stop_name_safe(stop_name) {
+        safe_stop_name = stop_name.toLowerCase();
+        safe_stop_name = safe_stop_name.split("-").join("_");
+        safe_stop_name = safe_stop_name.split("’").join("");
+        safe_stop_name = safe_stop_name.split("'").join("");
+        safe_stop_name = safe_stop_name.split(" ").join("_");
+        return safe_stop_name;
+    }
+
+    function add_departures_card(stop_name, stop_index, append) {
+        if ($("#last_updated_time").html() == "") {
+            $("#last_updated_time").html("Last Updated: " + page_state.departures_json[stop_name].LastUpdate + ". Contains Transport for Greater Manchester data.")
+        }
+        if ("Last Updated: " + page_state.departures_json[stop_name].LastUpdate < $("#last_updated_time").html()) {
+             $("#last_updated_time").html("Last Updated: " + page_state.departures_json[stop_name].LastUpdate + ". Contains Transport for Greater Manchester data.")
+        }
+        safe_stop_name = make_stop_name_safe(stop_name)
+        departure_card_id = safe_stop_name + "_departure_card_" + stop_index.toString();
+        $("#" + departure_card_id).html("");
+        if (append) {
+        		$("#departure_cards_container").append('<div class="card departure_card" id="' + departure_card_id + '"></div>');
+        } else {
+        		$("#departure_cards_container").prepend('<div class="card departure_card" id="' + departure_card_id + '"></div>');
+        		page_state.active_departure_cards.unshift(stop_name)
+        		Cookies.set("departure_cards", page_state.active_departure_cards, { expires : 10 });
+        }
+
+        add_departure_card_header(stop_name, stop_index, departure_card_id);
+        add_departure_card_body(stop_name, stop_index, departure_card_id);
+
+
+
+    }
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+
+
+</html>
