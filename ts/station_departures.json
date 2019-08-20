@@ -7,9 +7,9 @@
                 "0": "2019-08-21 00:03:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -22,9 +22,9 @@
                 "0": "Cornbrook"
             },
             "Wait": {
-                "1": 6.0,
-                "2": 18.0,
-                "0": 15.0
+                "1": 4.0,
+                "2": 16.0,
+                "0": 13.0
             },
             "Carriages": {
                 "1": "Single",
@@ -50,7 +50,7 @@
         "Lines": [
             "Eccles"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -65,14 +65,14 @@
                 "1": "2019-08-20 23:59:17",
                 "2": "2019-08-21 00:12:17",
                 "0": "2019-08-20 23:51:17",
-                "3": "2019-08-20 23:58:17"
+                "3": "2019-08-20 23:57:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
@@ -89,11 +89,11 @@
                 "3": "Cornbrook"
             },
             "Wait": {
-                "4": 21.0,
-                "1": 11.0,
-                "2": 24.0,
-                "0": 3.0,
-                "3": 10.0
+                "4": 19.0,
+                "1": 9.0,
+                "2": 22.0,
+                "0": 1.0,
+                "3": 7.0
             },
             "Carriages": {
                 "4": "Single",
@@ -127,7 +127,7 @@
         "Lines": [
             "Altrincham"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -138,18 +138,18 @@
     "Westwood": {
         "Departures": {
             "Due": {
-                "4": "2019-08-21 00:08:17",
+                "4": "2019-08-21 00:09:17",
                 "1": "2019-08-21 00:03:17",
                 "2": "2019-08-21 00:09:17",
-                "0": "2019-08-21 00:15:17",
+                "0": "2019-08-21 00:16:17",
                 "3": "2019-08-20 23:56:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
@@ -166,11 +166,11 @@
                 "3": "Victoria"
             },
             "Wait": {
-                "4": 20.0,
-                "1": 15.0,
-                "2": 21.0,
-                "0": 27.0,
-                "3": 8.0
+                "4": 19.0,
+                "1": 13.0,
+                "2": 19.0,
+                "0": 26.0,
+                "3": 6.0
             },
             "Carriages": {
                 "4": "Single",
@@ -204,7 +204,7 @@
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -215,22 +215,22 @@
     "Kingsway Business Park": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:56:17",
+                "1": "2019-08-20 23:57:17",
                 "2": "2019-08-20 23:56:17",
-                "0": "2019-08-21 00:06:17",
-                "3": "2019-08-20 23:49:17"
+                "0": "2019-08-21 00:07:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
                 "2": "Due",
                 "0": "Due",
-                "3": "Due"
+                "3": "Departing"
             },
             "Dest": {
                 "1": "Monsall",
@@ -239,10 +239,10 @@
                 "3": "Victoria"
             },
             "Wait": {
-                "1": 8.0,
-                "2": 8.0,
-                "0": 18.0,
-                "3": 1.0
+                "1": 7.0,
+                "2": 6.0,
+                "0": 17.0,
+                "3": 0.0
             },
             "Carriages": {
                 "1": "Single",
@@ -272,7 +272,7 @@
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -283,29 +283,29 @@
     "Sale Water Park": {
         "Departures": {
             "Due": {
-                "1": "2019-08-21 00:04:17",
-                "2": "2019-08-21 00:16:17",
-                "0": "2019-08-20 23:52:17"
+                "1": "2019-08-21 00:03:17",
+                "2": "2019-08-21 00:15:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
                 "2": "Due",
-                "0": "Due"
+                "0": "Arrived"
             },
             "Dest": {
                 "1": "Firswood",
-                "2": "Victoria",
+                "2": "Firswood",
                 "0": "Firswood"
             },
             "Wait": {
-                "1": 16.0,
-                "2": 28.0,
-                "0": 4.0
+                "1": 13.0,
+                "2": 25.0,
+                "0": 0.0
             },
             "Carriages": {
                 "1": "Single",
@@ -331,7 +331,7 @@
         "Lines": [
             "Airport"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -343,45 +343,54 @@
         "Departures": {
             "Due": {
                 "1": "2019-08-21 00:07:17",
+                "2": "2019-08-21 00:19:17",
                 "0": "2019-08-20 23:55:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
+                "2": "Due",
                 "0": "Due"
             },
             "Dest": {
                 "1": "Old Trafford",
+                "2": "Old Trafford",
                 "0": "Cornbrook"
             },
             "Wait": {
-                "1": 19.0,
-                "0": 7.0
+                "1": 17.0,
+                "2": 29.0,
+                "0": 5.0
             },
             "Carriages": {
                 "1": "Single",
+                "2": "Single",
                 "0": "Double"
             },
             "Direction": {
                 "1": "Incoming",
+                "2": "Incoming",
                 "0": "Incoming"
             },
             "TLAREF": {
                 "1": "ALT",
+                "2": "ALT",
                 "0": "ALT"
             },
             "Line": {
                 "1": "Altrincham",
+                "2": "Altrincham",
                 "0": "Altrincham"
             }
         },
         "Lines": [
             "Altrincham"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -395,13 +404,13 @@
                 "1": "2019-08-21 00:13:17",
                 "2": "2019-08-20 23:56:17",
                 "0": "2019-08-20 23:59:17",
-                "3": "2019-08-21 00:12:17"
+                "3": "2019-08-21 00:11:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -416,10 +425,10 @@
                 "3": "Rochdale Town Centre"
             },
             "Wait": {
-                "1": 25.0,
-                "2": 8.0,
-                "0": 11.0,
-                "3": 24.0
+                "1": 23.0,
+                "2": 6.0,
+                "0": 9.0,
+                "3": 21.0
             },
             "Carriages": {
                 "1": "Single",
@@ -449,7 +458,7 @@
         "Lines": [
             "South Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -460,82 +469,73 @@
     "St Werburgh’s Road": {
         "Departures": {
             "Due": {
-                "3": "2019-08-20 23:57:17",
+                "4": "2019-08-21 00:09:17",
                 "1": "2019-08-21 00:09:17",
-                "5": "2019-08-21 00:08:17",
-                "4": "2019-08-21 00:00:17",
+                "2": "2019-08-20 23:57:17",
                 "0": "2019-08-20 23:55:17",
-                "2": "2019-08-20 23:49:17"
+                "3": "2019-08-21 00:00:17"
             },
             "Updated": {
-                "3": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "5": "2019-08-20 23:48:17",
-                "4": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
-                "3": "Due",
-                "1": "Due",
-                "5": "Due",
                 "4": "Due",
+                "1": "Due",
+                "2": "Due",
                 "0": "Due",
-                "2": "Due"
+                "3": "Due"
             },
             "Dest": {
-                "3": "Firswood",
-                "1": "East Didsbury",
-                "5": "Manchester Airport",
                 "4": "Firswood",
+                "1": "East Didsbury",
+                "2": "Firswood",
                 "0": "East Didsbury",
-                "2": "Firswood"
+                "3": "Firswood"
             },
             "Wait": {
-                "3": 9.0,
-                "1": 21.0,
-                "5": 20.0,
-                "4": 12.0,
-                "0": 7.0,
-                "2": 1.0
+                "4": 19.0,
+                "1": 19.0,
+                "2": 7.0,
+                "0": 5.0,
+                "3": 10.0
             },
             "Carriages": {
-                "3": "Single",
-                "1": "Single",
-                "5": "Single",
                 "4": "Single",
+                "1": "Single",
+                "2": "Single",
                 "0": "Single",
-                "2": "Single"
+                "3": "Single"
             },
             "Direction": {
-                "3": "Incoming",
-                "1": "Outgoing",
-                "5": "Outgoing",
                 "4": "Incoming",
+                "1": "Outgoing",
+                "2": "Incoming",
                 "0": "Outgoing",
-                "2": "Incoming"
+                "3": "Incoming"
             },
             "TLAREF": {
-                "3": "SWR",
-                "1": "SWR",
-                "5": "SWR",
                 "4": "SWR",
+                "1": "SWR",
+                "2": "SWR",
                 "0": "SWR",
-                "2": "SWR"
+                "3": "SWR"
             },
             "Line": {
-                "3": "South Manchester",
-                "1": "South Manchester",
-                "5": "South Manchester",
                 "4": "South Manchester",
+                "1": "South Manchester",
+                "2": "South Manchester",
                 "0": "South Manchester",
-                "2": "South Manchester"
+                "3": "South Manchester"
             }
         },
         "Lines": [
             "South Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -550,14 +550,14 @@
                 "1": "2019-08-20 23:58:17",
                 "2": "2019-08-20 23:53:17",
                 "0": "2019-08-20 23:52:17",
-                "3": "2019-08-21 00:05:17"
+                "3": "2019-08-21 00:04:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
@@ -574,11 +574,11 @@
                 "3": "Victoria"
             },
             "Wait": {
-                "4": 29.0,
-                "1": 10.0,
-                "2": 5.0,
-                "0": 4.0,
-                "3": 17.0
+                "4": 27.0,
+                "1": 8.0,
+                "2": 3.0,
+                "0": 2.0,
+                "3": 14.0
             },
             "Carriages": {
                 "4": "Single",
@@ -612,7 +612,7 @@
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -623,73 +623,82 @@
     "Piccadilly Gardens": {
         "Departures": {
             "Due": {
-                "4": "2019-08-20 23:50:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:57:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:58:17"
+                "3": "2019-08-20 23:57:17",
+                "1": "2019-08-20 23:53:17",
+                "5": "2019-08-20 23:50:17",
+                "4": "2019-08-20 23:59:17",
+                "0": "2019-08-21 00:03:17",
+                "2": "2019-08-21 00:01:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "3": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "5": "2019-08-20 23:50:17",
+                "4": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17"
             },
             "Status": {
+                "3": "Due",
+                "1": "Due",
+                "5": "Departing",
                 "4": "Due",
-                "1": "Departing",
-                "2": "Due",
-                "0": "Departing",
-                "3": "Due"
+                "0": "Due",
+                "2": "Due"
             },
             "Dest": {
-                "4": "Victoria",
+                "3": "Trafford Bar",
                 "1": "Piccadilly",
-                "2": "Trafford Bar",
+                "5": "Victoria",
+                "4": "Trafford Bar",
                 "0": "Etihad Campus",
-                "3": "Trafford Bar"
+                "2": "Piccadilly"
             },
             "Wait": {
-                "4": 2.0,
-                "1": 0.0,
-                "2": 9.0,
-                "0": 0.0,
-                "3": 10.0
+                "3": 7.0,
+                "1": 3.0,
+                "5": 0.0,
+                "4": 9.0,
+                "0": 13.0,
+                "2": 11.0
             },
             "Carriages": {
-                "4": "Single",
+                "3": "Single",
                 "1": "Single",
-                "2": "Single",
+                "5": "Single",
+                "4": "Single",
                 "0": "Single",
-                "3": "Single"
+                "2": "Single"
             },
             "Direction": {
-                "4": "Incoming",
+                "3": "Incoming",
                 "1": "Outgoing",
-                "2": "Incoming",
+                "5": "Incoming",
+                "4": "Incoming",
                 "0": "Outgoing",
-                "3": "Incoming"
+                "2": "Outgoing"
             },
             "TLAREF": {
-                "4": "PCG",
+                "3": "PCG",
                 "1": "PCG",
-                "2": "PCG",
+                "5": "PCG",
+                "4": "PCG",
                 "0": "PCG",
-                "3": "PCG"
+                "2": "PCG"
             },
             "Line": {
-                "4": "Bury",
+                "3": "Bury",
                 "1": "Bury",
-                "2": "Bury",
+                "5": "Bury",
+                "4": "Bury",
                 "0": "Bury",
-                "3": "Bury"
+                "2": "Bury"
             }
         },
         "Lines": [
             "Bury"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -700,17 +709,17 @@
     "Weaste": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:51:17",
+                "1": "2019-08-20 23:50:17",
                 "2": "2019-08-21 00:03:17",
                 "0": "2019-08-21 00:06:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
-                "1": "Due",
+                "1": "Arrived",
                 "2": "Due",
                 "0": "Due"
             },
@@ -720,9 +729,9 @@
                 "0": "Cornbrook"
             },
             "Wait": {
-                "1": 3.0,
-                "2": 15.0,
-                "0": 18.0
+                "1": 0.0,
+                "2": 13.0,
+                "0": 16.0
             },
             "Carriages": {
                 "1": "Single",
@@ -748,7 +757,7 @@
         "Lines": [
             "Eccles"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -762,13 +771,13 @@
                 "1": "2019-08-21 00:15:17",
                 "2": "2019-08-20 23:55:17",
                 "0": "2019-08-21 00:01:17",
-                "3": "2019-08-21 00:10:17"
+                "3": "2019-08-21 00:09:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -783,10 +792,10 @@
                 "3": "Rochdale Town Centre"
             },
             "Wait": {
-                "1": 27.0,
-                "2": 7.0,
-                "0": 13.0,
-                "3": 22.0
+                "1": 25.0,
+                "2": 5.0,
+                "0": 11.0,
+                "3": 19.0
             },
             "Carriages": {
                 "1": "Single",
@@ -816,7 +825,7 @@
         "Lines": [
             "South Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -827,16 +836,16 @@
     "Cemetery Road": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:55:17",
+                "1": "2019-08-20 23:54:17",
                 "2": "2019-08-21 00:04:17",
                 "0": "2019-08-20 23:55:17",
                 "3": "2019-08-21 00:15:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -851,10 +860,10 @@
                 "3": "Victoria"
             },
             "Wait": {
-                "1": 7.0,
-                "2": 16.0,
-                "0": 7.0,
-                "3": 27.0
+                "1": 4.0,
+                "2": 14.0,
+                "0": 5.0,
+                "3": 25.0
             },
             "Carriages": {
                 "1": "Single",
@@ -884,7 +893,7 @@
         "Lines": [
             "East Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -895,23 +904,23 @@
     "Holt Town": {
         "Departures": {
             "Due": {
-                "4": "2019-08-21 00:08:17",
-                "1": "2019-08-21 00:10:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:56:17",
-                "3": "2019-08-21 00:06:17"
+                "4": "2019-08-21 00:15:17",
+                "1": "2019-08-21 00:11:17",
+                "2": "2019-08-21 00:05:17",
+                "0": "2019-08-20 23:55:17",
+                "3": "2019-08-21 00:08:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
                 "1": "Due",
-                "2": "Departing",
+                "2": "Due",
                 "0": "Due",
                 "3": "Due"
             },
@@ -923,10 +932,10 @@
                 "3": "Trafford Bar"
             },
             "Wait": {
-                "4": 20.0,
-                "1": 22.0,
-                "2": 0.0,
-                "0": 8.0,
+                "4": 25.0,
+                "1": 21.0,
+                "2": 15.0,
+                "0": 5.0,
                 "3": 18.0
             },
             "Carriages": {
@@ -961,7 +970,7 @@
         "Lines": [
             "East Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -973,17 +982,17 @@
         "Departures": {
             "Due": {
                 "4": "2019-08-21 00:03:17",
-                "1": "2019-08-21 00:10:17",
+                "1": "2019-08-21 00:11:17",
                 "2": "2019-08-21 00:09:17",
-                "0": "2019-08-21 00:18:17",
+                "0": "2019-08-21 00:19:17",
                 "3": "2019-08-21 00:15:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
@@ -1000,11 +1009,11 @@
                 "3": "Rochdale Town Centre"
             },
             "Wait": {
-                "4": 15.0,
-                "1": 22.0,
-                "2": 21.0,
-                "0": 30.0,
-                "3": 27.0
+                "4": 13.0,
+                "1": 21.0,
+                "2": 19.0,
+                "0": 29.0,
+                "3": 25.0
             },
             "Carriages": {
                 "4": "Single",
@@ -1038,7 +1047,7 @@
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -1049,97 +1058,20 @@
     "Shudehill": {
         "Departures": {
             "Due": {
-                "4": "2019-08-21 00:07:17",
-                "1": "2019-08-20 23:56:17",
-                "2": "2019-08-20 23:59:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:55:17"
-            },
-            "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
-            },
-            "Status": {
-                "4": "Due",
-                "1": "Due",
-                "2": "Due",
-                "0": "Departing",
-                "3": "Due"
-            },
-            "Dest": {
-                "4": "Victoria",
-                "1": "Piccadilly",
-                "2": "Trafford Bar",
-                "0": "East Didsbury",
-                "3": "Victoria"
-            },
-            "Wait": {
-                "4": 19.0,
-                "1": 8.0,
-                "2": 11.0,
-                "0": 0.0,
-                "3": 7.0
-            },
-            "Carriages": {
-                "4": "Single",
-                "1": "Single",
-                "2": "Single",
-                "0": "Single",
-                "3": "Single"
-            },
-            "Direction": {
-                "4": "Outgoing",
-                "1": "Incoming",
-                "2": "Incoming",
-                "0": "Incoming",
-                "3": "Outgoing"
-            },
-            "TLAREF": {
-                "4": "SHL",
-                "1": "SHL",
-                "2": "SHL",
-                "0": "SHL",
-                "3": "SHL"
-            },
-            "Line": {
-                "4": "Altrincham",
-                "1": "Altrincham",
-                "2": "Altrincham",
-                "0": "Altrincham",
-                "3": "Altrincham"
-            }
-        },
-        "Lines": [
-            "Altrincham"
-        ],
-        "LastUpdate": "2019-08-20 23:48:17",
-        "MessageBoards": [
-            "Due to a track fault at Victoria there are no services to Manchester Airport from this stop. Customers waiting to board an Airport service should change at St Peters Square."
-        ],
-        "TLAREF": [
-            "SHL"
-        ]
-    },
-    "Trafford Bar": {
-        "Departures": {
-            "Due": {
-                "3": "2019-08-21 00:03:17",
+                "3": "2019-08-20 23:54:17",
                 "1": "2019-08-21 00:00:17",
-                "5": "2019-08-20 23:52:17",
-                "4": "2019-08-20 23:54:17",
-                "0": "2019-08-20 23:56:17",
-                "2": "2019-08-20 23:50:17"
+                "5": "2019-08-21 00:07:17",
+                "4": "2019-08-20 23:55:17",
+                "0": "2019-08-20 23:57:17",
+                "2": "2019-08-21 00:08:17"
             },
             "Updated": {
-                "3": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "5": "2019-08-20 23:48:17",
-                "4": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17"
+                "3": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "5": "2019-08-20 23:50:17",
+                "4": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17"
             },
             "Status": {
                 "3": "Due",
@@ -1150,7 +1082,93 @@
                 "2": "Due"
             },
             "Dest": {
-                "3": "Not in Service",
+                "3": "Victoria",
+                "1": "Trafford Bar",
+                "5": "Victoria",
+                "4": "Victoria",
+                "0": "Piccadilly",
+                "2": "Trafford Bar"
+            },
+            "Wait": {
+                "3": 4.0,
+                "1": 10.0,
+                "5": 17.0,
+                "4": 5.0,
+                "0": 7.0,
+                "2": 18.0
+            },
+            "Carriages": {
+                "3": "Single",
+                "1": "Single",
+                "5": "Single",
+                "4": "Single",
+                "0": "Single",
+                "2": "Single"
+            },
+            "Direction": {
+                "3": "Outgoing",
+                "1": "Incoming",
+                "5": "Outgoing",
+                "4": "Outgoing",
+                "0": "Incoming",
+                "2": "Incoming"
+            },
+            "TLAREF": {
+                "3": "SHL",
+                "1": "SHL",
+                "5": "SHL",
+                "4": "SHL",
+                "0": "SHL",
+                "2": "SHL"
+            },
+            "Line": {
+                "3": "Altrincham",
+                "1": "Altrincham",
+                "5": "Altrincham",
+                "4": "Altrincham",
+                "0": "Altrincham",
+                "2": "Altrincham"
+            }
+        },
+        "Lines": [
+            "Altrincham"
+        ],
+        "LastUpdate": "2019-08-20 23:50:17",
+        "MessageBoards": [
+            "Due to a track fault at Victoria there are no services to Manchester Airport from this stop. Customers waiting to board an Airport service should change at St Peters Square."
+        ],
+        "TLAREF": [
+            "SHL"
+        ]
+    },
+    "Trafford Bar": {
+        "Departures": {
+            "Due": {
+                "3": "2019-08-21 00:04:17",
+                "1": "2019-08-21 00:00:17",
+                "5": "2019-08-20 23:51:17",
+                "4": "2019-08-20 23:54:17",
+                "0": "2019-08-20 23:56:17",
+                "2": "2019-08-20 23:50:17"
+            },
+            "Updated": {
+                "3": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "5": "2019-08-20 23:50:17",
+                "4": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17"
+            },
+            "Status": {
+                "3": "Due",
+                "1": "Due",
+                "5": "Due",
+                "4": "Due",
+                "0": "Due",
+                "2": "Departing"
+            },
+            "Dest": {
+                "3": "East Didsbury",
                 "1": "Cornbrook",
                 "5": "Victoria",
                 "4": "Piccadilly",
@@ -1158,12 +1176,12 @@
                 "2": "East Didsbury"
             },
             "Wait": {
-                "3": 15.0,
-                "1": 12.0,
-                "5": 4.0,
-                "4": 6.0,
-                "0": 8.0,
-                "2": 2.0
+                "3": 14.0,
+                "1": 10.0,
+                "5": 1.0,
+                "4": 4.0,
+                "0": 6.0,
+                "2": 0.0
             },
             "Carriages": {
                 "3": "Single",
@@ -1201,7 +1219,7 @@
         "Lines": [
             "Altrincham"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -1212,55 +1230,64 @@
     "Whitefield": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:51:17",
-                "2": "2019-08-21 00:04:17",
-                "0": "2019-08-21 00:07:17"
+                "1": "2019-08-21 00:19:17",
+                "2": "2019-08-20 23:52:17",
+                "0": "2019-08-21 00:07:17",
+                "3": "2019-08-21 00:04:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
                 "2": "Due",
-                "0": "Due"
+                "0": "Due",
+                "3": "Due"
             },
             "Dest": {
-                "1": "Bury",
+                "1": "Abraham Moss",
                 "2": "Bury",
-                "0": "Abraham Moss"
+                "0": "Abraham Moss",
+                "3": "Bury"
             },
             "Wait": {
-                "1": 3.0,
-                "2": 16.0,
-                "0": 19.0
+                "1": 29.0,
+                "2": 2.0,
+                "0": 17.0,
+                "3": 14.0
             },
             "Carriages": {
-                "1": "Double",
-                "2": "Single",
-                "0": "Double"
+                "1": "Single",
+                "2": "Double",
+                "0": "Double",
+                "3": "Single"
             },
             "Direction": {
-                "1": "Outgoing",
+                "1": "Incoming",
                 "2": "Outgoing",
-                "0": "Incoming"
+                "0": "Incoming",
+                "3": "Outgoing"
             },
             "TLAREF": {
                 "1": "WFD",
                 "2": "WFD",
-                "0": "WFD"
+                "0": "WFD",
+                "3": "WFD"
             },
             "Line": {
                 "1": "Bury",
                 "2": "Bury",
-                "0": "Bury"
+                "0": "Bury",
+                "3": "Bury"
             }
         },
         "Lines": [
             "Bury"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to an esrlier operational incident passengers on the Bury line may experience an additional wait to board a service. We are sorry for any inconvenience."
         ],
@@ -1271,63 +1298,54 @@
     "Audenshaw": {
         "Departures": {
             "Due": {
-                "4": "2019-08-21 00:11:17",
-                "1": "2019-08-21 00:00:17",
-                "2": "2019-08-20 23:50:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:59:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:59:17",
+                "0": "2019-08-21 00:00:17",
+                "3": "2019-08-21 00:11:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
-                "4": "Due",
-                "1": "Due",
+                "1": "Departing",
                 "2": "Due",
-                "0": "Arrived",
+                "0": "Due",
                 "3": "Due"
             },
             "Dest": {
-                "4": "Victoria",
-                "1": "Ashton-under-Lyne",
+                "1": "Trafford Bar",
                 "2": "Trafford Bar",
                 "0": "Ashton-under-Lyne",
-                "3": "Trafford Bar"
+                "3": "Victoria"
             },
             "Wait": {
-                "4": 23.0,
-                "1": 12.0,
-                "2": 2.0,
-                "0": 0.0,
-                "3": 11.0
+                "1": 0.0,
+                "2": 9.0,
+                "0": 10.0,
+                "3": 21.0
             },
             "Carriages": {
-                "4": "Single",
                 "1": "Single",
                 "2": "Single",
                 "0": "Single",
                 "3": "Single"
             },
             "Direction": {
-                "4": "Incoming",
-                "1": "Outgoing",
+                "1": "Incoming",
                 "2": "Incoming",
                 "0": "Outgoing",
                 "3": "Incoming"
             },
             "TLAREF": {
-                "4": "AUD",
                 "1": "AUD",
                 "2": "AUD",
                 "0": "AUD",
                 "3": "AUD"
             },
             "Line": {
-                "4": "East Manchester",
                 "1": "East Manchester",
                 "2": "East Manchester",
                 "0": "East Manchester",
@@ -1337,7 +1355,7 @@
         "Lines": [
             "East Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -1353,9 +1371,9 @@
                 "0": "2019-08-20 23:56:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -1368,9 +1386,9 @@
                 "0": "Cornbrook"
             },
             "Wait": {
-                "1": 20.0,
-                "2": 3.0,
-                "0": 8.0
+                "1": 18.0,
+                "2": 1.0,
+                "0": 6.0
             },
             "Carriages": {
                 "1": "Single",
@@ -1396,7 +1414,7 @@
         "Lines": [
             "Eccles"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -1407,63 +1425,54 @@
     "Ashton Moss": {
         "Departures": {
             "Due": {
-                "4": "2019-08-21 00:09:17",
                 "1": "2019-08-21 00:03:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:51:17",
-                "3": "2019-08-20 23:57:17"
+                "2": "2019-08-20 23:57:17",
+                "0": "2019-08-20 23:52:17",
+                "3": "2019-08-21 00:09:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
-                "4": "Due",
                 "1": "Due",
-                "2": "Arrived",
+                "2": "Due",
                 "0": "Due",
                 "3": "Due"
             },
             "Dest": {
-                "4": "Victoria",
                 "1": "Ashton-under-Lyne",
                 "2": "Trafford Bar",
                 "0": "Ashton-under-Lyne",
-                "3": "Trafford Bar"
+                "3": "Victoria"
             },
             "Wait": {
-                "4": 21.0,
-                "1": 15.0,
-                "2": 0.0,
-                "0": 3.0,
-                "3": 9.0
+                "1": 13.0,
+                "2": 7.0,
+                "0": 2.0,
+                "3": 19.0
             },
             "Carriages": {
-                "4": "Single",
                 "1": "Single",
                 "2": "Single",
                 "0": "Single",
                 "3": "Single"
             },
             "Direction": {
-                "4": "Incoming",
                 "1": "Outgoing",
                 "2": "Incoming",
                 "0": "Outgoing",
                 "3": "Incoming"
             },
             "TLAREF": {
-                "4": "ASM",
                 "1": "ASM",
                 "2": "ASM",
                 "0": "ASM",
                 "3": "ASM"
             },
             "Line": {
-                "4": "East Manchester",
                 "1": "East Manchester",
                 "2": "East Manchester",
                 "0": "East Manchester",
@@ -1473,7 +1482,7 @@
         "Lines": [
             "East Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -1484,44 +1493,44 @@
     "Deansgate - Castlefield": {
         "Departures": {
             "Due": {
-                "3": "2019-08-20 23:55:17",
-                "1": "2019-08-20 23:56:17",
+                "3": "2019-08-20 23:54:17",
+                "1": "2019-08-20 23:58:17",
                 "5": "2019-08-20 23:58:17",
                 "4": "2019-08-20 23:51:17",
-                "0": "2019-08-20 23:51:17",
+                "0": "2019-08-20 23:50:17",
                 "2": "2019-08-20 23:57:17"
             },
             "Updated": {
-                "3": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "5": "2019-08-20 23:48:17",
-                "4": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17"
+                "3": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "5": "2019-08-20 23:50:17",
+                "4": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17"
             },
             "Status": {
                 "3": "Due",
                 "1": "Due",
                 "5": "Due",
                 "4": "Due",
-                "0": "Due",
+                "0": "Arrived",
                 "2": "Due"
             },
             "Dest": {
                 "3": "Trafford Bar",
-                "1": "Etihad Campus",
+                "1": "East Didsbury",
                 "5": "Victoria",
                 "4": "Victoria",
                 "0": "Altrincham",
-                "2": "Manchester Airport"
+                "2": "Etihad Campus"
             },
             "Wait": {
-                "3": 7.0,
+                "3": 4.0,
                 "1": 8.0,
-                "5": 10.0,
-                "4": 3.0,
-                "0": 3.0,
-                "2": 9.0
+                "5": 8.0,
+                "4": 1.0,
+                "0": 0.0,
+                "2": 7.0
             },
             "Carriages": {
                 "3": "Single",
@@ -1533,11 +1542,11 @@
             },
             "Direction": {
                 "3": "Outgoing",
-                "1": "Incoming",
+                "1": "Outgoing",
                 "5": "Incoming",
                 "4": "Incoming",
                 "0": "Outgoing",
-                "2": "Outgoing"
+                "2": "Incoming"
             },
             "TLAREF": {
                 "3": "GMX",
@@ -1559,7 +1568,7 @@
         "Lines": [
             "Altrincham"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -1571,22 +1580,22 @@
         "Departures": {
             "Due": {
                 "4": "2019-08-20 23:57:17",
-                "1": "2019-08-21 00:04:17",
+                "1": "2019-08-21 00:05:17",
                 "2": "2019-08-20 23:50:17",
-                "0": "2019-08-21 00:12:17",
+                "0": "2019-08-21 00:13:17",
                 "3": "2019-08-21 00:15:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
                 "1": "Due",
-                "2": "Due",
+                "2": "Departing",
                 "0": "Due",
                 "3": "Due"
             },
@@ -1598,11 +1607,11 @@
                 "3": "Rochdale Town Centre"
             },
             "Wait": {
-                "4": 9.0,
-                "1": 16.0,
-                "2": 2.0,
-                "0": 24.0,
-                "3": 27.0
+                "4": 7.0,
+                "1": 15.0,
+                "2": 0.0,
+                "0": 23.0,
+                "3": 25.0
             },
             "Carriages": {
                 "4": "Single",
@@ -1636,7 +1645,7 @@
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -1648,11 +1657,11 @@
         "Departures": {
             "Due": {
                 "1": "2019-08-21 00:11:17",
-                "0": "2019-08-21 00:02:17"
+                "0": "2019-08-21 00:01:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -1663,8 +1672,8 @@
                 "0": "Trafford Bar"
             },
             "Wait": {
-                "1": 23.0,
-                "0": 14.0
+                "1": 21.0,
+                "0": 11.0
             },
             "Carriages": {
                 "1": "Single",
@@ -1686,7 +1695,7 @@
         "Lines": [
             "East Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -1699,16 +1708,16 @@
             "Due": {
                 "4": "2019-08-21 00:15:17",
                 "1": "2019-08-21 00:05:17",
-                "2": "2019-08-20 23:51:17",
+                "2": "2019-08-20 23:52:17",
                 "0": "2019-08-20 23:53:17",
-                "3": "2019-08-21 00:04:17"
+                "3": "2019-08-21 00:03:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
@@ -1725,11 +1734,11 @@
                 "3": "Cornbrook"
             },
             "Wait": {
-                "4": 27.0,
-                "1": 17.0,
-                "2": 3.0,
-                "0": 5.0,
-                "3": 16.0
+                "4": 25.0,
+                "1": 15.0,
+                "2": 2.0,
+                "0": 3.0,
+                "3": 13.0
             },
             "Carriages": {
                 "4": "Single",
@@ -1763,7 +1772,7 @@
         "Lines": [
             "Altrincham"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -1775,15 +1784,15 @@
         "Departures": {
             "Due": {
                 "1": "2019-08-21 00:15:17",
-                "2": "2019-08-20 23:53:17",
+                "2": "2019-08-20 23:54:17",
                 "0": "2019-08-21 00:03:17",
                 "3": "2019-08-21 00:06:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -1798,10 +1807,10 @@
                 "3": "Bury"
             },
             "Wait": {
-                "1": 27.0,
-                "2": 5.0,
-                "0": 15.0,
-                "3": 18.0
+                "1": 25.0,
+                "2": 4.0,
+                "0": 13.0,
+                "3": 16.0
             },
             "Carriages": {
                 "1": "Single",
@@ -1831,7 +1840,7 @@
         "Lines": [
             "Bury"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to an esrlier operational incident passengers on the Bury line may experience an additional wait to board a service. We are sorry for any inconvenience."
         ],
@@ -1842,54 +1851,63 @@
     "Milnrow": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:58:17",
+                "4": "2019-08-20 23:51:17",
+                "1": "2019-08-20 23:59:17",
                 "2": "2019-08-20 23:55:17",
-                "0": "2019-08-21 00:07:17",
-                "3": "2019-08-20 23:51:17"
+                "0": "2019-08-21 00:08:17",
+                "3": "2019-08-21 00:20:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
+                "4": "Due",
                 "1": "Due",
                 "2": "Due",
                 "0": "Due",
                 "3": "Due"
             },
             "Dest": {
+                "4": "Victoria",
                 "1": "Monsall",
                 "2": "Rochdale Town Centre",
                 "0": "East Didsbury",
-                "3": "Victoria"
+                "3": "Rochdale Town Centre"
             },
             "Wait": {
-                "1": 10.0,
-                "2": 7.0,
-                "0": 19.0,
-                "3": 3.0
+                "4": 1.0,
+                "1": 9.0,
+                "2": 5.0,
+                "0": 18.0,
+                "3": 30.0
             },
             "Carriages": {
+                "4": "Single",
                 "1": "Single",
                 "2": "Single",
                 "0": "Single",
                 "3": "Single"
             },
             "Direction": {
+                "4": "Incoming",
                 "1": "Incoming",
                 "2": "Outgoing",
                 "0": "Incoming",
-                "3": "Incoming"
+                "3": "Outgoing"
             },
             "TLAREF": {
+                "4": "MIL",
                 "1": "MIL",
                 "2": "MIL",
                 "0": "MIL",
                 "3": "MIL"
             },
             "Line": {
+                "4": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
                 "2": "Oldham & Rochdale",
                 "0": "Oldham & Rochdale",
@@ -1899,7 +1917,7 @@
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -1910,16 +1928,16 @@
     "Monsall": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:51:17",
+                "1": "2019-08-20 23:52:17",
                 "2": "2019-08-21 00:00:17",
                 "0": "2019-08-20 23:51:17",
-                "3": "2019-08-21 00:12:17"
+                "3": "2019-08-21 00:11:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -1934,10 +1952,10 @@
                 "3": "Victoria"
             },
             "Wait": {
-                "1": 3.0,
-                "2": 12.0,
-                "0": 3.0,
-                "3": 24.0
+                "1": 2.0,
+                "2": 10.0,
+                "0": 1.0,
+                "3": 21.0
             },
             "Carriages": {
                 "1": "Single",
@@ -1967,7 +1985,7 @@
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -1978,18 +1996,86 @@
     "Oldham Central": {
         "Departures": {
             "Due": {
-                "4": "2019-08-21 00:05:17",
                 "1": "2019-08-21 00:07:17",
                 "2": "2019-08-21 00:13:17",
-                "0": "2019-08-21 00:12:17",
-                "3": "2019-08-20 23:49:17"
+                "0": "2019-08-21 00:13:17",
+                "3": "2019-08-21 00:05:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
+            },
+            "Status": {
+                "1": "Due",
+                "2": "Due",
+                "0": "Due",
+                "3": "Due"
+            },
+            "Dest": {
+                "1": "Rochdale Town Centre",
+                "2": "Rochdale Town Centre",
+                "0": "Monsall",
+                "3": "Victoria"
+            },
+            "Wait": {
+                "1": 17.0,
+                "2": 23.0,
+                "0": 23.0,
+                "3": 15.0
+            },
+            "Carriages": {
+                "1": "Single",
+                "2": "Single",
+                "0": "Single",
+                "3": "Single"
+            },
+            "Direction": {
+                "1": "Outgoing",
+                "2": "Outgoing",
+                "0": "Incoming",
+                "3": "Incoming"
+            },
+            "TLAREF": {
+                "1": "OHC",
+                "2": "OHC",
+                "0": "OHC",
+                "3": "OHC"
+            },
+            "Line": {
+                "1": "Oldham & Rochdale",
+                "2": "Oldham & Rochdale",
+                "0": "Oldham & Rochdale",
+                "3": "Oldham & Rochdale"
+            }
+        },
+        "Lines": [
+            "Oldham & Rochdale"
+        ],
+        "LastUpdate": "2019-08-20 23:50:17",
+        "MessageBoards": [
+            "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
+        ],
+        "TLAREF": [
+            "OHC"
+        ]
+    },
+    "Freehold": {
+        "Departures": {
+            "Due": {
+                "4": "2019-08-21 00:12:17",
+                "1": "2019-08-20 23:58:17",
+                "2": "2019-08-21 00:04:17",
+                "0": "2019-08-21 00:19:17",
+                "3": "2019-08-20 23:59:17"
+            },
+            "Updated": {
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
@@ -2006,11 +2092,11 @@
                 "3": "Victoria"
             },
             "Wait": {
-                "4": 17.0,
-                "1": 19.0,
-                "2": 25.0,
-                "0": 24.0,
-                "3": 1.0
+                "4": 22.0,
+                "1": 8.0,
+                "2": 14.0,
+                "0": 29.0,
+                "3": 9.0
             },
             "Carriages": {
                 "4": "Single",
@@ -2027,11 +2113,11 @@
                 "3": "Incoming"
             },
             "TLAREF": {
-                "4": "OHC",
-                "1": "OHC",
-                "2": "OHC",
-                "0": "OHC",
-                "3": "OHC"
+                "4": "FRE",
+                "1": "FRE",
+                "2": "FRE",
+                "0": "FRE",
+                "3": "FRE"
             },
             "Line": {
                 "4": "Oldham & Rochdale",
@@ -2044,75 +2130,7 @@
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
-        "MessageBoards": [
-            "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
-        ],
-        "TLAREF": [
-            "OHC"
-        ]
-    },
-    "Freehold": {
-        "Departures": {
-            "Due": {
-                "1": "2019-08-21 00:04:17",
-                "2": "2019-08-20 23:59:17",
-                "0": "2019-08-20 23:58:17",
-                "3": "2019-08-21 00:11:17"
-            },
-            "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
-            },
-            "Status": {
-                "1": "Due",
-                "2": "Due",
-                "0": "Due",
-                "3": "Due"
-            },
-            "Dest": {
-                "1": "Rochdale Town Centre",
-                "2": "Victoria",
-                "0": "Rochdale Town Centre",
-                "3": "Victoria"
-            },
-            "Wait": {
-                "1": 16.0,
-                "2": 11.0,
-                "0": 10.0,
-                "3": 23.0
-            },
-            "Carriages": {
-                "1": "Single",
-                "2": "Single",
-                "0": "Single",
-                "3": "Single"
-            },
-            "Direction": {
-                "1": "Outgoing",
-                "2": "Incoming",
-                "0": "Outgoing",
-                "3": "Incoming"
-            },
-            "TLAREF": {
-                "1": "FRE",
-                "2": "FRE",
-                "0": "FRE",
-                "3": "FRE"
-            },
-            "Line": {
-                "1": "Oldham & Rochdale",
-                "2": "Oldham & Rochdale",
-                "0": "Oldham & Rochdale",
-                "3": "Oldham & Rochdale"
-            }
-        },
-        "Lines": [
-            "Oldham & Rochdale"
-        ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -2123,73 +2141,82 @@
     "Market Street": {
         "Departures": {
             "Due": {
-                "4": "2019-08-21 00:05:17",
-                "1": "2019-08-20 23:58:17",
-                "2": "2019-08-21 00:01:17",
+                "3": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:59:17",
+                "5": "2019-08-21 00:05:17",
+                "4": "2019-08-20 23:53:17",
                 "0": "2019-08-20 23:50:17",
-                "3": "2019-08-20 23:53:17"
+                "2": "2019-08-21 00:02:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "3": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "5": "2019-08-20 23:50:17",
+                "4": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17"
             },
             "Status": {
-                "4": "Due",
+                "3": "Arrived",
                 "1": "Due",
-                "2": "Due",
-                "0": "Due",
-                "3": "Due"
+                "5": "Due",
+                "4": "Due",
+                "0": "Departing",
+                "2": "Due"
             },
             "Dest": {
-                "4": "Victoria",
+                "3": "Victoria",
                 "1": "Piccadilly",
-                "2": "Trafford Bar",
+                "5": "Victoria",
+                "4": "Victoria",
                 "0": "East Didsbury",
-                "3": "Victoria"
+                "2": "Trafford Bar"
             },
             "Wait": {
-                "4": 17.0,
-                "1": 10.0,
-                "2": 13.0,
-                "0": 2.0,
-                "3": 5.0
+                "3": 0.0,
+                "1": 9.0,
+                "5": 15.0,
+                "4": 3.0,
+                "0": 0.0,
+                "2": 12.0
             },
             "Carriages": {
-                "4": "Single",
+                "3": "Single",
                 "1": "Single",
-                "2": "Single",
+                "5": "Single",
+                "4": "Single",
                 "0": "Single",
-                "3": "Single"
+                "2": "Single"
             },
             "Direction": {
-                "4": "Outgoing",
+                "3": "Outgoing",
                 "1": "Incoming",
-                "2": "Incoming",
+                "5": "Outgoing",
+                "4": "Outgoing",
                 "0": "Incoming",
-                "3": "Outgoing"
+                "2": "Incoming"
             },
             "TLAREF": {
-                "4": "MKT",
+                "3": "MKT",
                 "1": "MKT",
-                "2": "MKT",
+                "5": "MKT",
+                "4": "MKT",
                 "0": "MKT",
-                "3": "MKT"
+                "2": "MKT"
             },
             "Line": {
-                "4": "Bury",
+                "3": "Bury",
                 "1": "Bury",
-                "2": "Bury",
+                "5": "Bury",
+                "4": "Bury",
                 "0": "Bury",
-                "3": "Bury"
+                "2": "Bury"
             }
         },
         "Lines": [
             "Bury"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a track fault at Victoria there are no services to Manchester Airport from this stop. Customers waiting to board an Airport service should change at St Peters Square."
         ],
@@ -2202,17 +2229,17 @@
             "Due": {
                 "1": "2019-08-21 00:15:17",
                 "2": "2019-08-20 23:55:17",
-                "0": "2019-08-20 23:51:17"
+                "0": "2019-08-20 23:50:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
                 "2": "Due",
-                "0": "Due"
+                "0": "Arrived"
             },
             "Dest": {
                 "1": "Abraham Moss",
@@ -2220,9 +2247,9 @@
                 "0": "Abraham Moss"
             },
             "Wait": {
-                "1": 27.0,
-                "2": 7.0,
-                "0": 3.0
+                "1": 25.0,
+                "2": 5.0,
+                "0": 0.0
             },
             "Carriages": {
                 "1": "Double",
@@ -2248,7 +2275,7 @@
         "Lines": [
             "Bury"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to an esrlier operational incident passengers on the Bury line may experience an additional wait to board a service. We are sorry for any inconvenience."
         ],
@@ -2261,12 +2288,12 @@
             "Due": {
                 "1": "2019-08-21 00:06:17",
                 "2": "2019-08-21 00:13:17",
-                "0": "2019-08-21 00:04:17"
+                "0": "2019-08-21 00:03:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -2279,9 +2306,9 @@
                 "0": "Trafford Bar"
             },
             "Wait": {
-                "1": 18.0,
-                "2": 25.0,
-                "0": 16.0
+                "1": 16.0,
+                "2": 23.0,
+                "0": 13.0
             },
             "Carriages": {
                 "1": "Single",
@@ -2307,7 +2334,7 @@
         "Lines": [
             "East Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -2318,64 +2345,55 @@
     "Shadowmoss": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:59:17",
-                "2": "2019-08-20 23:51:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-21 00:03:17"
+                "1": "2019-08-20 23:52:17",
+                "2": "2019-08-21 00:05:17",
+                "0": "2019-08-21 00:01:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
                 "2": "Due",
-                "0": "Arrived",
-                "3": "Due"
+                "0": "Due"
             },
             "Dest": {
-                "1": "Manchester Airport",
+                "1": "Victoria",
                 "2": "Victoria",
-                "0": "Firswood",
-                "3": "Victoria"
+                "0": "Manchester Airport"
             },
             "Wait": {
-                "1": 11.0,
-                "2": 3.0,
-                "0": 0.0,
-                "3": 15.0
+                "1": 2.0,
+                "2": 15.0,
+                "0": 11.0
             },
             "Carriages": {
                 "1": "Single",
                 "2": "Single",
-                "0": "Single",
-                "3": "Single"
+                "0": "Single"
             },
             "Direction": {
-                "1": "Outgoing",
+                "1": "Incoming",
                 "2": "Incoming",
-                "0": "Incoming",
-                "3": "Incoming"
+                "0": "Outgoing"
             },
             "TLAREF": {
                 "1": "SHD",
                 "2": "SHD",
-                "0": "SHD",
-                "3": "SHD"
+                "0": "SHD"
             },
             "Line": {
                 "1": "Airport",
                 "2": "Airport",
-                "0": "Airport",
-                "3": "Airport"
+                "0": "Airport"
             }
         },
         "Lines": [
             "Airport"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -2387,17 +2405,17 @@
         "Departures": {
             "Due": {
                 "4": "2019-08-21 00:01:17",
-                "1": "2019-08-21 00:08:17",
+                "1": "2019-08-21 00:09:17",
                 "2": "2019-08-21 00:11:17",
-                "0": "2019-08-21 00:16:17",
+                "0": "2019-08-21 00:17:17",
                 "3": "2019-08-21 00:17:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
@@ -2414,11 +2432,11 @@
                 "3": "Rochdale Town Centre"
             },
             "Wait": {
-                "4": 13.0,
-                "1": 20.0,
-                "2": 23.0,
-                "0": 28.0,
-                "3": 29.0
+                "4": 11.0,
+                "1": 19.0,
+                "2": 21.0,
+                "0": 27.0,
+                "3": 27.0
             },
             "Carriages": {
                 "4": "Single",
@@ -2452,7 +2470,7 @@
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -2466,7 +2484,7 @@
                 "0": "2019-08-20 23:57:17"
             },
             "Updated": {
-                "0": "2019-08-20 23:48:17"
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "0": "Due"
@@ -2475,7 +2493,7 @@
                 "0": "Eccles"
             },
             "Wait": {
-                "0": 9.0
+                "0": 7.0
             },
             "Carriages": {
                 "0": "Single"
@@ -2493,7 +2511,7 @@
         "Lines": [
             "Eccles"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -2504,19 +2522,19 @@
     "Central Park": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:49:17",
+                "1": "2019-08-20 23:50:17",
                 "2": "2019-08-20 23:58:17",
                 "0": "2019-08-20 23:52:17",
                 "3": "2019-08-21 00:10:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
-                "1": "Due",
+                "1": "Departing",
                 "2": "Due",
                 "0": "Due",
                 "3": "Due"
@@ -2528,10 +2546,10 @@
                 "3": "Victoria"
             },
             "Wait": {
-                "1": 1.0,
-                "2": 10.0,
-                "0": 4.0,
-                "3": 22.0
+                "1": 0.0,
+                "2": 8.0,
+                "0": 2.0,
+                "3": 20.0
             },
             "Carriages": {
                 "1": "Single",
@@ -2561,7 +2579,7 @@
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -2574,12 +2592,12 @@
             "Due": {
                 "1": "2019-08-21 00:10:17",
                 "2": "2019-08-20 23:59:17",
-                "0": "2019-08-20 23:58:17"
+                "0": "2019-08-20 23:52:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -2592,9 +2610,9 @@
                 "0": "Cornbrook"
             },
             "Wait": {
-                "1": 22.0,
-                "2": 11.0,
-                "0": 10.0
+                "1": 20.0,
+                "2": 9.0,
+                "0": 2.0
             },
             "Carriages": {
                 "1": "Single",
@@ -2620,7 +2638,7 @@
         "Lines": [
             "Eccles"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -2631,73 +2649,55 @@
     "Exchange Square": {
         "Departures": {
             "Due": {
-                "4": "2019-08-21 00:04:17",
-                "1": "2019-08-20 23:50:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-21 00:03:17",
-                "3": "2019-08-20 23:58:17"
+                "1": "2019-08-20 23:58:17",
+                "2": "2019-08-21 00:04:17",
+                "0": "2019-08-21 00:03:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
-                "4": "Due",
                 "1": "Due",
-                "2": "Departing",
-                "0": "Due",
-                "3": "Due"
+                "2": "Due",
+                "0": "Due"
             },
             "Dest": {
-                "4": "Victoria",
-                "1": "Not in Service",
-                "2": "Trafford Bar",
-                "0": "Manchester Airport",
-                "3": "Victoria"
+                "1": "Victoria",
+                "2": "Victoria",
+                "0": "Manchester Airport"
             },
             "Wait": {
-                "4": 16.0,
-                "1": 2.0,
-                "2": 0.0,
-                "0": 15.0,
-                "3": 10.0
+                "1": 8.0,
+                "2": 14.0,
+                "0": 13.0
             },
             "Carriages": {
-                "4": "Single",
                 "1": "Single",
                 "2": "Single",
-                "0": "Single",
-                "3": "Single"
+                "0": "Single"
             },
             "Direction": {
-                "4": "Outgoing",
-                "1": "Incoming",
-                "2": "Incoming",
-                "0": "Incoming",
-                "3": "Outgoing"
+                "1": "Outgoing",
+                "2": "Outgoing",
+                "0": "Incoming"
             },
             "TLAREF": {
-                "4": "EXS",
                 "1": "EXS",
                 "2": "EXS",
-                "0": "EXS",
-                "3": "EXS"
+                "0": "EXS"
             },
             "Line": {
-                "4": "Eccles",
                 "1": "Eccles",
                 "2": "Eccles",
-                "0": "Eccles",
-                "3": "Eccles"
+                "0": "Eccles"
             }
         },
         "Lines": [
             "Eccles"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a track fault at Victoria there are no services to East Didsbury & Rochdale from this stop. Please visit www.tfgm.com or tweet us @MCRMetrolink for further travel information."
         ],
@@ -2708,14 +2708,14 @@
     "Martinscroft": {
         "Departures": {
             "Due": {
-                "1": "2019-08-21 00:02:17",
-                "2": "2019-08-21 00:03:17",
-                "0": "2019-08-20 23:49:17"
+                "1": "2019-08-21 00:04:17",
+                "2": "2019-08-21 00:17:17",
+                "0": "2019-08-21 00:01:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -2723,14 +2723,14 @@
                 "0": "Due"
             },
             "Dest": {
-                "1": "Firswood",
+                "1": "Victoria",
                 "2": "Victoria",
                 "0": "Firswood"
             },
             "Wait": {
                 "1": 14.0,
-                "2": 15.0,
-                "0": 1.0
+                "2": 27.0,
+                "0": 11.0
             },
             "Carriages": {
                 "1": "Single",
@@ -2756,7 +2756,7 @@
         "Lines": [
             "Airport"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -2768,23 +2768,23 @@
         "Departures": {
             "Due": {
                 "4": "2019-08-21 00:00:17",
-                "1": "2019-08-21 00:05:17",
-                "2": "2019-08-20 23:54:17",
-                "0": "2019-08-20 23:51:17",
-                "3": "2019-08-20 23:55:17"
+                "1": "2019-08-21 00:06:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:52:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
                 "1": "Due",
-                "2": "Due",
-                "0": "Due",
+                "2": "Departing",
+                "0": "Arrived",
                 "3": "Due"
             },
             "Dest": {
@@ -2795,11 +2795,11 @@
                 "3": "Trafford Bar"
             },
             "Wait": {
-                "4": 12.0,
-                "1": 17.0,
-                "2": 6.0,
-                "0": 3.0,
-                "3": 7.0
+                "4": 10.0,
+                "1": 16.0,
+                "2": 0.0,
+                "0": 0.0,
+                "3": 2.0
             },
             "Carriages": {
                 "4": "Single",
@@ -2833,7 +2833,7 @@
         "Lines": [
             "Bury"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -2844,55 +2844,46 @@
     "Besses O’ Th’ Barn": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:49:17",
-                "2": "2019-08-21 00:02:17",
+                "1": "2019-08-21 00:02:17",
                 "0": "2019-08-21 00:08:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
-                "2": "Due",
                 "0": "Due"
             },
             "Dest": {
                 "1": "Bury",
-                "2": "Bury",
                 "0": "Abraham Moss"
             },
             "Wait": {
-                "1": 1.0,
-                "2": 14.0,
-                "0": 20.0
+                "1": 12.0,
+                "0": 18.0
             },
             "Carriages": {
-                "1": "Double",
-                "2": "Single",
+                "1": "Single",
                 "0": "Double"
             },
             "Direction": {
                 "1": "Outgoing",
-                "2": "Outgoing",
                 "0": "Incoming"
             },
             "TLAREF": {
                 "1": "BOB",
-                "2": "BOB",
                 "0": "BOB"
             },
             "Line": {
                 "1": "Bury",
-                "2": "Bury",
                 "0": "Bury"
             }
         },
         "Lines": [
             "Bury"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to an esrlier operational incident passengers on the Bury line may experience an additional wait to board a service. We are sorry for any inconvenience."
         ],
@@ -2903,55 +2894,46 @@
     "East Didsbury": {
         "Departures": {
             "Due": {
-                "1": "2019-08-21 00:15:17",
-                "2": "2019-08-21 00:06:17",
-                "0": "2019-08-20 23:51:17"
+                "1": "2019-08-21 00:20:17",
+                "0": "2019-08-21 00:05:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
-                "2": "Due",
                 "0": "Due"
             },
             "Dest": {
-                "1": "Firswood",
-                "2": "See Tram Front",
-                "0": "Firswood"
+                "1": "See Tram Front",
+                "0": "See Tram Front"
             },
             "Wait": {
-                "1": 27.0,
-                "2": 18.0,
-                "0": 3.0
+                "1": 30.0,
+                "0": 15.0
             },
             "Carriages": {
                 "1": "Single",
-                "2": "Single",
                 "0": "Single"
             },
             "Direction": {
                 "1": "Incoming",
-                "2": "Incoming",
                 "0": "Incoming"
             },
             "TLAREF": {
                 "1": "EDD",
-                "2": "EDD",
                 "0": "EDD"
             },
             "Line": {
                 "1": "South Manchester",
-                "2": "South Manchester",
                 "0": "South Manchester"
             }
         },
         "Lines": [
             "South Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -2962,55 +2944,46 @@
     "Bowker Vale": {
         "Departures": {
             "Due": {
-                "1": "2019-08-21 00:13:17",
-                "2": "2019-08-20 23:57:17",
-                "0": "2019-08-20 23:49:17"
+                "1": "2019-08-20 23:57:17",
+                "0": "2019-08-21 00:13:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
-                "2": "Due",
                 "0": "Due"
             },
             "Dest": {
-                "1": "Abraham Moss",
-                "2": "Bury",
+                "1": "Bury",
                 "0": "Abraham Moss"
             },
             "Wait": {
-                "1": 25.0,
-                "2": 9.0,
-                "0": 1.0
+                "1": 7.0,
+                "0": 23.0
             },
             "Carriages": {
-                "1": "Double",
-                "2": "Single",
+                "1": "Single",
                 "0": "Double"
             },
             "Direction": {
-                "1": "Incoming",
-                "2": "Outgoing",
+                "1": "Outgoing",
                 "0": "Incoming"
             },
             "TLAREF": {
                 "1": "BKV",
-                "2": "BKV",
                 "0": "BKV"
             },
             "Line": {
                 "1": "Bury",
-                "2": "Bury",
                 "0": "Bury"
             }
         },
         "Lines": [
             "Bury"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to an esrlier operational incident passengers on the Bury line may experience an additional wait to board a service. We are sorry for any inconvenience."
         ],
@@ -3025,8 +2998,8 @@
                 "0": "2019-08-21 00:01:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -3037,8 +3010,8 @@
                 "0": "Abraham Moss"
             },
             "Wait": {
-                "1": 25.0,
-                "0": 13.0
+                "1": 23.0,
+                "0": 11.0
             },
             "Carriages": {
                 "1": "Single",
@@ -3060,7 +3033,7 @@
         "Lines": [
             "Bury"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to an esrlier operational incident passengers on the Bury line may experience an additional wait to board a service. We are sorry for any inconvenience."
         ],
@@ -3073,20 +3046,20 @@
             "Due": {
                 "1": "2019-08-21 00:04:17",
                 "2": "2019-08-21 00:16:17",
-                "0": "2019-08-20 23:52:17",
+                "0": "2019-08-20 23:51:17",
                 "3": "2019-08-20 23:50:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
                 "2": "Due",
                 "0": "Due",
-                "3": "Due"
+                "3": "Arrived"
             },
             "Dest": {
                 "1": "Cornbrook",
@@ -3095,10 +3068,10 @@
                 "3": "Eccles via MediaCityUK"
             },
             "Wait": {
-                "1": 16.0,
-                "2": 28.0,
-                "0": 4.0,
-                "3": 2.0
+                "1": 14.0,
+                "2": 26.0,
+                "0": 1.0,
+                "3": 0.0
             },
             "Carriages": {
                 "1": "Single",
@@ -3128,7 +3101,7 @@
         "Lines": [
             "Eccles"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -3139,18 +3112,18 @@
     "New Islington": {
         "Departures": {
             "Due": {
-                "4": "2019-08-21 00:10:17",
-                "1": "2019-08-21 00:08:17",
-                "2": "2019-08-20 23:52:17",
-                "0": "2019-08-20 23:54:17",
-                "3": "2019-08-21 00:08:17"
+                "4": "2019-08-21 00:17:17",
+                "1": "2019-08-21 00:09:17",
+                "2": "2019-08-21 00:07:17",
+                "0": "2019-08-20 23:53:17",
+                "3": "2019-08-21 00:10:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
@@ -3167,10 +3140,10 @@
                 "3": "Trafford Bar"
             },
             "Wait": {
-                "4": 22.0,
-                "1": 20.0,
-                "2": 4.0,
-                "0": 6.0,
+                "4": 27.0,
+                "1": 19.0,
+                "2": 17.0,
+                "0": 3.0,
                 "3": 20.0
             },
             "Carriages": {
@@ -3205,7 +3178,7 @@
         "Lines": [
             "East Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [],
         "TLAREF": [
             "NIS"
@@ -3218,8 +3191,8 @@
                 "0": "2019-08-21 00:11:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -3230,8 +3203,8 @@
                 "0": "Abraham Moss"
             },
             "Wait": {
-                "1": 11.0,
-                "0": 23.0
+                "1": 9.0,
+                "0": 21.0
             },
             "Carriages": {
                 "1": "Single",
@@ -3253,7 +3226,7 @@
         "Lines": [
             "Bury"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to an esrlier operational incident passengers on the Bury line may experience an additional wait to board a service. We are sorry for any inconvenience."
         ],
@@ -3267,7 +3240,7 @@
                 "0": "2019-08-20 23:53:17"
             },
             "Updated": {
-                "0": "2019-08-20 23:48:17"
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "0": "Due"
@@ -3276,7 +3249,7 @@
                 "0": "Bury"
             },
             "Wait": {
-                "0": 5.0
+                "0": 3.0
             },
             "Carriages": {
                 "0": "Single"
@@ -3294,7 +3267,7 @@
         "Lines": [
             "Bury"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to an esrlier operational incident passengers on the Bury line may experience an additional wait to board a service. We are sorry for any inconvenience."
         ],
@@ -3305,16 +3278,16 @@
     "Old Trafford": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:57:17",
-                "2": "2019-08-21 00:10:17",
+                "1": "2019-08-20 23:58:17",
+                "2": "2019-08-21 00:09:17",
                 "0": "2019-08-20 23:59:17",
                 "3": "2019-08-20 23:51:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -3329,10 +3302,10 @@
                 "3": "Piccadilly"
             },
             "Wait": {
-                "1": 9.0,
-                "2": 22.0,
-                "0": 11.0,
-                "3": 3.0
+                "1": 8.0,
+                "2": 19.0,
+                "0": 9.0,
+                "3": 1.0
             },
             "Carriages": {
                 "1": "Single",
@@ -3362,7 +3335,7 @@
         "Lines": [
             "Altrincham"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -3373,82 +3346,73 @@
     "Victoria": {
         "Departures": {
             "Due": {
-                "3": "2019-08-20 23:57:17",
-                "1": "2019-08-20 23:54:17",
-                "5": "2019-08-20 23:57:17",
-                "4": "2019-08-21 00:06:17",
-                "0": "2019-08-20 23:48:17",
-                "2": "2019-08-21 00:00:17"
+                "4": "2019-08-20 23:56:17",
+                "1": "2019-08-21 00:01:17",
+                "2": "2019-08-20 23:58:17",
+                "0": "2019-08-20 23:55:17",
+                "3": "2019-08-21 00:06:17"
             },
             "Updated": {
-                "3": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "5": "2019-08-20 23:48:17",
-                "4": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
-                "3": "Due",
-                "1": "Due",
-                "5": "Due",
                 "4": "Due",
-                "0": "Departing",
-                "2": "Due"
+                "1": "Due",
+                "2": "Due",
+                "0": "Due",
+                "3": "Due"
             },
             "Dest": {
-                "3": "Trafford Bar",
-                "1": "Piccadilly",
-                "5": "Victoria",
-                "4": "Trafford Bar",
-                "0": "Not in Service",
-                "2": "See Tram Front"
+                "4": "Victoria",
+                "1": "See Tram Front",
+                "2": "Trafford Bar",
+                "0": "Piccadilly",
+                "3": "Trafford Bar"
             },
             "Wait": {
-                "3": 9.0,
-                "1": 6.0,
-                "5": 9.0,
-                "4": 18.0,
-                "0": 0.0,
-                "2": 12.0
+                "4": 6.0,
+                "1": 11.0,
+                "2": 8.0,
+                "0": 5.0,
+                "3": 16.0
             },
             "Carriages": {
-                "3": "Single",
-                "1": "Single",
-                "5": "Single",
                 "4": "Single",
+                "1": "Single",
+                "2": "Single",
                 "0": "Single",
-                "2": "Single"
+                "3": "Single"
             },
             "Direction": {
-                "3": "Incoming",
+                "4": "Outgoing",
                 "1": "Incoming",
-                "5": "Outgoing",
-                "4": "Incoming",
+                "2": "Incoming",
                 "0": "Incoming",
-                "2": "Incoming"
+                "3": "Incoming"
             },
             "TLAREF": {
-                "3": "VIC",
-                "1": "VIC",
-                "5": "VIC",
                 "4": "VIC",
+                "1": "VIC",
+                "2": "VIC",
                 "0": "VIC",
-                "2": "VIC"
+                "3": "VIC"
             },
             "Line": {
-                "3": "Altrincham",
-                "1": "Altrincham",
-                "5": "Altrincham",
                 "4": "Altrincham",
+                "1": "Altrincham",
+                "2": "Altrincham",
                 "0": "Altrincham",
-                "2": "Altrincham"
+                "3": "Altrincham"
             }
         },
         "Lines": [
             "Altrincham"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -3459,64 +3423,55 @@
     "Harbour City": {
         "Departures": {
             "Due": {
-                "1": "2019-08-21 00:00:17",
-                "2": "2019-08-21 00:12:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:53:17"
+                "1": "2019-08-21 00:12:17",
+                "2": "2019-08-20 23:54:17",
+                "0": "2019-08-21 00:01:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
                 "2": "Due",
-                "0": "Departing",
-                "3": "Due"
+                "0": "Due"
             },
             "Dest": {
                 "1": "Cornbrook",
-                "2": "Cornbrook",
-                "0": "Cornbrook",
-                "3": "Eccles via MediaCityUK"
+                "2": "Eccles via MediaCityUK",
+                "0": "Cornbrook"
             },
             "Wait": {
-                "1": 12.0,
-                "2": 24.0,
-                "0": 0.0,
-                "3": 5.0
+                "1": 22.0,
+                "2": 4.0,
+                "0": 11.0
             },
             "Carriages": {
                 "1": "Single",
                 "2": "Single",
-                "0": "Single",
-                "3": "Single"
+                "0": "Single"
             },
             "Direction": {
                 "1": "Incoming",
-                "2": "Incoming",
-                "0": "Incoming",
-                "3": "Outgoing"
+                "2": "Outgoing",
+                "0": "Incoming"
             },
             "TLAREF": {
                 "1": "HBC",
                 "2": "HBC",
-                "0": "HBC",
-                "3": "HBC"
+                "0": "HBC"
             },
             "Line": {
                 "1": "Eccles",
                 "2": "Eccles",
-                "0": "Eccles",
-                "3": "Eccles"
+                "0": "Eccles"
             }
         },
         "Lines": [
             "Eccles"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -3527,64 +3482,55 @@
     "Newton Heath and Moston": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:55:17",
-                "2": "2019-08-20 23:56:17",
-                "0": "2019-08-20 23:49:17",
-                "3": "2019-08-21 00:08:17"
+                "1": "2019-08-20 23:56:17",
+                "2": "2019-08-21 00:07:17",
+                "0": "2019-08-20 23:55:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
                 "2": "Due",
-                "0": "Due",
-                "3": "Due"
+                "0": "Due"
             },
             "Dest": {
-                "1": "Rochdale Town Centre",
-                "2": "Trafford Bar",
-                "0": "Rochdale Town Centre",
-                "3": "Victoria"
+                "1": "Trafford Bar",
+                "2": "Victoria",
+                "0": "Rochdale Town Centre"
             },
             "Wait": {
-                "1": 7.0,
-                "2": 8.0,
-                "0": 1.0,
-                "3": 20.0
+                "1": 6.0,
+                "2": 17.0,
+                "0": 5.0
             },
             "Carriages": {
                 "1": "Single",
                 "2": "Single",
-                "0": "Single",
-                "3": "Single"
+                "0": "Single"
             },
             "Direction": {
-                "1": "Outgoing",
+                "1": "Incoming",
                 "2": "Incoming",
-                "0": "Outgoing",
-                "3": "Incoming"
+                "0": "Outgoing"
             },
             "TLAREF": {
                 "1": "NHM",
                 "2": "NHM",
-                "0": "NHM",
-                "3": "NHM"
+                "0": "NHM"
             },
             "Line": {
                 "1": "Oldham & Rochdale",
                 "2": "Oldham & Rochdale",
-                "0": "Oldham & Rochdale",
-                "3": "Oldham & Rochdale"
+                "0": "Oldham & Rochdale"
             }
         },
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -3596,63 +3542,54 @@
         "Departures": {
             "Due": {
                 "1": "2019-08-21 00:06:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:54:17",
-                "3": "2019-08-20 23:48:17"
+                "2": "2019-08-21 00:18:17",
+                "0": "2019-08-20 23:54:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
-                "2": "Departing",
-                "0": "Due",
-                "3": "Arrived"
+                "2": "Due",
+                "0": "Due"
             },
             "Dest": {
                 "1": "Cornbrook",
-                "2": "Eccles via MediaCityUK",
-                "0": "Cornbrook",
-                "3": "Etihad Campus"
+                "2": "Cornbrook",
+                "0": "Cornbrook"
             },
             "Wait": {
-                "1": 18.0,
-                "2": 0.0,
-                "0": 6.0,
-                "3": 0.0
+                "1": 16.0,
+                "2": 28.0,
+                "0": 4.0
             },
             "Carriages": {
                 "1": "Single",
                 "2": "Single",
-                "0": "Single",
-                "3": "Single"
+                "0": "Single"
             },
             "Direction": {
                 "1": "Incoming",
-                "2": "Outgoing",
-                "0": "Incoming",
-                "3": "Incoming"
+                "2": "Incoming",
+                "0": "Incoming"
             },
             "TLAREF": {
                 "1": "EXQ",
                 "2": "EXQ",
-                "0": "EXQ",
-                "3": "EXQ"
+                "0": "EXQ"
             },
             "Line": {
                 "1": "Eccles",
                 "2": "Eccles",
-                "0": "Eccles",
-                "3": "Eccles"
+                "0": "Eccles"
             }
         },
         "Lines": [
             "Eccles"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -3663,26 +3600,26 @@
     "Cornbrook": {
         "Departures": {
             "Due": {
-                "3": "2019-08-20 23:58:17",
-                "1": "2019-08-20 23:53:17",
+                "3": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:54:17",
                 "5": "2019-08-20 23:55:17",
-                "4": "2019-08-20 23:48:17",
+                "4": "2019-08-20 23:57:17",
                 "0": "2019-08-20 23:54:17",
-                "2": "2019-08-20 23:50:17"
+                "2": "2019-08-20 23:56:17"
             },
             "Updated": {
-                "3": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "5": "2019-08-20 23:48:17",
-                "4": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17"
+                "3": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "5": "2019-08-20 23:50:17",
+                "4": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17"
             },
             "Status": {
-                "3": "Due",
+                "3": "Departing",
                 "1": "Due",
                 "5": "Due",
-                "4": "Departing",
+                "4": "Due",
                 "0": "Due",
                 "2": "Due"
             },
@@ -3690,17 +3627,17 @@
                 "3": "Trafford Bar",
                 "1": "Etihad Campus",
                 "5": "Victoria",
-                "4": "Victoria",
+                "4": "Trafford Bar",
                 "0": "Altrincham",
-                "2": "Trafford Bar"
+                "2": "Piccadilly"
             },
             "Wait": {
-                "3": 10.0,
-                "1": 5.0,
-                "5": 7.0,
-                "4": 0.0,
-                "0": 6.0,
-                "2": 2.0
+                "3": 0.0,
+                "1": 4.0,
+                "5": 5.0,
+                "4": 7.0,
+                "0": 4.0,
+                "2": 6.0
             },
             "Carriages": {
                 "3": "Single",
@@ -3708,15 +3645,15 @@
                 "5": "Single",
                 "4": "Single",
                 "0": "Single",
-                "2": "Single"
+                "2": "Double"
             },
             "Direction": {
                 "3": "Outgoing",
                 "1": "Incoming",
                 "5": "Incoming",
-                "4": "Incoming",
+                "4": "Outgoing",
                 "0": "Outgoing",
-                "2": "Outgoing"
+                "2": "Incoming"
             },
             "TLAREF": {
                 "3": "CNK",
@@ -3738,7 +3675,7 @@
         "Lines": [
             "Eccles"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey.",
             "LIFT OUT OF SERVICE: Due to stop improvement works. For step free access use Deansgate or Trafford Bar. If you require further assistance please use a help point or contact us on 0161 205 2000"
@@ -3750,12 +3687,12 @@
     "Manchester Airport": {
         "Departures": {
             "Due": {
-                "1": "2019-08-21 00:01:17",
-                "0": "2019-08-20 23:49:17"
+                "1": "2019-08-21 00:03:17",
+                "0": "2019-08-20 23:51:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -3789,7 +3726,7 @@
         "Lines": [
             "Airport"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -3800,63 +3737,54 @@
     "Stretford": {
         "Departures": {
             "Due": {
-                "4": "2019-08-20 23:49:17",
-                "1": "2019-08-21 00:01:17",
-                "2": "2019-08-20 23:55:17",
-                "0": "2019-08-20 23:49:17",
-                "3": "2019-08-21 00:07:17"
+                "1": "2019-08-20 23:55:17",
+                "2": "2019-08-21 00:07:17",
+                "0": "2019-08-21 00:01:17",
+                "3": "2019-08-21 00:19:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
-                "4": "Due",
                 "1": "Due",
                 "2": "Due",
                 "0": "Due",
                 "3": "Due"
             },
             "Dest": {
-                "4": "Piccadilly",
-                "1": "Altrincham",
+                "1": "Cornbrook",
                 "2": "Cornbrook",
                 "0": "Altrincham",
-                "3": "Cornbrook"
+                "3": "Old Trafford"
             },
             "Wait": {
-                "4": 1.0,
-                "1": 13.0,
-                "2": 7.0,
-                "0": 1.0,
-                "3": 19.0
+                "1": 5.0,
+                "2": 17.0,
+                "0": 11.0,
+                "3": 29.0
             },
             "Carriages": {
-                "4": "Double",
                 "1": "Single",
-                "2": "Single",
+                "2": "Double",
                 "0": "Single",
-                "3": "Double"
+                "3": "Single"
             },
             "Direction": {
-                "4": "Incoming",
-                "1": "Outgoing",
+                "1": "Incoming",
                 "2": "Incoming",
                 "0": "Outgoing",
                 "3": "Incoming"
             },
             "TLAREF": {
-                "4": "STR",
                 "1": "STR",
                 "2": "STR",
                 "0": "STR",
                 "3": "STR"
             },
             "Line": {
-                "4": "Altrincham",
                 "1": "Altrincham",
                 "2": "Altrincham",
                 "0": "Altrincham",
@@ -3866,7 +3794,7 @@
         "Lines": [
             "Altrincham"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -3877,16 +3805,16 @@
     "Benchill": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:49:17",
-                "2": "2019-08-21 00:01:17",
+                "1": "2019-08-20 23:51:17",
+                "2": "2019-08-21 00:02:17",
                 "0": "2019-08-20 23:58:17",
-                "3": "2019-08-21 00:13:17"
+                "3": "2019-08-21 00:15:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -3902,8 +3830,8 @@
             },
             "Wait": {
                 "1": 1.0,
-                "2": 13.0,
-                "0": 10.0,
+                "2": 12.0,
+                "0": 8.0,
                 "3": 25.0
             },
             "Carriages": {
@@ -3934,7 +3862,7 @@
         "Lines": [
             "Airport"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -3945,64 +3873,46 @@
     "Langworthy": {
         "Departures": {
             "Due": {
-                "1": "2019-08-21 00:08:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:49:17",
-                "3": "2019-08-21 00:01:17"
+                "1": "2019-08-21 00:01:17",
+                "0": "2019-08-21 00:08:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
-                "2": "Departing",
-                "0": "Due",
-                "3": "Due"
+                "0": "Due"
             },
             "Dest": {
-                "1": "Cornbrook",
-                "2": "Eccles",
-                "0": "Cornbrook",
-                "3": "Eccles"
+                "1": "Eccles",
+                "0": "Cornbrook"
             },
             "Wait": {
-                "1": 20.0,
-                "2": 0.0,
-                "0": 1.0,
-                "3": 13.0
+                "1": 11.0,
+                "0": 18.0
             },
             "Carriages": {
                 "1": "Single",
-                "2": "Single",
-                "0": "Single",
-                "3": "Single"
+                "0": "Single"
             },
             "Direction": {
-                "1": "Incoming",
-                "2": "Outgoing",
-                "0": "Incoming",
-                "3": "Outgoing"
+                "1": "Outgoing",
+                "0": "Incoming"
             },
             "TLAREF": {
                 "1": "LGW",
-                "2": "LGW",
-                "0": "LGW",
-                "3": "LGW"
+                "0": "LGW"
             },
             "Line": {
                 "1": "Eccles",
-                "2": "Eccles",
-                "0": "Eccles",
-                "3": "Eccles"
+                "0": "Eccles"
             }
         },
         "Lines": [
             "Eccles"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -4020,16 +3930,16 @@
                 "3": "2019-08-21 00:02:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
                 "1": "Due",
-                "2": "Due",
+                "2": "Departing",
                 "0": "Due",
                 "3": "Due"
             },
@@ -4041,11 +3951,11 @@
                 "3": "Cornbrook"
             },
             "Wait": {
-                "4": 26.0,
-                "1": 19.0,
-                "2": 2.0,
-                "0": 6.0,
-                "3": 14.0
+                "4": 24.0,
+                "1": 17.0,
+                "2": 0.0,
+                "0": 4.0,
+                "3": 12.0
             },
             "Carriages": {
                 "4": "Single",
@@ -4079,7 +3989,7 @@
         "Lines": [
             "Altrincham"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -4090,14 +4000,14 @@
     "Clayton Hall": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:59:17",
-                "2": "2019-08-21 00:08:17",
-                "0": "2019-08-20 23:50:17"
+                "1": "2019-08-21 00:08:17",
+                "2": "2019-08-21 00:19:17",
+                "0": "2019-08-20 23:58:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -4106,13 +4016,13 @@
             },
             "Dest": {
                 "1": "Trafford Bar",
-                "2": "Trafford Bar",
-                "0": "Ashton-under-Lyne"
+                "2": "Victoria",
+                "0": "Trafford Bar"
             },
             "Wait": {
-                "1": 11.0,
-                "2": 20.0,
-                "0": 2.0
+                "1": 18.0,
+                "2": 29.0,
+                "0": 8.0
             },
             "Carriages": {
                 "1": "Single",
@@ -4122,7 +4032,7 @@
             "Direction": {
                 "1": "Incoming",
                 "2": "Incoming",
-                "0": "Outgoing"
+                "0": "Incoming"
             },
             "TLAREF": {
                 "1": "CLA",
@@ -4138,7 +4048,7 @@
         "Lines": [
             "East Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -4149,16 +4059,16 @@
     "Wythenshawe Town Centre": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:53:17",
-                "2": "2019-08-20 23:57:17",
+                "1": "2019-08-20 23:55:17",
+                "2": "2019-08-20 23:58:17",
                 "0": "2019-08-20 23:54:17",
-                "3": "2019-08-21 00:09:17"
+                "3": "2019-08-21 00:11:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -4174,8 +4084,8 @@
             },
             "Wait": {
                 "1": 5.0,
-                "2": 9.0,
-                "0": 6.0,
+                "2": 8.0,
+                "0": 4.0,
                 "3": 21.0
             },
             "Carriages": {
@@ -4206,7 +4116,7 @@
         "Lines": [
             "Airport"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -4217,14 +4127,14 @@
     "Roundthorn": {
         "Departures": {
             "Due": {
-                "1": "2019-08-21 00:04:17",
-                "2": "2019-08-21 00:05:17",
-                "0": "2019-08-20 23:52:17"
+                "1": "2019-08-21 00:03:17",
+                "2": "2019-08-21 00:06:17",
+                "0": "2019-08-20 23:51:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -4237,9 +4147,9 @@
                 "0": "Firswood"
             },
             "Wait": {
-                "1": 16.0,
-                "2": 17.0,
-                "0": 4.0
+                "1": 13.0,
+                "2": 16.0,
+                "0": 1.0
             },
             "Carriages": {
                 "1": "Single",
@@ -4265,7 +4175,7 @@
         "Lines": [
             "Airport"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -4276,16 +4186,16 @@
     "Droylsden": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:53:17",
+                "1": "2019-08-20 23:52:17",
                 "2": "2019-08-21 00:02:17",
                 "0": "2019-08-20 23:57:17",
                 "3": "2019-08-21 00:13:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -4300,10 +4210,10 @@
                 "3": "Victoria"
             },
             "Wait": {
-                "1": 5.0,
-                "2": 14.0,
-                "0": 9.0,
-                "3": 25.0
+                "1": 2.0,
+                "2": 12.0,
+                "0": 7.0,
+                "3": 23.0
             },
             "Carriages": {
                 "1": "Single",
@@ -4333,7 +4243,7 @@
         "Lines": [
             "East Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -4344,25 +4254,25 @@
     "Oldham King Street": {
         "Departures": {
             "Due": {
-                "4": "2019-08-21 00:06:17",
+                "4": "2019-08-21 00:07:17",
                 "1": "2019-08-21 00:05:17",
                 "2": "2019-08-21 00:11:17",
-                "0": "2019-08-21 00:13:17",
-                "3": "2019-08-20 23:54:17"
+                "0": "2019-08-21 00:14:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
                 "1": "Due",
                 "2": "Due",
                 "0": "Due",
-                "3": "Due"
+                "3": "Arrived"
             },
             "Dest": {
                 "4": "Victoria",
@@ -4372,11 +4282,11 @@
                 "3": "Victoria"
             },
             "Wait": {
-                "4": 18.0,
-                "1": 17.0,
-                "2": 23.0,
-                "0": 25.0,
-                "3": 6.0
+                "4": 17.0,
+                "1": 15.0,
+                "2": 21.0,
+                "0": 24.0,
+                "3": 0.0
             },
             "Carriages": {
                 "4": "Single",
@@ -4410,7 +4320,7 @@
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -4421,63 +4331,54 @@
     "South Chadderton": {
         "Departures": {
             "Due": {
-                "4": "2019-08-21 00:13:17",
                 "1": "2019-08-21 00:02:17",
-                "2": "2019-08-20 23:49:17",
+                "2": "2019-08-21 00:01:17",
                 "0": "2019-08-20 23:56:17",
-                "3": "2019-08-21 00:01:17"
+                "3": "2019-08-21 00:14:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
-                "4": "Due",
                 "1": "Due",
                 "2": "Due",
                 "0": "Due",
                 "3": "Due"
             },
             "Dest": {
-                "4": "Victoria",
                 "1": "Rochdale Town Centre",
-                "2": "Trafford Bar",
+                "2": "Victoria",
                 "0": "Rochdale Town Centre",
                 "3": "Victoria"
             },
             "Wait": {
-                "4": 25.0,
-                "1": 14.0,
-                "2": 1.0,
-                "0": 8.0,
-                "3": 13.0
+                "1": 12.0,
+                "2": 11.0,
+                "0": 6.0,
+                "3": 24.0
             },
             "Carriages": {
-                "4": "Single",
                 "1": "Single",
                 "2": "Single",
                 "0": "Single",
                 "3": "Single"
             },
             "Direction": {
-                "4": "Incoming",
                 "1": "Outgoing",
                 "2": "Incoming",
                 "0": "Outgoing",
                 "3": "Incoming"
             },
             "TLAREF": {
-                "4": "SOC",
                 "1": "SOC",
                 "2": "SOC",
                 "0": "SOC",
                 "3": "SOC"
             },
             "Line": {
-                "4": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
                 "2": "Oldham & Rochdale",
                 "0": "Oldham & Rochdale",
@@ -4487,7 +4388,7 @@
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -4498,64 +4399,55 @@
     "Anchorage": {
         "Departures": {
             "Due": {
-                "1": "2019-08-21 00:02:17",
-                "2": "2019-08-21 00:14:17",
-                "0": "2019-08-20 23:50:17",
-                "3": "2019-08-20 23:52:17"
+                "1": "2019-08-21 00:14:17",
+                "2": "2019-08-20 23:53:17",
+                "0": "2019-08-21 00:02:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
                 "2": "Due",
-                "0": "Due",
-                "3": "Due"
+                "0": "Due"
             },
             "Dest": {
                 "1": "Cornbrook",
-                "2": "Cornbrook",
-                "0": "Cornbrook",
-                "3": "Eccles via MediaCityUK"
+                "2": "Eccles via MediaCityUK",
+                "0": "Cornbrook"
             },
             "Wait": {
-                "1": 14.0,
-                "2": 26.0,
-                "0": 2.0,
-                "3": 4.0
+                "1": 24.0,
+                "2": 3.0,
+                "0": 12.0
             },
             "Carriages": {
                 "1": "Single",
                 "2": "Single",
-                "0": "Single",
-                "3": "Single"
+                "0": "Single"
             },
             "Direction": {
                 "1": "Incoming",
-                "2": "Incoming",
-                "0": "Incoming",
-                "3": "Outgoing"
+                "2": "Outgoing",
+                "0": "Incoming"
             },
             "TLAREF": {
                 "1": "ANC",
                 "2": "ANC",
-                "0": "ANC",
-                "3": "ANC"
+                "0": "ANC"
             },
             "Line": {
                 "1": "Eccles",
                 "2": "Eccles",
-                "0": "Eccles",
-                "3": "Eccles"
+                "0": "Eccles"
             }
         },
         "Lines": [
             "Eccles"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -4569,7 +4461,7 @@
                 "0": "2019-08-21 00:02:17"
             },
             "Updated": {
-                "0": "2019-08-20 23:48:17"
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "0": "Due"
@@ -4578,7 +4470,7 @@
                 "0": "Cornbrook"
             },
             "Wait": {
-                "0": 14.0
+                "0": 12.0
             },
             "Carriages": {
                 "0": "Single"
@@ -4596,7 +4488,7 @@
         "Lines": [
             "Eccles"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -4607,14 +4499,14 @@
     "Wythenshawe Park": {
         "Departures": {
             "Due": {
-                "1": "2019-08-21 00:10:17",
-                "2": "2019-08-21 00:11:17",
-                "0": "2019-08-20 23:58:17"
+                "1": "2019-08-21 00:09:17",
+                "2": "2019-08-21 00:12:17",
+                "0": "2019-08-20 23:57:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -4627,9 +4519,9 @@
                 "0": "Firswood"
             },
             "Wait": {
-                "1": 22.0,
-                "2": 23.0,
-                "0": 10.0
+                "1": 19.0,
+                "2": 22.0,
+                "0": 7.0
             },
             "Carriages": {
                 "1": "Single",
@@ -4655,7 +4547,7 @@
         "Lines": [
             "Airport"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -4670,8 +4562,8 @@
                 "0": "2019-08-21 00:10:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -4682,8 +4574,8 @@
                 "0": "Abraham Moss"
             },
             "Wait": {
-                "1": 12.0,
-                "0": 22.0
+                "1": 10.0,
+                "0": 20.0
             },
             "Carriages": {
                 "1": "Single",
@@ -4705,7 +4597,7 @@
         "Lines": [
             "Bury"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to an esrlier operational incident passengers on the Bury line may experience an additional wait to board a service. We are sorry for any inconvenience."
         ],
@@ -4717,13 +4609,13 @@
         "Departures": {
             "Due": {
                 "1": "2019-08-21 00:12:17",
-                "2": "2019-08-21 00:13:17",
+                "2": "2019-08-21 00:14:17",
                 "0": "2019-08-21 00:00:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -4736,9 +4628,9 @@
                 "0": "Firswood"
             },
             "Wait": {
-                "1": 24.0,
-                "2": 25.0,
-                "0": 12.0
+                "1": 22.0,
+                "2": 24.0,
+                "0": 10.0
             },
             "Carriages": {
                 "1": "Single",
@@ -4764,7 +4656,7 @@
         "Lines": [
             "Airport"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -4780,9 +4672,9 @@
                 "0": "2019-08-20 23:52:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -4795,9 +4687,9 @@
                 "0": "Trafford Bar"
             },
             "Wait": {
-                "1": 16.0,
-                "2": 28.0,
-                "0": 4.0
+                "1": 14.0,
+                "2": 26.0,
+                "0": 2.0
             },
             "Carriages": {
                 "1": "Single",
@@ -4823,7 +4715,7 @@
         "Lines": [
             "East Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -4835,15 +4727,15 @@
         "Departures": {
             "Due": {
                 "1": "2019-08-21 00:11:17",
-                "2": "2019-08-20 23:57:17",
+                "2": "2019-08-20 23:58:17",
                 "0": "2019-08-20 23:57:17",
-                "3": "2019-08-21 00:14:17"
+                "3": "2019-08-21 00:13:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -4858,10 +4750,10 @@
                 "3": "Rochdale Town Centre"
             },
             "Wait": {
-                "1": 23.0,
-                "2": 9.0,
-                "0": 9.0,
-                "3": 26.0
+                "1": 21.0,
+                "2": 8.0,
+                "0": 7.0,
+                "3": 23.0
             },
             "Carriages": {
                 "1": "Single",
@@ -4891,7 +4783,7 @@
         "Lines": [
             "South Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -4902,63 +4794,54 @@
     "Newbold": {
         "Departures": {
             "Due": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:55:17",
-                "2": "2019-08-20 23:49:17",
-                "0": "2019-08-21 00:05:17",
+                "1": "2019-08-21 00:13:17",
+                "2": "2019-08-20 23:56:17",
+                "0": "2019-08-21 00:06:17",
                 "3": "2019-08-20 23:57:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
-                "4": "Departing",
                 "1": "Due",
                 "2": "Due",
                 "0": "Due",
                 "3": "Due"
             },
             "Dest": {
-                "4": "Victoria",
-                "1": "Monsall",
-                "2": "Rochdale Town Centre",
+                "1": "East Didsbury",
+                "2": "Monsall",
                 "0": "East Didsbury",
                 "3": "Rochdale Town Centre"
             },
             "Wait": {
-                "4": 0.0,
-                "1": 7.0,
-                "2": 1.0,
-                "0": 17.0,
-                "3": 9.0
+                "1": 23.0,
+                "2": 6.0,
+                "0": 16.0,
+                "3": 7.0
             },
             "Carriages": {
-                "4": "Single",
                 "1": "Single",
                 "2": "Single",
                 "0": "Single",
                 "3": "Single"
             },
             "Direction": {
-                "4": "Incoming",
                 "1": "Incoming",
-                "2": "Outgoing",
+                "2": "Incoming",
                 "0": "Incoming",
                 "3": "Outgoing"
             },
             "TLAREF": {
-                "4": "NEB",
                 "1": "NEB",
                 "2": "NEB",
                 "0": "NEB",
                 "3": "NEB"
             },
             "Line": {
-                "4": "Oldham & Rochdale",
                 "1": "Oldham & Rochdale",
                 "2": "Oldham & Rochdale",
                 "0": "Oldham & Rochdale",
@@ -4968,7 +4851,7 @@
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -4980,15 +4863,15 @@
         "Departures": {
             "Due": {
                 "1": "2019-08-21 00:05:17",
-                "2": "2019-08-21 00:04:17",
+                "2": "2019-08-21 00:17:17",
                 "0": "2019-08-20 23:51:17",
-                "3": "2019-08-20 23:49:17"
+                "3": "2019-08-21 00:19:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -5000,13 +4883,13 @@
                 "1": "East Didsbury",
                 "2": "Manchester Airport",
                 "0": "East Didsbury",
-                "3": "Victoria"
+                "3": "Rochdale Town Centre"
             },
             "Wait": {
-                "1": 17.0,
-                "2": 16.0,
-                "0": 3.0,
-                "3": 1.0
+                "1": 15.0,
+                "2": 27.0,
+                "0": 1.0,
+                "3": 29.0
             },
             "Carriages": {
                 "1": "Single",
@@ -5036,7 +4919,7 @@
         "Lines": [
             "South Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -5049,16 +4932,16 @@
             "Due": {
                 "4": "2019-08-21 00:01:17",
                 "1": "2019-08-21 00:09:17",
-                "2": "2019-08-20 23:51:17",
-                "0": "2019-08-21 00:01:17",
-                "3": "2019-08-20 23:52:17"
+                "2": "2019-08-20 23:52:17",
+                "0": "2019-08-21 00:02:17",
+                "3": "2019-08-20 23:53:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
@@ -5075,11 +4958,11 @@
                 "3": "Rochdale Town Centre"
             },
             "Wait": {
-                "4": 13.0,
-                "1": 21.0,
-                "2": 3.0,
-                "0": 13.0,
-                "3": 4.0
+                "4": 11.0,
+                "1": 19.0,
+                "2": 2.0,
+                "0": 12.0,
+                "3": 3.0
             },
             "Carriages": {
                 "4": "Single",
@@ -5113,7 +4996,7 @@
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -5124,95 +5007,88 @@
     "St Peter's Square": {
         "Departures": {
             "Due": {
-                "3": "2019-08-21 00:06:17",
-                "1": "2019-08-20 23:55:17",
-                "7": "2019-08-21 00:00:17",
+                "3": "2019-08-20 23:50:17",
+                "1": "2019-08-21 00:00:17",
+                "7": "2019-08-21 00:02:17",
                 "5": "2019-08-20 23:50:17",
-                "4": "2019-08-20 23:54:17",
-                "0": "2019-08-20 23:48:17",
-                "8": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:59:17",
-                "9": "2019-08-20 23:54:17",
-                "6": "2019-08-20 23:51:17",
-                "10": "2019-08-21 00:01:17"
+                "4": "2019-08-21 00:02:17",
+                "0": "2019-08-20 23:55:17",
+                "8": "2019-08-20 23:55:17",
+                "2": "2019-08-21 00:07:17",
+                "9": "2019-08-21 00:01:17",
+                "6": "2019-08-21 00:00:17"
             },
             "Updated": {
-                "3": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "7": "2019-08-20 23:48:17",
-                "5": "2019-08-20 23:48:17",
-                "4": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "8": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "9": "2019-08-20 23:48:17",
-                "6": "2019-08-20 23:48:17",
-                "10": "2019-08-20 23:48:17"
+                "3": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "7": "2019-08-20 23:50:17",
+                "5": "2019-08-20 23:50:17",
+                "4": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "8": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "9": "2019-08-20 23:50:17",
+                "6": "2019-08-20 23:50:17"
             },
             "Status": {
-                "3": "Due",
+                "3": "Departing",
                 "1": "Due",
                 "7": "Due",
-                "5": "Due",
+                "5": "Arrived",
                 "4": "Due",
-                "0": "Departing",
-                "8": "Arrived",
+                "0": "Due",
+                "8": "Due",
                 "2": "Due",
                 "9": "Due",
-                "6": "Due",
-                "10": "Due"
+                "6": "Due"
             },
             "Dest": {
-                "3": "Manchester Airport",
-                "1": "East Didsbury",
+                "3": "Piccadilly",
+                "1": "Etihad Campus",
                 "7": "Trafford Bar",
-                "5": "Piccadilly",
-                "4": "Not in Service",
-                "0": "Altrincham",
+                "5": "Trafford Bar",
+                "4": "Piccadilly",
+                "0": "East Didsbury",
                 "8": "Victoria",
-                "2": "Etihad Campus",
+                "2": "Manchester Airport",
                 "9": "Victoria",
-                "6": "Trafford Bar",
-                "10": "Victoria"
+                "6": "Trafford Bar"
             },
             "Wait": {
-                "3": 18.0,
-                "1": 7.0,
+                "3": 0.0,
+                "1": 10.0,
                 "7": 12.0,
-                "5": 2.0,
-                "4": 6.0,
-                "0": 0.0,
-                "8": 0.0,
-                "2": 11.0,
-                "9": 6.0,
-                "6": 3.0,
-                "10": 13.0
+                "5": 0.0,
+                "4": 12.0,
+                "0": 5.0,
+                "8": 5.0,
+                "2": 17.0,
+                "9": 11.0,
+                "6": 10.0
             },
             "Carriages": {
                 "3": "Single",
                 "1": "Single",
                 "7": "Single",
                 "5": "Single",
-                "4": "Single",
+                "4": "Double",
                 "0": "Single",
                 "8": "Single",
                 "2": "Single",
                 "9": "Single",
-                "6": "Single",
-                "10": "Single"
+                "6": "Single"
             },
             "Direction": {
-                "3": "Outgoing",
-                "1": "Outgoing",
+                "3": "Incoming",
+                "1": "Incoming",
                 "7": "Outgoing",
-                "5": "Incoming",
-                "4": "Outgoing",
+                "5": "Outgoing",
+                "4": "Incoming",
                 "0": "Outgoing",
                 "8": "Incoming",
-                "2": "Incoming",
+                "2": "Outgoing",
                 "9": "Incoming",
-                "6": "Outgoing",
-                "10": "Incoming"
+                "6": "Outgoing"
             },
             "TLAREF": {
                 "3": "SPS",
@@ -5224,8 +5100,7 @@
                 "8": "SPS",
                 "2": "SPS",
                 "9": "SPS",
-                "6": "SPS",
-                "10": "SPS"
+                "6": "SPS"
             },
             "Line": {
                 "3": "Eccles",
@@ -5237,14 +5112,13 @@
                 "8": "Eccles",
                 "2": "Eccles",
                 "9": "Eccles",
-                "6": "Eccles",
-                "10": "Eccles"
+                "6": "Eccles"
             }
         },
         "Lines": [
             "Eccles"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -5255,82 +5129,64 @@
     "Timperley": {
         "Departures": {
             "Due": {
-                "3": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:57:17",
-                "5": "2019-08-21 00:12:17",
-                "4": "2019-08-21 00:00:17",
-                "0": "2019-08-20 23:49:17",
-                "2": "2019-08-21 00:09:17"
+                "1": "2019-08-21 00:09:17",
+                "2": "2019-08-21 00:00:17",
+                "0": "2019-08-20 23:57:17",
+                "3": "2019-08-21 00:12:17"
             },
             "Updated": {
-                "3": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "5": "2019-08-20 23:48:17",
-                "4": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
-                "3": "Departing",
                 "1": "Due",
-                "5": "Due",
-                "4": "Due",
+                "2": "Due",
                 "0": "Due",
-                "2": "Due"
+                "3": "Due"
             },
             "Dest": {
-                "3": "Cornbrook",
                 "1": "Altrincham",
-                "5": "Old Trafford",
-                "4": "Cornbrook",
+                "2": "Cornbrook",
                 "0": "Altrincham",
-                "2": "Altrincham"
+                "3": "Old Trafford"
             },
             "Wait": {
-                "3": 0.0,
-                "1": 9.0,
-                "5": 24.0,
-                "4": 12.0,
-                "0": 1.0,
-                "2": 21.0
+                "1": 19.0,
+                "2": 10.0,
+                "0": 7.0,
+                "3": 22.0
             },
             "Carriages": {
-                "3": "Double",
                 "1": "Single",
-                "5": "Single",
-                "4": "Double",
-                "0": "Double",
-                "2": "Single"
+                "2": "Double",
+                "0": "Single",
+                "3": "Single"
             },
             "Direction": {
-                "3": "Incoming",
                 "1": "Outgoing",
-                "5": "Incoming",
-                "4": "Incoming",
+                "2": "Incoming",
                 "0": "Outgoing",
-                "2": "Outgoing"
+                "3": "Incoming"
             },
             "TLAREF": {
-                "3": "TMP",
                 "1": "TMP",
-                "5": "TMP",
-                "4": "TMP",
+                "2": "TMP",
                 "0": "TMP",
-                "2": "TMP"
+                "3": "TMP"
             },
             "Line": {
-                "3": "Altrincham",
                 "1": "Altrincham",
-                "5": "Altrincham",
-                "4": "Altrincham",
+                "2": "Altrincham",
                 "0": "Altrincham",
-                "2": "Altrincham"
+                "3": "Altrincham"
             }
         },
         "Lines": [
             "Altrincham"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -5344,15 +5200,15 @@
                 "4": "2019-08-21 00:18:17",
                 "1": "2019-08-21 00:06:17",
                 "2": "2019-08-20 23:54:17",
-                "0": "2019-08-20 23:54:17",
+                "0": "2019-08-20 23:55:17",
                 "3": "2019-08-21 00:06:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
@@ -5369,11 +5225,11 @@
                 "3": "Victoria"
             },
             "Wait": {
-                "4": 30.0,
-                "1": 18.0,
-                "2": 6.0,
-                "0": 6.0,
-                "3": 18.0
+                "4": 28.0,
+                "1": 16.0,
+                "2": 4.0,
+                "0": 5.0,
+                "3": 16.0
             },
             "Carriages": {
                 "4": "Single",
@@ -5407,7 +5263,7 @@
         "Lines": [
             "East Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -5418,55 +5274,46 @@
     "Rochdale Town Centre": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:57:17",
-                "2": "2019-08-21 00:05:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-21 00:05:17",
+                "0": "2019-08-20 23:58:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
-                "2": "Due",
-                "0": "Departing"
+                "0": "Due"
             },
             "Dest": {
                 "1": "See Tram Front",
-                "2": "See Tram Front",
-                "0": "Monsall"
+                "0": "See Tram Front"
             },
             "Wait": {
-                "1": 9.0,
-                "2": 17.0,
-                "0": 0.0
+                "1": 15.0,
+                "0": 8.0
             },
             "Carriages": {
                 "1": "Single",
-                "2": "Single",
                 "0": "Single"
             },
             "Direction": {
                 "1": "Incoming",
-                "2": "Incoming",
                 "0": "Incoming"
             },
             "TLAREF": {
                 "1": "RTC",
-                "2": "RTC",
                 "0": "RTC"
             },
             "Line": {
                 "1": "Oldham & Rochdale",
-                "2": "Oldham & Rochdale",
                 "0": "Oldham & Rochdale"
             }
         },
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -5479,21 +5326,21 @@
             "Due": {
                 "4": "2019-08-21 00:15:17",
                 "1": "2019-08-21 00:01:17",
-                "2": "2019-08-20 23:51:17",
+                "2": "2019-08-20 23:50:17",
                 "0": "2019-08-20 23:55:17",
-                "3": "2019-08-21 00:03:17"
+                "3": "2019-08-21 00:02:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
                 "1": "Due",
-                "2": "Due",
+                "2": "Arrived",
                 "0": "Due",
                 "3": "Due"
             },
@@ -5505,11 +5352,11 @@
                 "3": "Victoria"
             },
             "Wait": {
-                "4": 27.0,
-                "1": 13.0,
-                "2": 3.0,
-                "0": 7.0,
-                "3": 15.0
+                "4": 25.0,
+                "1": 11.0,
+                "2": 0.0,
+                "0": 5.0,
+                "3": 12.0
             },
             "Carriages": {
                 "4": "Single",
@@ -5543,7 +5390,7 @@
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -5554,21 +5401,21 @@
     "Peel Hall": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:57:17",
-                "2": "2019-08-20 23:53:17",
+                "1": "2019-08-20 23:59:17",
+                "2": "2019-08-20 23:54:17",
                 "0": "2019-08-20 23:50:17",
-                "3": "2019-08-21 00:05:17"
+                "3": "2019-08-21 00:07:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
                 "2": "Due",
-                "0": "Due",
+                "0": "Departing",
                 "3": "Due"
             },
             "Dest": {
@@ -5579,8 +5426,8 @@
             },
             "Wait": {
                 "1": 9.0,
-                "2": 5.0,
-                "0": 2.0,
+                "2": 4.0,
+                "0": 0.0,
                 "3": 17.0
             },
             "Carriages": {
@@ -5611,7 +5458,7 @@
         "Lines": [
             "Airport"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -5622,16 +5469,16 @@
     "Crossacres": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:51:17",
-                "2": "2019-08-20 23:59:17",
-                "0": "2019-08-20 23:57:17",
-                "3": "2019-08-21 00:11:17"
+                "1": "2019-08-20 23:53:17",
+                "2": "2019-08-21 00:00:17",
+                "0": "2019-08-20 23:56:17",
+                "3": "2019-08-21 00:13:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -5647,8 +5494,8 @@
             },
             "Wait": {
                 "1": 3.0,
-                "2": 11.0,
-                "0": 9.0,
+                "2": 10.0,
+                "0": 6.0,
                 "3": 23.0
             },
             "Carriages": {
@@ -5679,7 +5526,7 @@
         "Lines": [
             "Airport"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -5691,17 +5538,17 @@
         "Departures": {
             "Due": {
                 "4": "2019-08-20 23:53:17",
-                "1": "2019-08-21 00:00:17",
+                "1": "2019-08-21 00:01:17",
                 "2": "2019-08-20 23:53:17",
-                "0": "2019-08-21 00:09:17",
+                "0": "2019-08-21 00:10:17",
                 "3": "2019-08-21 00:18:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
@@ -5718,11 +5565,11 @@
                 "3": "Rochdale Town Centre"
             },
             "Wait": {
-                "4": 5.0,
-                "1": 12.0,
-                "2": 5.0,
-                "0": 21.0,
-                "3": 30.0
+                "4": 3.0,
+                "1": 11.0,
+                "2": 3.0,
+                "0": 20.0,
+                "3": 28.0
             },
             "Carriages": {
                 "4": "Single",
@@ -5756,7 +5603,7 @@
         "Lines": [
             "Oldham & Rochdale"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to a vehicle fault we are currently experiencing a minor delay to services on the Rochdale line. We are sorry for any inconvenience."
         ],
@@ -5767,16 +5614,16 @@
     "Edge Lane": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:57:17",
+                "1": "2019-08-20 23:56:17",
                 "2": "2019-08-21 00:06:17",
-                "0": "2019-08-20 23:53:17",
+                "0": "2019-08-20 23:51:17",
                 "3": "2019-08-21 00:17:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -5791,10 +5638,10 @@
                 "3": "Victoria"
             },
             "Wait": {
-                "1": 9.0,
-                "2": 18.0,
-                "0": 5.0,
-                "3": 29.0
+                "1": 6.0,
+                "2": 16.0,
+                "0": 1.0,
+                "3": 27.0
             },
             "Carriages": {
                 "1": "Single",
@@ -5824,7 +5671,7 @@
         "Lines": [
             "East Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -5837,16 +5684,16 @@
             "Due": {
                 "4": "2019-08-21 00:16:17",
                 "1": "2019-08-21 00:04:17",
-                "2": "2019-08-20 23:52:17",
+                "2": "2019-08-20 23:53:17",
                 "0": "2019-08-20 23:51:17",
-                "3": "2019-08-21 00:05:17"
+                "3": "2019-08-21 00:04:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "4": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "4": "Due",
@@ -5863,11 +5710,11 @@
                 "3": "Cornbrook"
             },
             "Wait": {
-                "4": 28.0,
-                "1": 16.0,
-                "2": 4.0,
-                "0": 3.0,
-                "3": 17.0
+                "4": 26.0,
+                "1": 14.0,
+                "2": 3.0,
+                "0": 1.0,
+                "3": 14.0
             },
             "Carriages": {
                 "4": "Single",
@@ -5901,7 +5748,7 @@
         "Lines": [
             "Altrincham"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -5912,14 +5759,14 @@
     "Moor Road": {
         "Departures": {
             "Due": {
-                "1": "2019-08-21 00:08:17",
-                "2": "2019-08-21 00:09:17",
-                "0": "2019-08-20 23:56:17"
+                "1": "2019-08-21 00:07:17",
+                "2": "2019-08-21 00:10:17",
+                "0": "2019-08-20 23:55:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -5932,9 +5779,9 @@
                 "0": "Firswood"
             },
             "Wait": {
-                "1": 20.0,
-                "2": 21.0,
-                "0": 8.0
+                "1": 17.0,
+                "2": 20.0,
+                "0": 5.0
             },
             "Carriages": {
                 "1": "Single",
@@ -5960,7 +5807,7 @@
         "Lines": [
             "Airport"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -5971,14 +5818,14 @@
     "Barlow Moor Road": {
         "Departures": {
             "Due": {
-                "1": "2019-08-21 00:07:17",
+                "1": "2019-08-21 00:06:17",
                 "2": "2019-08-21 00:18:17",
-                "0": "2019-08-20 23:55:17"
+                "0": "2019-08-20 23:54:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -5987,13 +5834,13 @@
             },
             "Dest": {
                 "1": "Firswood",
-                "2": "Victoria",
+                "2": "Firswood",
                 "0": "Firswood"
             },
             "Wait": {
-                "1": 19.0,
-                "2": 30.0,
-                "0": 7.0
+                "1": 16.0,
+                "2": 28.0,
+                "0": 4.0
             },
             "Carriages": {
                 "1": "Single",
@@ -6019,7 +5866,7 @@
         "Lines": [
             "Airport"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -6030,63 +5877,54 @@
     "Didsbury Village": {
         "Departures": {
             "Due": {
-                "4": "2019-08-21 00:08:17",
                 "1": "2019-08-21 00:17:17",
-                "2": "2019-08-20 23:52:17",
+                "2": "2019-08-20 23:51:17",
                 "0": "2019-08-21 00:03:17",
-                "3": "2019-08-21 00:16:17"
+                "3": "2019-08-21 00:07:17"
             },
             "Updated": {
-                "4": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
-                "4": "Due",
                 "1": "Due",
                 "2": "Due",
                 "0": "Due",
                 "3": "Due"
             },
             "Dest": {
-                "4": "Rochdale Town Centre",
                 "1": "East Didsbury",
                 "2": "Firswood",
                 "0": "East Didsbury",
-                "3": "Firswood"
+                "3": "Rochdale Town Centre"
             },
             "Wait": {
-                "4": 20.0,
-                "1": 29.0,
-                "2": 4.0,
-                "0": 15.0,
-                "3": 28.0
+                "1": 27.0,
+                "2": 1.0,
+                "0": 13.0,
+                "3": 17.0
             },
             "Carriages": {
-                "4": "Single",
                 "1": "Single",
                 "2": "Single",
                 "0": "Single",
                 "3": "Single"
             },
             "Direction": {
-                "4": "Incoming",
                 "1": "Outgoing",
                 "2": "Incoming",
                 "0": "Outgoing",
                 "3": "Incoming"
             },
             "TLAREF": {
-                "4": "DDV",
                 "1": "DDV",
                 "2": "DDV",
                 "0": "DDV",
                 "3": "DDV"
             },
             "Line": {
-                "4": "South Manchester",
                 "1": "South Manchester",
                 "2": "South Manchester",
                 "0": "South Manchester",
@@ -6096,7 +5934,7 @@
         "Lines": [
             "South Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "This weekend from Friday 23rd Aug till Monday 26th Aug is Manchester Pride services will be busier than usual. Please allow extra time to make your journey."
         ],
@@ -6107,16 +5945,16 @@
     "Robinswood Road": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:55:17",
-                "2": "2019-08-20 23:55:17",
-                "0": "2019-08-20 23:52:17",
-                "3": "2019-08-21 00:07:17"
+                "1": "2019-08-20 23:57:17",
+                "2": "2019-08-20 23:56:17",
+                "0": "2019-08-20 23:51:17",
+                "3": "2019-08-21 00:09:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "3": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "3": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -6132,8 +5970,8 @@
             },
             "Wait": {
                 "1": 7.0,
-                "2": 7.0,
-                "0": 4.0,
+                "2": 6.0,
+                "0": 1.0,
                 "3": 19.0
             },
             "Carriages": {
@@ -6164,7 +6002,7 @@
         "Lines": [
             "Airport"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -6175,15 +6013,15 @@
     "Queens Road": {
         "Departures": {
             "Due": {
-                "1": "2019-08-20 23:49:17",
+                "1": "2019-08-20 23:50:17",
                 "0": "2019-08-20 23:51:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
-                "1": "Due",
+                "1": "Arrived",
                 "0": "Due"
             },
             "Dest": {
@@ -6191,8 +6029,8 @@
                 "0": "Bury"
             },
             "Wait": {
-                "1": 1.0,
-                "0": 3.0
+                "1": 0.0,
+                "0": 1.0
             },
             "Carriages": {
                 "1": "Single",
@@ -6214,7 +6052,7 @@
         "Lines": [
             "Bury"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "Due to an esrlier operational incident passengers on the Bury line may experience an additional wait to board a service. We are sorry for any inconvenience."
         ],
@@ -6226,13 +6064,13 @@
         "Departures": {
             "Due": {
                 "1": "2019-08-21 00:05:17",
-                "2": "2019-08-21 00:07:17",
+                "2": "2019-08-21 00:08:17",
                 "0": "2019-08-20 23:53:17"
             },
             "Updated": {
-                "1": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17"
+                "1": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17"
             },
             "Status": {
                 "1": "Due",
@@ -6245,9 +6083,9 @@
                 "0": "Firswood"
             },
             "Wait": {
-                "1": 17.0,
-                "2": 19.0,
-                "0": 5.0
+                "1": 15.0,
+                "2": 18.0,
+                "0": 3.0
             },
             "Carriages": {
                 "1": "Single",
@@ -6273,7 +6111,7 @@
         "Lines": [
             "Airport"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
@@ -6284,20 +6122,20 @@
     "Chorlton": {
         "Departures": {
             "Due": {
-                "3": "2019-08-20 23:59:17",
+                "3": "2019-08-20 23:58:17",
                 "1": "2019-08-21 00:07:17",
-                "5": "2019-08-21 00:06:17",
-                "4": "2019-08-21 00:01:17",
+                "5": "2019-08-21 00:19:17",
+                "4": "2019-08-21 00:02:17",
                 "0": "2019-08-20 23:53:17",
                 "2": "2019-08-20 23:51:17"
             },
             "Updated": {
-                "3": "2019-08-20 23:48:17",
-                "1": "2019-08-20 23:48:17",
-                "5": "2019-08-20 23:48:17",
-                "4": "2019-08-20 23:48:17",
-                "0": "2019-08-20 23:48:17",
-                "2": "2019-08-20 23:48:17"
+                "3": "2019-08-20 23:50:17",
+                "1": "2019-08-20 23:50:17",
+                "5": "2019-08-20 23:50:17",
+                "4": "2019-08-20 23:50:17",
+                "0": "2019-08-20 23:50:17",
+                "2": "2019-08-20 23:50:17"
             },
             "Status": {
                 "3": "Due",
@@ -6316,12 +6154,12 @@
                 "2": "Firswood"
             },
             "Wait": {
-                "3": 11.0,
-                "1": 19.0,
-                "5": 18.0,
-                "4": 13.0,
-                "0": 5.0,
-                "2": 3.0
+                "3": 8.0,
+                "1": 17.0,
+                "5": 29.0,
+                "4": 12.0,
+                "0": 3.0,
+                "2": 1.0
             },
             "Carriages": {
                 "3": "Single",
@@ -6359,7 +6197,7 @@
         "Lines": [
             "South Manchester"
         ],
-        "LastUpdate": "2019-08-20 23:48:17",
+        "LastUpdate": "2019-08-20 23:50:17",
         "MessageBoards": [
             "PLANNED IMPROVEMENT WORKS - Monday 19th Aug to Friday 23rd Aug. No early Airport services between Firswood & Deansgate. A bus replacement will be in operation. For more information visit tfgm.com."
         ],
