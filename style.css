@@ -1,73 +1,86 @@
 body {
-	font-family: arial,sans-serif;
-	font-size: 	16px;
-	text-align: center;
-	background: #FAFAFA;
-	color: 		#111111;
+  font-family: Verdana, sans-serif;
+  text-align: center;
 }
 
-a:link    {
-  text-decoration:  none;
-  color: 		#111111;
+.row {
+  margin: auto;
+  width: 900px;
 }
 
-a:visited    {
-  text-decoration:  none;
-  color: 		#111111;
+.column {
+  float: left;
+  width: 33%;
+}  
+
+a {
+  color: black;
 }
 
-a:hover    {
-  text-decoration:  none;
-  color: 		#FFFFFF;
+.projectContainer {
+  border: solid 1px grey;
+  border-radius: .5em;
+  margin: 0.5em;
+}
+    
+.projectHeaderContainer {
+  margin: -1px;
+  background-color: lightgrey;
+  border-radius: 0.5em 0.5em 0 0;
+  border: solid 1px grey;
+}
+
+.projectHeader {
+ margin: 0.5em;
+}
+
+.projectHeader a {
+ text-decoration: none;
+}
+
+.projectHeader a:hover {
+ text-decoration: underline;
 }
 
 
-h1 {
-	font-size: 40px;
+.projectImageContainer {
+  margin: 1em 0 1em 0;
+  height: 16em;
 }
 
-p {
-	margin-left: auto;
-	margin-right: auto;
-	width: 500px;
-	color: #333333;
-	margin-bottom: 10px;
-	font-size: 16px;
-	font-weight: normal;
+.projectImage {
+  height: 16em;
+  width: 16em;
+  margin: 0 auto 0 auto;
+  border: solid 2px grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.8;
+ }
+
+.projectImage:hover {
+  opacity: 1;
 }
 
-.demoPic {
-    width: 300px;
-    border: solid 1px black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    opacity: 0.85;
+.projectDescriptionContainer {
+  height: 3em;
+  padding: 0 1em 0 1em;
 }
 
-.demoPic:hover { 
-  opacity: 1.0; 
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+  .row {
+    width: 100%;
+  }
+
 }
 
-table {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
-	border-collapse: collapse;
-	border: solid 1px black;	
-	background: #BCBCBC;
-}
-
-th {
-	width: 520px;
-	border: solid 1px black;
-}
-
-tr {
-	font-size: 16px;
-}
-
-.tableHeader {
-	background: #DCDCDC;
-	font-size: 20px;
-	height: 40px;
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .row {
+    width: 100%;
+  }
 }
