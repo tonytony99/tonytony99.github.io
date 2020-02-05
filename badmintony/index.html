@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <title>Trams</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <style>
+
+        @keyframes playerFlash {
+        0% {background-color: green;}
+        50% {background-color: yellow;}
+        100% {background-color: green;}
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div.teamScore {
+            width: 49vw;
+            height: 58vh;
+            display: inline-block;
+            padding: 0 0 40vh 0;
+            border-right: dashed 0.8vw grey;
+            text-align: center;
+            
+        }
+        p.teamScore {
+            font-size: 70vh;
+            font-weight: bold;
+            margin-top: 8vh;
+            color: #010101;
+        }
+
+        div.player {
+            position: absolute;
+            height: 20vh;
+            width: 25vh;
+            background-color: grey;
+            border-radius: 10vh;
+            text-align: center;
+            z-index: -1;
+            opacity: 0.4;
+        }
+
+        div.player.active {
+            opacity: 1;
+            background-color: green;
+            animation-name: playerFlash;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        p.player {
+            margin-top: 1vh;
+            font-size: 15vh;
+            color: #FFF;
+            font-weight: bold;
+        }
+
+
+
+            
+    </style>
+
+</head>
+
+<body>
+
+    <div style="width: 100vw; height: 100vh">
+        <div class="teamScore" >
+            <p class="teamScore"> 15 </p>
+        </div>
+        <div class="teamScore" >
+            <p class="teamScore"> 3 </p>
+        </div>
+
+        <div class="player" style="top: 1vh; left: 1vh;">
+            <p class="player"> JP </p>
+        </div>
+
+        <div class="player" style="bottom: 1vh; left: 1vh;">
+            <p class="player"> AF </p>
+        </div>
+
+        <div class="player" style="top: 1vh; right: 1vh;">
+            <p class="player"> BB </p>
+        </div>
+
+        <div class="player active" style="bottom: 1vh; right: 1vh;">
+            <p class="player"> RL </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
