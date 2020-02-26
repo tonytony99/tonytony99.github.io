@@ -13,6 +13,7 @@ button.server {
     font-weight: bold;
     width: 96vw;
     padding-top:20px;
+    text-align: center;
 }
 
 div.score {
@@ -21,29 +22,27 @@ div.score {
 }
 
 button.score {
-    font-size: 80px;
+    font-size: 40px;
     margin: 0;
-    width: 100%; 
+    width: 90px; 
     background-color: white;
 }
 
 div.player {
     display: inline-block;
-    width: 49%;
-    padding-left: 25px;
-    padding-right: 25px;
+    width: 80px;
+    padding-left: 5px;
+    padding-right:  5px;
     margin: 0;  
     box-sizing: border-box;
 }
 
 p.player {
-    font-size: 20px;
     margin: 0;
 }
 
 input.player {
-    font-size: 25px;
-    width: 80px;
+    width: 35px;
     display: inline-block;
     margin: 2px;
     border: solid 1px black;
