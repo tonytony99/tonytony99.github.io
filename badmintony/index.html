@@ -10,50 +10,50 @@
 </head>
 
 <body>
-    <div class="board" ng-app="app" ng-controller="boardCtrl">
+    <div class="board" data-ng-app="app" data-ng-controller="boardCtrl">
 
-        <div class="gameStart" ng-hide="playing">
+        <div class="gameStart" data-ng-hide="playing">
             <p>Who's serving?</p>
-            <button class="server" ng-click="newGame('top')">Top</button>
+            <button class="server" data-ng-click="newGame('top')">Top</button>
             <br><br>
-            <button class="server" ng-click="newGame('bottom')">Bottom</button>
+            <button class="server" data-ng-click="newGame('bottom')">Bottom</button>
         </div>
 
         <div class="score">
-            <button class="score" ng-click="addPoint(2)">{{game.t2s}}</button>
+            <button class="score" data-ng-click="addPoint(2)">{{game.t2s}}</button>
         </div>
         <div class="player right">
             <p class="player">
-                <span ng-show="game.sp=='t2r'">🏸</span>
-                <input class="player" type="text" ng-model="game.t2r">
+                <span data-ng-show="game.sp=='t2r'">🏸</span>
+                <input class="player" type="text" data-ng-model="game.t2r">
             </p>
         </div>
         <div class="player left">
             <p class="player">
-                <input class="player" type="text" ng-model="game.t2l">
-                <span ng-show="game.sp=='t2l'">🏸</span>
+                <input class="player" type="text" data-ng-model="game.t2l">
+                <span data-ng-show="game.sp=='t2l'">🏸</span>
             </p>
         </div>
 
         <div class="time">
-            <button class="time" ng-click="startTimer()">{{time}}</button>
+            <button class="time" data-ng-click="startTimer()">{{time}}</button>
         </div>
 
         <div class="player right">
             <p class="player">
-                <span ng-show="game.sp=='t1l'">🏸</span>
-                <input class="player" type="text" ng-model="game.t1l">
+                <span data-ng-show="game.sp=='t1l'">🏸</span>
+                <input class="player" type="text" data-ng-model="game.t1l">
             </p>
         </div>
         <div class="player left">
             <p class="player">
-                <input class="player" type="text" ng-model="game.t1r">
-                <span ng-show="game.sp=='t1r'">🏸</span>
+                <input class="player" type="text" data-ng-model="game.t1r">
+                <span data-ng-show="game.sp=='t1r'">🏸</span>
             </p>
         </div>
 
         <div class="score">
-            <button class="score" ng-click="addPoint(1)">{{game.t1s}}</button>
+            <button class="score" data-ng-click="addPoint(1)">{{game.t1s}}</button>
         </div>
 
 
@@ -82,7 +82,7 @@
                     $scope.time = $scope.millisToMinutesAndSeconds(new Date() - $scope.startTime);
                 }
             }
-            $interval($scope.updateTimer, 500);
+            $interval($scope.updateTimer, 100);
 
             $scope.newGame = function (server) {
                 $scope.game = { t2r: 'SAM', t2l: 'BEN', t2s: 0, t1s: 0, t1l: 'JJJ', t1r: 'DDD', sp: (server === 'top' ? 't2r' : 't1r') }
