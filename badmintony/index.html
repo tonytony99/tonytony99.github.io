@@ -2,101 +2,130 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-    <title>Trams</title>
+    <title>Badmintony</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-
-    <style>
-
-        @keyframes playerFlash {
-        0% {background-color: green;}
-        50% {background-color: yellow;}
-        100% {background-color: green;}
-        }
-
-        p {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        div.teamScore {
-            width: 49vw;
-            height: 58vh;
-            display: inline-block;
-            padding: 0 0 40vh 0;
-            border-right: dashed 0.8vw grey;
-            text-align: center;
-            
-        }
-        p.teamScore {
-            font-size: 70vh;
-            font-weight: bold;
-            margin-top: 8vh;
-            color: #010101;
-        }
-
-        div.player {
-            position: absolute;
-            height: 20vh;
-            width: 25vh;
-            background-color: grey;
-            border-radius: 10vh;
-            text-align: center;
-            z-index: -1;
-            opacity: 0.4;
-        }
-
-        div.player.active {
-            opacity: 1;
-            background-color: green;
-            animation-name: playerFlash;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
-        }
-
-        p.player {
-            margin-top: 1vh;
-            font-size: 15vh;
-            color: #FFF;
-            font-weight: bold;
-        }
-
-
-
-            
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="board" ng-app="app" ng-controller="boardCtrl">
 
-    <div style="width: 100vw; height: 100vh">
-        <div class="teamScore" >
-            <p class="teamScore"> 15 </p>
-        </div>
-        <div class="teamScore" >
-            <p class="teamScore"> 3 </p>
-        </div>
-
-        <div class="player" style="top: 1vh; left: 1vh;">
-            <p class="player"> JP </p>
+        <div class="gameStart" ng-hide="playing">
+            <p>Who's serving?</p>
+            <button class="server" ng-click="newGame('top')">Top</button>
+            <br><br>
+            <button class="server" ng-click="newGame('bottom')">Bottom</button>
         </div>
 
-        <div class="player" style="bottom: 1vh; left: 1vh;">
-            <p class="player"> AF </p>
+        <div class="score">
+            <button class="score" ng-click="addPoint(2)">{{game.t2s}}</button>
+        </div>
+        <div class="player right">
+            <p class="player">
+                <span ng-show="game.sp=='t2r'">🏸</span>
+                <input class="player" type="text" ng-model="game.t2r">
+            </p>
+        </div>
+        <div class="player left">
+            <p class="player">
+                <input class="player" type="text" ng-model="game.t2l">
+                <span ng-show="game.sp=='t2l'">🏸</span>
+            </p>
         </div>
 
-        <div class="player" style="top: 1vh; right: 1vh;">
-            <p class="player"> BB </p>
+        <div class="time">
+            <button class="time" ng-click="startTimer()">{{time}}</button>
         </div>
 
-        <div class="player active" style="bottom: 1vh; right: 1vh;">
-            <p class="player"> RL </p>
+        <div class="player right">
+            <p class="player">
+                <span ng-show="game.sp=='t1l'">🏸</span>
+                <input class="player" type="text" ng-model="game.t1l">
+            </p>
         </div>
+        <div class="player left">
+            <p class="player">
+                <input class="player" type="text" ng-model="game.t1r">
+                <span ng-show="game.sp=='t1r'">🏸</span>
+            </p>
+        </div>
+
+        <div class="score">
+            <button class="score" ng-click="addPoint(1)">{{game.t1s}}</button>
+        </div>
+
+
 
     </div>
 
+    <script>
+
+        var app = angular.module("app", []);
+
+        app.controller("boardCtrl", function ($scope, $interval) {
+            $scope.startTimer = function () {
+                if ($scope.game.t1s === 0 && $scope.game.t2s === 0) {
+                    $scope.startTime = new Date();
+                    $scope.timerRunning = true;
+                }
+
+            }
+            $scope.millisToMinutesAndSeconds = function (millis) {
+                var minutes = Math.floor(millis / 60000);
+                var seconds = ((millis % 60000) / 1000).toFixed(0);
+                return minutes + ":" + (seconds < 10 ? '0' : '') + seconds;
+            }
+            $scope.updateTimer = function () {
+                if ($scope.timerRunning) {
+                    $scope.time = $scope.millisToMinutesAndSeconds(new Date() - $scope.startTime);
+                }
+            }
+            $interval($scope.updateTimer, 500);
+
+            $scope.newGame = function (server) {
+                $scope.game = { t2r: 'SAM', t2l: 'BEN', t2s: 0, t1s: 0, t1l: 'JJJ', t1r: 'DDD', sp: (server === 'top' ? 't2r' : 't1r') }
+                $scope.gameStates = [];
+                $scope.playing = true;
+                $scope.time = "0:00"
+            }
+
+
+
+            $scope.playing = false;
+            $scope.addPoint = function (team) {
+                console.log("add");
+                if (!$scope.timerRunning) {
+                    $scope.startTime = new Date();
+                    $scope.timerRunning = true;
+                }
+
+                $scope.gameStates.push(JSON.parse(JSON.stringify($scope.game)));
+
+                $scope.newGame = JSON.parse(JSON.stringify($scope.game));
+
+                $scope.newGame["t" + team + "s"] += 1;
+
+                let serverSide = $scope.newGame.sp[2];
+
+                if ($scope.newGame.sp[1] == team) {
+                    $scope.newGame.sp = "t" + team + (serverSide === 'l' ? 'r' : 'l');
+                    let prevL = $scope.newGame["t" + team + "l"];
+                    let prevR = $scope.newGame["t" + team + "r"];
+                    $scope.newGame["t" + team + "l"] = prevR;
+                    $scope.newGame["t" + team + "r"] = prevL;
+                }
+                $scope.newGame.sp = "t" + team + ($scope.newGame["t" + team + "s"] % 2 == 0 ? 'r' : 'l');
+
+                $scope.game = $scope.newGame;
+            }
+
+        });
+
+
+
+    </script>
 </body>
 
 </html>

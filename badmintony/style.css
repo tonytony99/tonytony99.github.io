@@ -1,0 +1,70 @@
+.gameStart {
+    height: 100vh;
+    text-align: center;
+    width: 100vw;
+}
+
+button.server {
+    text-align: center;
+}
+
+.board {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 96vw;
+    padding-top:20px;
+}
+
+div.score {
+    text-align: center;
+    margin: 0;
+}
+
+button.score {
+    font-size: 80px;
+    margin: 0;
+    width: 100%; 
+    background-color: white;
+}
+
+div.player {
+    display: inline-block;
+    width: 49%;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0;  
+    box-sizing: border-box;
+}
+
+p.player {
+    font-size: 20px;
+    margin: 0;
+}
+
+input.player {
+    font-size: 25px;
+    width: 80px;
+    display: inline-block;
+    margin: 2px;
+    border: solid 1px black;
+    text-align: center;
+}
+
+button.time {
+    font-size: 20px;
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.time {
+    text-align: center;
+}
