@@ -1,7 +1,5 @@
 .gameStart {
-    height: 100vh;
     text-align: center;
-    width: 100vw;
 }
 
 button.server {
@@ -11,7 +9,6 @@ button.server {
 .board {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    width: 96vw;
     padding-top:20px;
     text-align: center;
 }

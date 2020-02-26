@@ -11,12 +11,16 @@
 <body>
     <div class="board">
 
-        <div class="gameStart" id="gameStart">
+        <!-- <div class="gameStart" id="gameStart">
             <p>Who's serving?</p>
             <button class="server" onclick="newGame('top')">Top</button>
             <br><br>
             <button class="server" onclick="newGame('bottom')">Bottom</button>
-        </div>
+            <input type="text" id="t2rin">
+            <input type="text" id="t2lin">
+            <input type="text" id="t1rin">
+            <input type="text" id="t1lin">
+        </div> -->
 
         <div class="score">
             <button class="score" id="t2s" onclick="addPoint(2)"></button>
@@ -35,7 +39,7 @@
         </div>
 
         <div class="time">
-            <button class="time" id="time" onclick="startTimer()"></button>
+            <button class="time" id="time"></button>
         </div>
 
         <div class="player right">
@@ -87,7 +91,7 @@
         timeRunning = false;
 
         function newGame(server) {
-            document.getElementById("gameStart").style.display = "none";
+            // document.getElementById("gameStart").style.display = "none";
             game = { t2r: 'A', t2l: 'B', t2s: 0, t1s: 0, t1l: 'C', t1r: 'D', sp: (server === 'top' ? 't2r' : 't1r'), time: "0:00", startTime: new Date() }
             gameStates = [];
             timeRunning = true;
@@ -122,64 +126,9 @@
                 updateBoard();
             }
         }
-        setInterval(function () { updateTime(); }, 500);
+        // setInterval(function () { updateTime(); }, 100);
 
-
-        // var app = angular.module("app", []);
-
-        // app.controller("boardCtrl", function ($scope, $interval) {
-        //     startTimer = function () {
-        //         if (game.t1s === 0 && game.t2s === 0) {
-        //             startTime = new Date();
-        //             timerRunning = true;
-        //         }
-
-        //     }
-        //     
-        //     updateTimer = function () {
-        //         if (timerRunning) {
-        //             time = millisToMinutesAndSeconds(new Date() - startTime);
-        //         }
-        //     }
-        //     $interval(updateTimer, 100);
-
-        //     newGame = function (server) {
-
-        //     }
-
-
-
-        //     playing = false;
-        //     addPoint = function (team) {
-        //         console.log("add");
-        //         if (!timerRunning) {
-        //             startTime = new Date();
-        //             timerRunning = true;
-        //         }
-
-        //         gameStates.push(JSON.parse(JSON.stringify(game)));
-
-        //         newGame = JSON.parse(JSON.stringify(game));
-
-        //         newGame["t" + team + "s"] += 1;
-
-        //         let serverSide = newGame.sp[2];
-
-        //         if (newGame.sp[1] == team) {
-        //             newGame.sp = "t" + team + (serverSide === 'l' ? 'r' : 'l');
-        //             let prevL = newGame["t" + team + "l"];
-        //             let prevR = newGame["t" + team + "r"];
-        //             newGame["t" + team + "l"] = prevR;
-        //             newGame["t" + team + "r"] = prevL;
-        //         }
-        //         newGame.sp = "t" + team + (newGame["t" + team + "s"] % 2 == 0 ? 'r' : 'l');
-
-        //         game = newGame;
-        //     }
-
-        // });
-
-
+        newGame('top');
 
     </script>
 </body>
