@@ -1,6 +1,8 @@
 body {
   font-family: Verdana, sans-serif;
   text-align: center;
+  background-color: #eee;
+  color: #222;
 }
 
 .row {
@@ -11,18 +13,23 @@ body {
 .column {
   float: left;
   width: 33%;
-}  
+}
+
+.column.hero {
+  width: 99%;
+}
 
 a {
-  color: black;
+  color: #222;
 }
 
 .projectContainer {
   border: solid 1px grey;
-  border-radius: .5em;
+  border-radius: 0.5em;
   margin: 0.5em;
+  background-color: #fff;
 }
-    
+
 .projectHeaderContainer {
   margin: -1px;
   background-color: lightgrey;
@@ -31,39 +38,51 @@ a {
 }
 
 .projectHeader {
- margin: 0.5em;
+  margin: 0.5em;
 }
 
 .projectHeader a {
- text-decoration: none;
+  text-decoration: none;
 }
 
 .projectHeader a:hover {
- text-decoration: underline;
+  text-decoration: underline;
 }
 
-
 .projectImageContainer {
-  margin: 1em 0 1em 0;
-  height: 16em;
+  margin: 1em 0;
+  height: 7em;
 }
 
 .projectImage {
-  height: 16em;
-  width: 16em;
+  height: 7em;
   margin: 0 auto 0 auto;
-  border: solid 2px grey;
+  border: solid 1px grey;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  opacity: 0.8;
- }
+  opacity: 0.9;
+}
+
+
+.projectImageContainer.hero {
+  margin: 1em 1em;
+  height: 9em;
+}
+
+.projectImage.hero {
+  height: 9em;
+}
 
 .projectImage:hover {
   opacity: 1;
 }
 
 .projectDescriptionContainer {
-  height: 3em;
+  height: 4em;
   padding: 0 1em 0 1em;
+}
+
+.projectDescriptionContainer.hero {
+  height: auto;
 }
 
 @media screen and (max-width: 992px) {
@@ -73,14 +92,47 @@ a {
   .row {
     width: 100%;
   }
-
+  .column.hero {
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 760px) {
   .column {
     width: 100%;
   }
   .row {
     width: 100%;
+  }
+  .projectDescriptionContainer {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 12vw;
+  }
+  h3 {
+    font-size: 10vw;
+  }
+  p {
+    font-size: 9vw;
+  }
+  .projectImage {
+    width: 50vw;
+    height: auto;
+  }
+  .projectImage.hero {
+    width: 50vw;
+    height: auto;
+  }
+  .projectImageContainer {
+    margin: 5vw auto;
+    height: auto;
+  }
+  .projectImageContainer.hero {
+    margin: 5vw auto;
+    height: auto;
   }
 }
