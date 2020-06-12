@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/roc/static/css/main.349462eb.chunk.css",
+    "main.js": "/roc/static/js/main.f797254b.chunk.js",
+    "main.js.map": "/roc/static/js/main.f797254b.chunk.js.map",
+    "runtime-main.js": "/roc/static/js/runtime-main.8fc1b5c8.js",
+    "runtime-main.js.map": "/roc/static/js/runtime-main.8fc1b5c8.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/roc/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.ba702916.chunk.js": "/roc/static/js/2.ba702916.chunk.js",
+    "static/js/2.ba702916.chunk.js.map": "/roc/static/js/2.ba702916.chunk.js.map",
+    "index.html": "/roc/index.html",
+    "precache-manifest.09ad0c91f5e66c9db4f99f9aac4698d1.js": "/roc/precache-manifest.09ad0c91f5e66c9db4f99f9aac4698d1.js",
+    "service-worker.js": "/roc/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/roc/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.349462eb.chunk.css.map": "/roc/static/css/main.349462eb.chunk.css.map",
+    "static/js/2.ba702916.chunk.js.LICENSE.txt": "/roc/static/js/2.ba702916.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fc1b5c8.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.ba702916.chunk.js",
+    "static/css/main.349462eb.chunk.css",
+    "static/js/main.f797254b.chunk.js"
+  ]
+}
