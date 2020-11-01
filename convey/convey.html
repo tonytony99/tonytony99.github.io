@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiptoe Type</title>
+</head>
+
+<body style="background-color: #222; color: #FFF; font-family: Arial, Helvetica, sans-serif; text-align: center;">
+    <div style="width: 400px; margin: auto;">
+        <h1 style="text-align: center;">Tiptoe Type</h1>
+        <div style="background-color: #1A1A1A; padding: 1em; margin-top: 2em; border-radius: 0.2em; text-align: left;">
+            <p>
+                Describe the
+                <span id="nameTitleCategory"></span>:
+                <br />
+                <span id="nameTitle" style="font-size: 1.5em; font-weight: bold;"></span>
+            </p>
+            <br />
+            <ul style="margin-top: 0.5em; padding-left: 1em; text-align: left;">
+                <li>Use <strong>14</strong> characters or less</li>
+                <li>Do not use any of the letters <strong><span id="disallowedLetters"></span></strong></li>
+                <li>Tell guessers it's a <span id="categoryPrefix"></span> <span id="category"></span></li>
+            </ul>
+            <button style="margin-top: 2em;" onClick="updateCard();">
+                New Word
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function newCard() {
+            var cards = [
+                { 'cat': 'animal', 'name': 'bat', 'pre': 'an' },
+                { 'cat': 'animal', 'name': 'bear', 'pre': 'an' },
+                { 'cat': 'animal', 'name': 'bee', 'pre': 'an' },
+                { 'cat': 'animal', 'name': 'cat', 'pre': 'an' },
+                { 'cat': 'animal', 'name': 'dog', 'pre': 'an' },
+                { 'cat': 'animal', 'name': 'dolphin', 'pre': 'an' },
+                { 'cat': 'animal', 'name': 'eel', 'pre': 'an' },
+                { 'cat': 'animal', 'name': 'elephant', 'pre': 'an' },
+                { 'cat': 'animal', 'name': 'fox', 'pre': 'an' },
+                { 'cat': 'animal', 'name': 'goat', 'pre': 'an' },
+                { 'cat': 'animal', 'name': 'hedgehog', 'pre': 'an' },
+                { 'cat': 'animal', 'name': 'horse', 'pre': 'an' },
+                { 'cat': 'animal', 'name': 'kangaroo', 'pre': 'an' },
+                { 'cat': 'animal', 'name': 'lion', 'pre': 'an' },
+                { 'cat': 'animal', 'name': 'whale', 'pre': 'an' },
+                { 'cat': 'animal', 'name': 'zebra', 'pre': 'an' },
+
+                { 'cat': 'sport', 'name': 'surfing', 'pre': 'a' },
+                { 'cat': 'sport', 'name': 'sailing', 'pre': 'a' },
+                { 'cat': 'sport', 'name': 'polo', 'pre': 'a' },
+                { 'cat': 'sport', 'name': 'basketball', 'pre': 'a' },
+                { 'cat': 'sport', 'name': 'tennis', 'pre': 'a' },
+                { 'cat': 'sport', 'name': 'bowling', 'pre': 'a' },
+                { 'cat': 'sport', 'name': 'rowing', 'pre': 'a' },
+                { 'cat': 'sport', 'name': 'football', 'pre': 'a' },
+                { 'cat': 'sport', 'name': 'golf', 'pre': 'a' },
+                { 'cat': 'sport', 'name': 'cycling', 'pre': 'a' },
+                { 'cat': 'sport', 'name': 'rugby', 'pre': 'a' },
+                { 'cat': 'sport', 'name': 'hockey', 'pre': 'a' },
+                { 'cat': 'sport', 'name': 'dressage', 'pre': 'a' },
+                { 'cat': 'sport', 'name': 'curling', 'pre': 'a' },
+                { 'cat': 'sport', 'name': 'swimming', 'pre': 'a' },
+                { 'cat': 'sport', 'name': 'fencing', 'pre': 'a' },
+                { 'cat': 'sport', 'name': 'darts', 'pre': 'a' },
+
+                { 'cat': 'food', 'name': 'banana', 'pre': 'a' },
+                { 'cat': 'food', 'name': 'apple', 'pre': 'a' },
+                { 'cat': 'food', 'name': 'bagel', 'pre': 'a' },
+                { 'cat': 'food', 'name': 'cookie', 'pre': 'a' },
+                { 'cat': 'food', 'name': 'celery', 'pre': 'a' },
+                { 'cat': 'food', 'name': 'cereal', 'pre': 'a' },
+                { 'cat': 'food', 'name': 'rice', 'pre': 'a' },
+                { 'cat': 'food', 'name': 'pizza', 'pre': 'a' },
+                { 'cat': 'food', 'name': 'lasagna', 'pre': 'a' },
+                { 'cat': 'food', 'name': 'cake', 'pre': 'a' },
+                { 'cat': 'food', 'name': 'jelly', 'pre': 'a' },
+                { 'cat': 'food', 'name': 'jam', 'pre': 'a' },
+                { 'cat': 'food', 'name': 'scone', 'pre': 'a' },
+                { 'cat': 'food', 'name': 'salmon', 'pre': 'a' },
+                { 'cat': 'food', 'name': 'butter', 'pre': 'a' },
+                { 'cat': 'food', 'name': 'toast', 'pre': 'a' },
+                { 'cat': 'food', 'name': 'popcorn', 'pre': 'a' },
+
+                { 'cat': 'country', 'name': 'Spain', 'pre': 'a' },
+                { 'cat': 'country', 'name': 'France', 'pre': 'a' },
+                { 'cat': 'country', 'name': 'Portugal', 'pre': 'a' },
+                { 'cat': 'country', 'name': 'Japan', 'pre': 'a' },
+                { 'cat': 'country', 'name': 'Canada', 'pre': 'a' },
+                { 'cat': 'country', 'name': 'Mexico', 'pre': 'a' },
+                { 'cat': 'country', 'name': 'Italy', 'pre': 'a' },
+                { 'cat': 'country', 'name': 'Chile', 'pre': 'a' },
+                { 'cat': 'country', 'name': 'Australia', 'pre': 'a' },
+                { 'cat': 'country', 'name': 'Belgium', 'pre': 'a' },
+                { 'cat': 'country', 'name': 'Norway', 'pre': 'a' },
+                { 'cat': 'country', 'name': 'India', 'pre': 'a' },
+                { 'cat': 'country', 'name': 'Madagascar', 'pre': 'a' },
+
+            ];
+            return cards[Math.floor(Math.random() * cards.length)];
+        }
+        function updateCard() {
+            var card = newCard();
+            document.getElementById('nameTitle').innerHTML = card['name'];
+            document.getElementById('nameTitleCategory').innerHTML = card['cat'];
+            var disallowedLetters = [];
+            var letterList = card['name'].split("");
+            var letter = "";
+            for (var letterIndex = 0; letterIndex < letterList.length; letterIndex++) {
+                letter = letterList[letterIndex].toLowerCase();
+                if (!disallowedLetters.includes(letter)) {
+                    disallowedLetters.push(letter);
+                }
+            }
+            document.getElementById('disallowedLetters').innerHTML = disallowedLetters.join(", ");
+            document.getElementById('categoryPrefix').innerHTML = card['pre'];
+            document.getElementById('category').innerHTML = card['cat'];
+        }
+        updateCard();
+
+    </script>
+
+</body>
+
+</html>
