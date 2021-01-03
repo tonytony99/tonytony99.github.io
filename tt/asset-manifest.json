@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ttt/static/css/main.c35965a0.chunk.css",
+    "main.js": "/ttt/static/js/main.a453bade.chunk.js",
+    "main.js.map": "/ttt/static/js/main.a453bade.chunk.js.map",
+    "runtime-main.js": "/ttt/static/js/runtime-main.b97b2264.js",
+    "runtime-main.js.map": "/ttt/static/js/runtime-main.b97b2264.js.map",
+    "static/js/2.5114400f.chunk.js": "/ttt/static/js/2.5114400f.chunk.js",
+    "static/js/2.5114400f.chunk.js.map": "/ttt/static/js/2.5114400f.chunk.js.map",
+    "static/js/3.bef5f6e9.chunk.js": "/ttt/static/js/3.bef5f6e9.chunk.js",
+    "static/js/3.bef5f6e9.chunk.js.map": "/ttt/static/js/3.bef5f6e9.chunk.js.map",
+    "index.html": "/ttt/index.html",
+    "static/css/main.c35965a0.chunk.css.map": "/ttt/static/css/main.c35965a0.chunk.css.map",
+    "static/js/2.5114400f.chunk.js.LICENSE.txt": "/ttt/static/js/2.5114400f.chunk.js.LICENSE.txt",
+    "static/media/tiptoe.3aa316e0.png": "/ttt/static/media/tiptoe.3aa316e0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b97b2264.js",
+    "static/js/2.5114400f.chunk.js",
+    "static/css/main.c35965a0.chunk.css",
+    "static/js/main.a453bade.chunk.js"
+  ]
+}
