@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/accel/static/css/main.a617e044.chunk.css",
-    "main.js": "/accel/static/js/main.e0f1d1b5.chunk.js",
-    "main.js.map": "/accel/static/js/main.e0f1d1b5.chunk.js.map",
+    "main.css": "/accel/static/css/main.80d43c82.chunk.css",
+    "main.js": "/accel/static/js/main.a6c9d105.chunk.js",
+    "main.js.map": "/accel/static/js/main.a6c9d105.chunk.js.map",
     "runtime-main.js": "/accel/static/js/runtime-main.1b96e063.js",
     "runtime-main.js.map": "/accel/static/js/runtime-main.1b96e063.js.map",
-    "static/js/2.e2cc3d88.chunk.js": "/accel/static/js/2.e2cc3d88.chunk.js",
-    "static/js/2.e2cc3d88.chunk.js.map": "/accel/static/js/2.e2cc3d88.chunk.js.map",
+    "static/js/2.c0cda1ec.chunk.js": "/accel/static/js/2.c0cda1ec.chunk.js",
+    "static/js/2.c0cda1ec.chunk.js.map": "/accel/static/js/2.c0cda1ec.chunk.js.map",
     "static/js/3.c0b02630.chunk.js": "/accel/static/js/3.c0b02630.chunk.js",
     "static/js/3.c0b02630.chunk.js.map": "/accel/static/js/3.c0b02630.chunk.js.map",
     "index.html": "/accel/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/accel/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.e2cc3d88.chunk.js.LICENSE.txt": "/accel/static/js/2.e2cc3d88.chunk.js.LICENSE.txt"
+    "static/css/main.80d43c82.chunk.css.map": "/accel/static/css/main.80d43c82.chunk.css.map",
+    "static/js/2.c0cda1ec.chunk.js.LICENSE.txt": "/accel/static/js/2.c0cda1ec.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1b96e063.js",
-    "static/js/2.e2cc3d88.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.e0f1d1b5.chunk.js"
+    "static/js/2.c0cda1ec.chunk.js",
+    "static/css/main.80d43c82.chunk.css",
+    "static/js/main.a6c9d105.chunk.js"
   ]
 }
