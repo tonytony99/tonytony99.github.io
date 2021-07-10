@@ -9,8 +9,21 @@
 </head>
 
 <body style="background-color: #EEE;">
+
+    <audio id="sadQuack">
+        <source src="sadquack.ogg" type="audio/ogg">
+        <source src="sadquack.mp3" type="audio/mpeg">
+      </audio>
+
+      <audio id="happyQuack">
+        <source src="happyquack.ogg" type="audio/ogg">
+        <source src="happyquack.mp3" type="audio/mpeg">
+      </audio>
+
     <p id="gamehelp" style="position: absolute; left: 100px; top: 300px; font-weight: bold; width: 200px; text-align: center; font-family: Arial, Helvetica, sans-serif;">Tap to throw bread</p>
+
     <svg height="700" ontouchstart="touchstart()" ontouchend="touchend()" viewBox="-200 -700 400 700" width="400" tabIndex="0">
+        <text id="score" x="100" y="-600" style="font-weight: bold; font-family: Arial, Helvetica, sans-serif;">0</text>
         <!-- <rect x="-700" y="-700" height="1400" width="1400" fill="#FFF" /> -->
         <g id="view">
         </g>
@@ -42,7 +55,7 @@
                 x: x,
                 y: y,
                 target: state.player,
-                speed: 1,
+                speed: 3,
                 hasBread: false,
                 hasExited: false,
                 id: `duck-${Math.floor(Math.random() * 1234567)}`,
@@ -68,6 +81,7 @@
                 age: 0,
                 id: `bread-${Math.floor(Math.random() * 1234567)}`,
                 isTaken: false,
+                score: 0,
             }
 
             // add bread to DOM
@@ -125,6 +139,10 @@
                     if ((dist < 60) && (bread.speed <= 10 && (!bread.isTaken))) {
                         bread.isTaken = true;
                         duck.hasBread = true;
+                        state.score += 1;
+                        document.getElementById('happyQuack').play();
+
+                        document.getElementById('score').textContent = state.score;
                         var duckElement = document.getElementById(duck.id);
                         while (duckElement.lastChild) {
                             duckElement.removeChild(duckElement.lastChild);
@@ -173,7 +191,9 @@
         }
 
         function touchend() {
-            state.breads.push(newBread(state));
+            if (state.breads.length <= 20) {
+                state.breads.push(newBread(state));
+            }
             state.touching = false;
             state.throwPower = 0;
         }
@@ -184,6 +204,7 @@
             touching: false,
             throwPower: 0,
             hasHelp: true,
+            score: 0,
         };
         state.ducks = [newDuck(state)];
         state.breads = [];
@@ -192,16 +213,22 @@
 
         function step() {
             state.tick += 1;
-            if (! (state.tick % 100) && (state.ducks.length < 20)) {
+            if (! (state.tick % 300) && (state.ducks.length < 20)) {
                 state.ducks.push(newDuck(state));
             }
             for (var duck of state.ducks) {
                 updateDuck(duck, state);
                 var duckElement = document.getElementById(duck.id);
                 duckElement.setAttribute('transform', `translate(${duck.x} ${duck.y}) rotate(${duck.angle} 0 0)`);
-                if (duck.hasBread && (duck.x ** 2 + duck.y ** 2) **.5 >= 750) {
+                var duckDist = (duck.x ** 2 + duck.y ** 2) **.5;
+                if (duck.hasBread && duckDist >= 750) {
                     duckElement.remove();
                     duck.hasExited = true;
+                }
+                if ((duckDist < 40) && (state.score > 0)) {
+                    state.score = 0;
+                    document.getElementById('sadQuack').play();
+                    document.getElementById('score').textContent = state.score;
                 }
             }
             state.ducks = state.ducks.filter(duck => ! duck.hasExited);
