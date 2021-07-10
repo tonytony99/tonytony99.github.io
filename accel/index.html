@@ -118,11 +118,11 @@
                 var bread = state.breads[i];
                 if (! bread.isTaken) {
                     var dist = ((bread.x - duck.x) ** 2 + (bread.y - duck.y) ** 2) ** .5;
-                    if ((dist < minDist) && (dist < 100)) {
+                    if ((dist < minDist) && (dist < 100) && (bread.speed <= 10) && (!bread.isTaken)) {
                         minDist = dist;
                         minDistIndex = i;
                     }
-                    if ((dist < 50)) {
+                    if ((dist < 50) && (bread.speed <= 10 && (!bread.isTaken))) {
                         console.log(duck, bread);
                         bread.isTaken = true;
                         duck.hasBread = true;
@@ -195,7 +195,7 @@
 
         function step() {
             state.tick += 1;
-            if (! (state.tick % 1000) && (state.ducks.length < 20)) {
+            if (! (state.tick % 100) && (state.ducks.length < 20)) {
                 state.ducks.push(newDuck(state));
             }
             for (var duck of state.ducks) {
@@ -221,7 +221,7 @@
             if (state.touching) {
                 state.throwPower += 5;
             }
-            if (state.hasHelp && state.tick > 700) {
+            if (state.hasHelp && state.tick > 100) {
                 state.hasHelp = false;
                 document.getElementById('gamehelp').remove();
             }
