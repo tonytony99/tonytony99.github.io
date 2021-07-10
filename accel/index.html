@@ -8,8 +8,8 @@
     <title>Document</title>
 </head>
 
-<body>
-    <p id="gamehelp" style="position: absolute; left: 100px; top: 300px; width: 200px; text-align: center; font-family: Arial, Helvetica, sans-serif;">Tap to throw bread</p>
+<body style="background-color: #EEE;">
+    <p id="gamehelp" style="position: absolute; left: 100px; top: 300px; font-weight: bold; width: 200px; text-align: center; font-family: Arial, Helvetica, sans-serif;">Tap to throw bread</p>
     <svg height="700" ontouchstart="touchstart()" ontouchend="touchend()" viewBox="-200 -700 400 700" width="400" tabIndex="0">
         <!-- <rect x="-700" y="-700" height="1400" width="1400" fill="#FFF" /> -->
         <g id="view">
@@ -51,11 +51,11 @@
             var view = document.getElementById('view');
             let g = document.createElementNS(svgns, 'g');
             g.setAttribute('id', duck.id);
-            appendSVGChild('ellipse', g, {cx: 0, cy: 0, rx: 15, ry: 20, fill: 'grey'});
-            appendSVGChild('ellipse', g, {cx: 0, cy: 24, rx: 7, ry: 14, fill: 'yellow'});
-            appendSVGChild('circle', g, {cx: 0, cy: 16, fill: 'green', r: 14});
-            appendSVGChild('circle', g, {cx: -5, cy: 19, fill: 'black', r: 3});
-            appendSVGChild('circle', g, {cx: 5, cy: 19, fill: 'black', r: 3});            
+            appendSVGChild('ellipse', g, {cx: 0, cy: 0, rx: 20, ry: 28, fill: '#AAA', stroke: '#888'});
+            appendSVGChild('ellipse', g, {cx: 0, cy: 38, rx: 7, ry: 14, fill: 'gold', stroke: 'orange'});
+            appendSVGChild('circle', g, {cx: 0, cy: 30, fill: '#282', r: 14});
+            appendSVGChild('circle', g, {cx: -5, cy: 34, fill: '#111', r: 2});
+            appendSVGChild('circle', g, {cx: 5, cy: 34, fill: '#111', r: 2});            
             view.appendChild(g);
             return duck
         }
@@ -84,7 +84,7 @@
             let dx = duck.target.x - duck.x;
             let dy = duck.target.y - duck.y;
             duck.angle = -90 + (180 / Math.PI) * Math.atan2(dy, dx);
-            const tilt = 10 * Math.sin(tick / 10);
+            const tilt = 5 * Math.sin(tick / 10);
             duck.angle += tilt;
         }
 
@@ -118,25 +118,23 @@
                 var bread = state.breads[i];
                 if (! bread.isTaken) {
                     var dist = ((bread.x - duck.x) ** 2 + (bread.y - duck.y) ** 2) ** .5;
-                    if ((dist < minDist) && (dist < 100) && (bread.speed <= 10) && (!bread.isTaken)) {
+                    if ((dist < minDist) && (dist < 110) && (bread.speed <= 10) && (!bread.isTaken)) {
                         minDist = dist;
                         minDistIndex = i;
                     }
-                    if ((dist < 50) && (bread.speed <= 10 && (!bread.isTaken))) {
-                        console.log(duck, bread);
+                    if ((dist < 60) && (bread.speed <= 10 && (!bread.isTaken))) {
                         bread.isTaken = true;
                         duck.hasBread = true;
                         var duckElement = document.getElementById(duck.id);
                         while (duckElement.lastChild) {
                             duckElement.removeChild(duckElement.lastChild);
                         }
-                        appendSVGChild('rect', duckElement, {x: -12, rx: 5, y: 30, height: 30, width: 24, fill: '#F8F8F8', style: 'stroke: orange; stroke-width: 4px'});
-                        appendSVGChild('ellipse', duckElement, {cx: 0, cy: 0, rx: 15, ry: 20, fill: 'grey'});
-                        appendSVGChild('ellipse', duckElement, {cx: 0, cy: 24, rx: 7, ry: 14, fill: 'yellow'});
-                        appendSVGChild('circle',  duckElement, {cx: 0, cy: 16, fill: 'green', r: 14});
-                        appendSVGChild('circle',  duckElement, {cx: -5, cy: 19, fill: 'black', r: 3});
-                        appendSVGChild('circle',  duckElement, {cx: 5, cy: 19, fill: 'black', r: 3});   
-                        
+                        appendSVGChild('rect', duckElement, {x: -12, rx: 5, y: 46, height: 30, width: 24, fill: '#F8F8F8', style: 'stroke: orange; stroke-width: 3px'});
+                        appendSVGChild('ellipse', duckElement, {cx: 0, cy: 0, rx: 20, ry: 28, fill: '#AAA', stroke: '#888'});
+                        appendSVGChild('ellipse', duckElement, {cx: 0, cy: 38, rx: 7, ry: 14, fill: 'gold', stroke: 'orange'});
+                         appendSVGChild('circle', duckElement, {cx: 0, cy: 30, fill: '#282', r: 14});
+                        appendSVGChild('circle',  duckElement, {cx: -5, cy: 34, fill: '#111', r: 2});
+                        appendSVGChild('circle',  duckElement, {cx: 5, cy: 34, fill: '#111', r: 2});            
                         duck.target = duck.origin;
                         return
                     }
@@ -144,7 +142,6 @@
             }
             if (minDist < 10 ** 5) {
                 duck.target = state.breads[minDistIndex];
-                console.log(duck.target, state.breads);
             }
         }
 
