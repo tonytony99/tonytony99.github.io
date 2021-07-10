@@ -1,1 +1,237 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/accel/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/accel/logo192.png"/><link rel="manifest" href="/accel/manifest.json"/><title>React App</title><link href="/accel/static/css/main.80d43c82.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,a,i=r[0],c=r[1],l=r[2],s=0,p=[];s<i.length;s++)a=i[s],Object.prototype.hasOwnProperty.call(o,a)&&o[a]&&p.push(o[a][0]),o[a]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(f&&f(r);p.length;)p.shift()();return u.push.apply(u,l||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var c=t[i];0!==o[c]&&(n=!1)}n&&(u.splice(r--,1),e=a(a.s=t[0]))}return e}var n={},o={1:0},u=[];function a(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,a),t.l=!0,t.exports}a.e=function(e){var r=[],t=o[e];if(0!==t)if(t)r.push(t[2]);else{var n=new Promise((function(r,n){t=o[e]=[r,n]}));r.push(t[2]=n);var u,i=document.createElement("script");i.charset="utf-8",i.timeout=120,a.nc&&i.setAttribute("nonce",a.nc),i.src=function(e){return a.p+"static/js/"+({}[e]||e)+"."+{3:"d3da0d5b"}[e]+".chunk.js"}(e);var c=new Error;u=function(r){i.onerror=i.onload=null,clearTimeout(l);var t=o[e];if(0!==t){if(t){var n=r&&("load"===r.type?"missing":r.type),u=r&&r.target&&r.target.src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,t[1](c)}o[e]=void 0}};var l=setTimeout((function(){u({type:"timeout",target:i})}),12e4);i.onerror=i.onload=u,document.head.appendChild(i)}return Promise.all(r)},a.m=e,a.c=n,a.d=function(e,r,t){a.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},a.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},a.t=function(e,r){if(1&r&&(e=a(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(a.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)a.d(t,n,function(r){return e[r]}.bind(null,n));return t},a.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return a.d(r,"a",r),r},a.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},a.p="/accel/",a.oe=function(e){throw console.error(e),e};var i=this.webpackJsonpduck=this.webpackJsonpduck||[],c=i.push.bind(i);i.push=r,i=i.slice();for(var l=0;l<i.length;l++)r(i[l]);var f=c;t()}([])</script><script src="/accel/static/js/2.7550714d.chunk.js"></script><script src="/accel/static/js/main.abe648cc.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="gamehelp" style="position: absolute; left: 100px; top: 300px; width: 200px; text-align: center; font-family: Arial, Helvetica, sans-serif;">Tap to throw bread</p>
+    <svg height="700" ontouchstart="touchstart()" ontouchend="touchend()" viewBox="-200 -700 400 700" width="400" tabIndex="0">
+        <!-- <rect x="-700" y="-700" height="1400" width="1400" fill="#FFF" /> -->
+        <g id="view">
+        </g>
+    </svg>
+
+    <script>
+
+        var svgns = 'http://www.w3.org/2000/svg';
+
+        function appendSVGChild(elementType, target, attributes = {}, text = '') {
+            const element = document.createElementNS('http://www.w3.org/2000/svg', elementType);
+            Object.entries(attributes).map(a => element.setAttribute(a[0], a[1]));
+            if (text) {
+                const textNode = document.createTextNode(text);
+                element.appendChild(textNode);
+            }
+            target.appendChild(element);
+            return element;
+        };
+
+        function newDuck(state) {
+            var angle = Math.random() * 2 * Math.PI;
+            // var angle = 180;
+            var x = 800 * Math.cos(angle);
+            var y = 800 * Math.sin(angle);
+            var duck = {
+                origin: { x: x, y: y },
+                tilt: 0,
+                x: x,
+                y: y,
+                target: state.player,
+                speed: 1,
+                hasBread: false,
+                hasExited: false,
+                id: `duck-${Math.floor(Math.random() * 1234567)}`,
+            }
+            // add duck to DOM
+            var view = document.getElementById('view');
+            let g = document.createElementNS(svgns, 'g');
+            g.setAttribute('id', duck.id);
+            appendSVGChild('ellipse', g, {cx: 0, cy: 0, rx: 15, ry: 20, fill: 'grey'});
+            appendSVGChild('ellipse', g, {cx: 0, cy: 24, rx: 7, ry: 14, fill: 'yellow'});
+            appendSVGChild('circle', g, {cx: 0, cy: 16, fill: 'green', r: 14});
+            appendSVGChild('circle', g, {cx: -5, cy: 19, fill: 'black', r: 3});
+            appendSVGChild('circle', g, {cx: 5, cy: 19, fill: 'black', r: 3});            
+            view.appendChild(g);
+            return duck
+        }
+
+        function newBread(state) {
+            var bread = {
+                speed: state.throwPower,
+                angle: (270 - state.player.angle) * Math.PI / 180,
+                dist: 0,
+                age: 0,
+                id: `bread-${Math.floor(Math.random() * 1234567)}`,
+                isTaken: false,
+            }
+
+            // add bread to DOM
+            var view = document.getElementById('view');
+            // let g = document.createElementNS(svgns, 'g');
+            // g.setAttribute('id', bread.id);
+            var g = appendSVGChild('g', view, {id: bread.id});
+            appendSVGChild('rect', g, {x: -12, rx: 5, y: -15, height: 30, width: 24, fill: '#F8F8F8', style: 'stroke: orange; stroke-width: 4px'});
+            view.appendChild(g);
+            return bread
+        }
+
+        function updateDuckAngle(duck, tick) {
+            let dx = duck.target.x - duck.x;
+            let dy = duck.target.y - duck.y;
+            duck.angle = -90 + (180 / Math.PI) * Math.atan2(dy, dx);
+            const tilt = 10 * Math.sin(tick / 10);
+            duck.angle += tilt;
+        }
+
+        function updateDuckPos(duck) {
+            var dx = duck.target.x - duck.x;
+            var dy = duck.target.y - duck.y;
+            var dist = (dx ** 2 + dy ** 2) ** .5;
+            if (dist < 40) {
+                return
+            }
+            var xRatio;
+            if (dx === 0) {
+                xRatio = 0;
+            } else if (dy === 0) {
+                xRatio = 1;
+            } else {
+                xRatio = Math.abs(dx) / (Math.abs(dx) + Math.abs(dy));
+            }
+            duck.x += Math.sign(dx) * duck.speed * xRatio;
+            duck.y += Math.sign(dy) * duck.speed * (1 - xRatio);
+        }
+
+        function updateDuckTarget(duck, state) {
+            if (duck.hasBread) {
+                duck.target = duck.origin;
+                return
+            }
+            var minDist = 10 ** 5;
+            var minDistIndex = -1;
+            for (var i = 0; i < state.breads.length; i ++) {
+                var bread = state.breads[i];
+                if (! bread.isTaken) {
+                    var dist = ((bread.x - duck.x) ** 2 + (bread.y - duck.y) ** 2) ** .5;
+                    if ((dist < minDist) && (dist < 100)) {
+                        minDist = dist;
+                        minDistIndex = i;
+                    }
+                    if ((dist < 50)) {
+                        console.log(duck, bread);
+                        bread.isTaken = true;
+                        duck.hasBread = true;
+                        var duckElement = document.getElementById(duck.id);
+                        while (duckElement.lastChild) {
+                            duckElement.removeChild(duckElement.lastChild);
+                        }
+                        appendSVGChild('rect', duckElement, {x: -12, rx: 5, y: 30, height: 30, width: 24, fill: '#F8F8F8', style: 'stroke: orange; stroke-width: 4px'});
+                        appendSVGChild('ellipse', duckElement, {cx: 0, cy: 0, rx: 15, ry: 20, fill: 'grey'});
+                        appendSVGChild('ellipse', duckElement, {cx: 0, cy: 24, rx: 7, ry: 14, fill: 'yellow'});
+                        appendSVGChild('circle',  duckElement, {cx: 0, cy: 16, fill: 'green', r: 14});
+                        appendSVGChild('circle',  duckElement, {cx: -5, cy: 19, fill: 'black', r: 3});
+                        appendSVGChild('circle',  duckElement, {cx: 5, cy: 19, fill: 'black', r: 3});   
+                        
+                        duck.target = duck.origin;
+                        return
+                    }
+                }
+            }
+            if (minDist < 10 ** 5) {
+                duck.target = state.breads[minDistIndex];
+                console.log(duck.target, state.breads);
+            }
+        }
+
+        function updateDuck(duck, state) {
+            updateDuckTarget(duck, state);
+            updateDuckPos(duck);
+            updateDuckAngle(duck, state.tick);
+        }
+
+        function updateBread(bread) {
+            bread.age += 1;
+            bread.speed = (bread.speed <= 1 ? 0 : .7 * bread.speed);
+            bread.dist += bread.speed;
+            bread.x = bread.dist * Math.cos(bread.angle);
+            bread.y = bread.dist * Math.sin(bread.angle);
+        }
+
+        window.addEventListener('deviceorientation',
+            event => {
+                var view = document.getElementById('view');
+                var angle = event.alpha === null ? 0 : event.alpha;
+                state.player.angle = angle;
+                view.setAttribute('transform', `rotate(${angle} 0 0 )`);
+            }
+        );
+
+        function touchstart() {
+            state.touching = true;
+        }
+
+        function touchend() {
+            state.breads.push(newBread(state));
+            state.touching = false;
+            state.throwPower = 0;
+        }
+
+        var state = {
+            player: { x: 0, y: 0, angle: 0 },
+            tick: 0,
+            touching: false,
+            throwPower: 0,
+            hasHelp: true,
+        };
+        state.ducks = [newDuck(state)];
+        state.breads = [];
+
+        var maxBreadAge = 1000;
+
+        function step() {
+            state.tick += 1;
+            if (! (state.tick % 1000) && (state.ducks.length < 20)) {
+                state.ducks.push(newDuck(state));
+            }
+            for (var duck of state.ducks) {
+                updateDuck(duck, state);
+                var duckElement = document.getElementById(duck.id);
+                duckElement.setAttribute('transform', `translate(${duck.x} ${duck.y}) rotate(${duck.angle} 0 0)`);
+                if (duck.hasBread && (duck.x ** 2 + duck.y ** 2) **.5 >= 750) {
+                    duckElement.remove();
+                    duck.hasExited = true;
+                }
+            }
+            state.ducks = state.ducks.filter(duck => ! duck.hasExited);
+            for (var bread of state.breads) {
+                updateBread(bread);
+                var breadElement = document.getElementById(bread.id);
+                breadElement.setAttribute('opacity', 1 - bread.age / maxBreadAge);
+                breadElement.setAttribute('transform', `translate(${bread.x} ${bread.y}) rotate(${bread.angle} 0 0)`);
+                if (bread.age >= maxBreadAge || bread.isTaken) {
+                    breadElement.remove();
+                }
+            }
+            state.breads = state.breads.filter(bread => bread.age < maxBreadAge && !bread.isTaken)
+            if (state.touching) {
+                state.throwPower += 5;
+            }
+            if (state.hasHelp && state.tick > 700) {
+                state.hasHelp = false;
+                document.getElementById('gamehelp').remove();
+            }
+            window.requestAnimationFrame(step);
+        }
+
+        window.requestAnimationFrame(step);
+
+
+    </script>
+</body>
+
+</html>
