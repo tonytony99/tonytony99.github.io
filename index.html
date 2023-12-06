@@ -83,7 +83,8 @@
         </div>
         <div class="projectImageContainer">
           <a href="https://tonytony99.shinyapps.io/integerprogramming/">
-            <img class="projectImage" src="img/IPBakery.png" alt="An interactive plot illustrating integer programming.">
+            <img class="projectImage" src="img/IPBakery.png"
+              alt="An interactive plot illustrating integer programming.">
           </a>
         </div>
         <div class="projectDescriptionContainer">
@@ -123,7 +124,8 @@
         </div>
         <div class="projectImageContainer">
           <a href="https://github.com/tonytony99/Machine-Learning/tree/master/Reinforcement">
-            <img class="projectImage" src="img/agentPaths.png" alt="The various paths taken by a reinforcement learning agent learning a game.">
+            <img class="projectImage" src="img/agentPaths.png"
+              alt="The various paths taken by a reinforcement learning agent learning a game.">
           </a>
         </div>
         <div class="projectDescriptionContainer">
@@ -136,7 +138,7 @@
       <div class="projectContainer">
         <div class="projectHeaderContainer">
           <h3 class="projectHeader">
-              Tram Algorithm
+            Tram Algorithm
           </h3>
         </div>
         <div class="projectImageContainer">
@@ -155,7 +157,7 @@
       <div class="projectContainer">
         <div class="projectHeaderContainer">
           <h3 class="projectHeader">
-              Computer Vision
+            Computer Vision
           </h3>
         </div>
         <div class="projectImageContainer">
@@ -174,7 +176,7 @@
       <div class="projectContainer">
         <div class="projectHeaderContainer">
           <h3 class="projectHeader">
-              Computer Vision
+            Computer Vision
           </h3>
         </div>
         <div class="projectImageContainer">
@@ -215,7 +217,24 @@
         </div>
       </div>
     </div>
+    <div id="version">
+
+    </div>
   </div>
+  <script>
+    function supportsES6() {
+      "use strict";
+      if (typeof Symbol == "undefined") return false;
+      return true;
+    }
+    const supportMessage = document.createElement('div');
+    if (supportsES6()) {
+      supportMessage.innerText = 'Your browser appears to supports ES6.'
+    } else {
+      supportMessage.innerText = 'Your browser does not seem to support ES6.'
+    }
+    document.getElementById('version').appendChild(supportMessage);
+  </script>
 </body>
 
 </html>
